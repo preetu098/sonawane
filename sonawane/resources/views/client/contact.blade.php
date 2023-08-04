@@ -64,12 +64,7 @@
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="number" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Your Phone</label>
-                                        </div>
-                                    </div>
+                                    
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="subject" placeholder="Subject">
