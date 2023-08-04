@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,3 +35,6 @@ Route::get('/referal',function(){
 Route::get('/contact',function(){
     return view("client/contact");
 });
+
+
+Route::resource('/cont','ContactController');
