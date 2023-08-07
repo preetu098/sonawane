@@ -155,7 +155,7 @@
                                   <p><strong>Enhanced Services:</strong>Experience personalized assistance from our dedicated referral program team, ensuring a seamless and rewarding journey for you and your referrals.</p>
                                   <p><strong>Community Engagement:</strong>Connect with fellow members of the Circle of Trust through networking events, social gatherings, and online forums. Share experiences, insights, and valuable information about the real estate industry.</p>
 
-                                  <p><strong>Making a Difference</strong>For every successful referral, we pledge to make a charitable donation, contributing to a positive impact on the community.</p>
+                                  <p><strong>Making a Difference:</strong>For every successful referral, we pledge to make a charitable donation, contributing to a positive impact on the community.</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">

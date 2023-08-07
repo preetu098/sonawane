@@ -1,6 +1,6 @@
 @include('client.header');
-        <div class="container-fluid">
-            <img class="img-fluid" src="http://krishnaultima.in/images/slider/slide-1.jpg" alt="">
+<div class="container-fluid">
+            <img class="img-fluid" src="img/banner.jpg" alt="">
         </div>
         <!-- Contact Start -->
         <div class="container-xxl py-5">
@@ -16,7 +16,7 @@
                                 <div class="bg-light rounded p-3">
                                     <div class="d-flex align-items-center bg-white rounded p-3" style="border: 1px dashed rgba(0, 185, 142, .3)">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-map-marker-alt text-primary"></i>
+                                            <i class="fa fa-map-marker text-primary" style="color:rgb(14,46,80)!important"></i>
                                         </div>
                                         <span>Sonawane Corporate, A2, 1st floor, Krishna Paradise, 100 Feet Road, Haji Malang Road, Kalyan East. Maharashtra 421306</span>
                                     </div>
@@ -26,7 +26,7 @@
                                 <div class="bg-light rounded p-3">
                                     <div class="d-flex align-items-center bg-white rounded p-3" style="border: 1px dashed rgba(0, 185, 142, .3)">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-envelope-open text-primary"></i>
+                                            <i class="fa fa-envelope-open text-primary" style="color:rgb(14,46,80)!important"></i>
                                         </div>
                                         <span><br>care@sonawanegroup.com<br><br><br></span>
                                     </div>
@@ -36,7 +36,7 @@
                                 <div class="bg-light rounded p-3">
                                     <div class="d-flex align-items-center bg-white rounded p-3" style="border: 1px dashed rgba(0, 185, 142, .3)">
                                         <div class="icon me-3" style="width: 45px; height: 45px;">
-                                            <i class="fa fa-phone-alt text-primary"></i>
+                                            <i class="fa fa-phone text-primary" style="color:rgb(14,46,80)!important"></i>
                                         </div>
                                         <span><br>+91 85913 34062<br><br><br></span>
                                     </div>
@@ -45,12 +45,12 @@
                         </div>
                     </div>
                     <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <img src="https://www.aress.com/assets/images/contact-us/contact-us.png" alt="">
+                       <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=hifiliving&amp;key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
                     </div>
                     <div class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.5s">
                            
-                            <form action="" method="post">
+                            <form>
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
@@ -64,16 +64,15 @@
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
-                                    
-                                    <div class="col-12">
+                                    <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="subject" placeholder="Subject">
                                             <label for="subject">Subject</label>
                                         </div>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                            <input type="text" class="form-control" id="subject" placeholder="Phone">
                                             <label for="subject">Phone</label>
                                         </div>
                                     </div>
@@ -84,7 +83,7 @@
                                         </div>
                                     </div>
                                     <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                        <button class="btn btn-primary w-100 py-3" type="submit" style="background-color:rgb(14,46,80)">Send Message</button>
                                     </div>
                                 </div>
                             </form>
@@ -96,5 +95,4 @@
         <!-- Contact End -->
                             </div>
 
-
-@include('client.footer');
+@include('client.footer')

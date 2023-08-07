@@ -1,70 +1,83 @@
 @include('client.header');
-        <!-- Header Start -->
-        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
 <!-- Modal -->
+<style>
+.testimonial-carousel .owl-nav .owl-prev, .testimonial-carousel .owl-nav .owl-next {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: rgb(36,50,74);
+    border-radius: 40px;
+    font-size: 20px;
+    transition: .5s;
+}
+</style>
+
 <div class="modal fade" style="margin-top:100px!important;" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
-    <div class="modal-content" style="background-color:rgb(0,185,142)!important">
+    <div class="modal-content" style="background-color:rgb(36,50,74)!important">
       <div class="modal-header" style="border:0px !important">
       
-        <h6 class="modal-title " id="exampleModalLabel" style="color:white!important;margin-left:200px!important">Information</h6>
+        <h6 class="modal-title " id="exampleModalLabel" style="color:white!important;margin-left:170px!important">Enquire Now</h6>
 
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="border:0px !important;background-color:white!important">
        <p class="text-success" style="font-size:13px">Please Enter Your Information</p>
-
+<form action="" method="post" onsubmit="saveRecord()" name="form">
             <!-- input fields -->
             <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">@</span>
-            <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" class="form-control" name="username" placeholder="Full Name" aria-label="FullName" aria-describedby="basic-addon1">
             </div>
 
 
             <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">@</span>
-            <input type="text" class="form-control" placeholder="Phone" aria-label="Phone" aria-describedby="basic-addon1">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <input type="text" class="form-control" name="phone" placeholder="Mobile" aria-label="Phone" aria-describedby="basic-addon1">
             </div>
 
             <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1">@</span>
-            <input type="text" class="form-control" placeholder="Email" aria-label="Phone" aria-describedby="basic-addon1">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <input type="text" class="form-control" name="email" placeholder="Email" aria-label="Phone" aria-describedby="basic-addon1">
             </div>
 
           
-            <input type="hidden" class="form-control" placeholder="URL" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="hidden" class="form-control" name="url" value="http://localhost/sonawane_group/client/bannerindex.php" placeholder="URL" aria-label="Phone" aria-describedby="basic-addon1">
             
 
 
           
         
-            <input type="hidden" class="form-control" placeholder="Remarks" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="hidden" class="form-control" placeholder="Remarks" aria-label="Phone" aria-describedby="basic-addon1" name="remark" value="remark by operator">
             
 
            
 
            
-            <input type="hidden" class="form-control" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="hidden" class="form-control" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1" name="utm_medium" value="by operator">
             
 
            
           
-            <input type="hidden" class="form-control" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="hidden" class="form-control" name="utm_source" value="by operator" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1">
             
            
-            <input type="hidden" class="form-control" placeholder="Lead Identifier" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="hidden" class="form-control" placeholder="Lead Identifier" aria-label="Phone" aria-describedby="basic-addon1" name="lead" value="by operator">
            
            
-            
-          
- <!--end input fields -->
 
       </div>
       <div class="modal-footer" style="border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:0px !important;background-color:white!important">
-        
-        <button type="button" class="btn btn-primary">Close</button>
+        <input type="submit" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)">
+        <!-- <button type="button" class="btn btn-primary">Close</button> -->
       </div>
+      </form>
     </div>
   </div>
 </div>
@@ -87,6 +100,22 @@
                 </div>
             </div>
         </div>
+
+<div class="container">
+    <center>
+    <h1 class="mt-5" style="color:rgb(10,84,122)">Sonawane Group</h1>
+    <h4>Building Communities, Fulfilling Dreams!</h4>
+    <p>A trusted name in real estate since 2000. With over 23 years of experience, we deliver exceptional housing projects and commercial spaces in Kalyan and Dombivali. Our focus on quality, customer satisfaction, and ethical practices sets us apart.</p>
+    <p>At Sonawane Group, we are not just in the business of constructing buildings; we are passionate about creating communities. Our projects are designed to foster a sense of belonging and provide a holistic living experience. We prioritize the well-being and happiness of our residents, offering a range of amenities and facilities that enhance their quality of life.</p>
+    </center>
+</div>
+
+
+
+
+
+
+
         <!-- Header End -->
 
 
@@ -221,7 +250,7 @@
  <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">CONSTRUCTION UPDATEs</h1>
+                    <h1 class="mb-3">CONSTRUCTION UPDATE</h1>
                     <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
@@ -664,20 +693,20 @@
 
 
         <!-- Call to Action Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-5" style="margin-top:-100px!important">
             <div class="container">
                 <div class="bg-light rounded p-3">
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                                <img class="img-fluid rounded w-100" src="img/call-to-action.jpg" alt="">
+                                <img class="img-fluid rounded w-100" src="https://www.freeiconspng.com/thumbs/contact-icon-png/contact-icon-17.png" alt="" style="height:100px!important;width:100px!important">
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
-                                    <h1 class="mb-3">Contact Us</h1>
-                                    <p>Eirmod sed ipsum dolor sit rebum magna erat. Tempor lorem kasd vero ipsum sit sit diam justo sed vero dolor duo.</p>
+                                    <h4 class="mb-3">Contact Us</h4>
+                                   
                                 </div>
-                                <a href="" class="btn btn-primary py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Click Here</a>
+                                <a href="" class="btn btn-primary py-3 px-4 me-2" style="background-color:rgb(14,46,80)"><i class="fa fa-phone me-2"></i>Click Here</a>
                                
                             </div>
                         </div>
@@ -696,11 +725,11 @@
                     <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
                 </div>
                 <div class="row g-4">
-                <div class="col-lg-1 col-md-6 wow fadeInUp" data-wow-delay="0.1s"></div>
+                <div class="col-lg-1 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="margin-left:50px!important"></div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg" style="height:250px" alt="">
+                                <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg" style="height:250px;width:300px" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <!-- <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -720,7 +749,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg" style="height:250px" alt="">
+                                <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg" style="height:250px;width:300px" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -739,7 +768,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg" style="height:250px" alt="">
+                                <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg" style="height:250px;width:300px" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -819,4 +848,42 @@
        
     })
 </script>    
+
+<script>
+    function saveRecord()
+    {
+        var myHeaders = new Headers();
+myHeaders.append("Authorization", "Bearer 00D1y0000008p1s!ARIAQLWICFQ5C0GL5CiCV.FIKPKOr_x24eXBgnIChliP76r0nNPxiQ6VK6rXsh6YjqVm8MRsfWUNu1rRnL04IykR5D6VB0ey");
+myHeaders.append("Content-Type", "application/json");
+myHeaders.append("Cookie", "BrowserId=VdmI3C92Ee6p9GELbc7HMA; CookieConsentPolicy=0:0; LSKey-c$CookieConsentPolicy=0:0");
+alert("submitted succesfully");
+var raw = JSON.stringify({
+  "req": {
+    "name": document.form.username.value,
+    "mobile": document.form.phone.value,
+    "email": document.form.email.value,
+    "url": document.form.url.value,
+    "remarks": document.form.remark.value,
+    "UTM_Medium": document.form.utm_medium.value,
+    "UTM_Source": document.form.utm_source.value,
+    "LeadIdentifier": document.form.lead.value
+  }
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("https://sonawanegroup2--sonawane.sandbox.lightning.force.com/services/apexrest/unileads/", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+
+
+    }
+</script>
+
 @include('client.footer');

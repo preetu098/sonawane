@@ -1,6 +1,5 @@
 @include('client.header');
-<!-- Header Start -->
-        <div class="container-fluid header bg-white p-0" style="margin-top:10px">
+<div class="container-fluid header bg-white p-0" style="margin-top:10px">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <div class="col-md-6 p-5 mt-lg-5">
                     <h1 class="display-5 animated fadeIn mb-4">About Sonawane Group</h1> 
@@ -45,7 +44,7 @@
                        
                         <p>We take pride in our diverse portfolio of residential and commercial projects, ranging from high-rise apartments and gated communities to commercial complexes and retail spaces. Each development is meticulously planned and executed, incorporating the latest design trends, advanced construction techniques, and eco-friendly features.</p>
                         <p>Customer satisfaction is at the heart of everything we do. We value the trust and confidence our customers place in us, and we go the extra mile to ensure their needs and preferences are met. Our transparent and ethical business practices, coupled with a strong focus on delivering on-time and within budget, have earned us a loyal clientele and a reputation for excellence.</p>
-                        <a class="btn btn-primary py-3 px-5 mt-3" href="">Read More</a>
+                        <a class="btn btn-primary py-3 px-5 mt-3" href="" style="background-color:#071728">Read More</a>
                     </div>
                 </div>
             </div>
@@ -122,7 +121,6 @@
             </div>
         </div>
         <!-- Call to Action End -->
-
 
 
 

@@ -15,14 +15,14 @@ use App\Http\Controllers\ContactController;
 */
 
 Route::get('/',function(){
-    return view("client/index");
+    return view('client/index');
 });
 
 Route::get('/about',function(){
     return view('client/about');
 });
 
-Route::get('/carrer',function(){
+Route::get('/careers',function(){
     return view('client/carrers');
 });
 
@@ -35,6 +35,32 @@ Route::get('/referal',function(){
 Route::get('/contact',function(){
     return view("client/contact");
 });
+Route::get('/completed',function(){
+    return view('client/completed');
+});
+Route::get('/ongoing',function(){
+    return view('client/ongoing');
+});
 
+Route::get('/terms',function(){
+    return view('client/terms-policy');
+});
+
+Route::get('/disclaimer',function(){
+    return view('client/disclaimer-policy');
+});
+
+Route::get('/privacy-policy',function(){
+    return view("client/privacy-policy");
+});
+
+Route::get('/faq',function(){
+    return view('client/faqs');
+});
+
+
+Route::get('/emi',function(){
+    return view('client/emi_calcualtor');
+});
 
 Route::resource('/cont','ContactController');

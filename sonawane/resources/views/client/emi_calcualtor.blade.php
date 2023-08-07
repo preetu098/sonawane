@@ -1,4 +1,4 @@
-<?php include('header.php');?>
+@include('client.header');
 <br><br><br><br><br>
 
 <!-- EMI Calculator Widget START -->
@@ -15,5 +15,7 @@
 
 </div>
 </div>
+
 <br><br><br><br><br>
-<?php include('footer.php');?>
+</div>
+@include('client.footer');

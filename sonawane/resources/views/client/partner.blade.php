@@ -189,7 +189,7 @@
                                 
                                <h6 class="text-center">Swift Processing within 72 Hours</h6>
                                <center>
-                               <img src="https://png.pngtree.com/png-clipart/20210523/original/pngtree-dollar-monetary-money-png-image_6309890.jpg" height="100" width="100" alt="">
+                               <img src="img/ruppes.png" height="100" width="100" alt="">
                               
                                <p>We value your time and commitment. You can count on us for swift processing and timely payouts, ensuring you experience seamless transactions</p>
                                </center>
