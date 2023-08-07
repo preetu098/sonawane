@@ -1,4 +1,4 @@
-@include('client.header');
+@include('client.header')
 
 <style>
 .testimonial-carousel .owl-nav .owl-prev, .testimonial-carousel .owl-nav .owl-next {
@@ -122,4 +122,4 @@
 
 </div>
 </div>
-@include('client.footer');
+@include('client.footer')

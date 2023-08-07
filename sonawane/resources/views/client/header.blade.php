@@ -41,6 +41,22 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
 </head>
 
 <body>
+<div class="container-fluid bg-dark">
+    <div class="container">
+           <div class="row">
+            <div class="col-2">
+                <p class="text-white mt-3"><a href="tel:+91 8591334062" style="color:white!important"><i class="fa fa-mobile" aria-hidden="true"></i> +91 8591334062</a></p>
+            </div>
+            <div class="col-3">
+            <p class="text-white mt-3"><a href="mail:care@sonawanegroup.com" style="color:white!important"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@sonawanegroup.com</a></p>
+            </div>
+            <div class="col-5"></div>
+            <div class="col-2">
+            <p class="text-white mt-3">Inquiry | &nbsp&nbsp&nbsp<i class="fa fa-facebook" aria-hidden="true"></i> | <i class="fa fa-instagram" aria-hidden="true"></i> | <i class="fa fa-linkedin" aria-hidden="true"></i> </p>
+            </div>
+           </div>
+           </div>
+        </div>
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -50,9 +66,10 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
         </div>
         <!-- Spinner End -->
 
+        
 
         <!-- Navbar Start -->
-        <div class="container-fluid nav-bar bg-transparent">
+        <div class="container-fluid nav-bar bg-transparent" style="margin-top:-1px!important">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
                 <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
                     <div class=" p-2 me-2">

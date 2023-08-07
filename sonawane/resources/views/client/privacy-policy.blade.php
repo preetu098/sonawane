@@ -1,4 +1,4 @@
-@include('client.header');
+@include('client.header')
 
 <div class="container-fluid header bg-white p-0"  style="margin-top:10px;width:100%">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
@@ -108,4 +108,4 @@
 
 </div>
 </div>
-@include('client.footer');
+@include('client.footer')

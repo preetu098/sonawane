@@ -1,4 +1,4 @@
-@include('client.header');
+@include('client.header')
 <div class="container-fluid">
             <img class="img-fluid" src="img/banner.jpg" alt="">
         </div>

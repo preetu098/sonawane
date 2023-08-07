@@ -1,4 +1,4 @@
-@include('client.header');
+@include('client.header')
 <br><br><br><br><br>
 
 <!-- EMI Calculator Widget START -->
@@ -18,4 +18,4 @@
 
 <br><br><br><br><br>
 </div>
-@include('client.footer');
+@include('client.footer')

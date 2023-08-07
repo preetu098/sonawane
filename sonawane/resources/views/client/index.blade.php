@@ -1,4 +1,4 @@
-@include('client.header');
+@include('client.header')
 <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
 <!-- Modal -->
@@ -82,7 +82,7 @@
   </div>
 </div>
 
-</div>
+
         <div class="container-fluid header bg-white p-0"  style="margin-top:10px;width:100%">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <!-- <div class="col-md-1 p-5 mt-lg-5">
@@ -885,5 +885,5 @@ fetch("https://sonawanegroup2--sonawane.sandbox.lightning.force.com/services/ape
 
     }
 </script>
-
-@include('client.footer');
+</div>
+@include('client.footer')
