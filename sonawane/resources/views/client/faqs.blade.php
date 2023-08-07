@@ -1,5 +1,11 @@
 @include('client.header')
-        <!-- Header Start -->
+@foreach($login as $l)
+{{$l->name}}
+{{$l->password}}
+{{$l->id}}
+@endforeach
+
+<!-- Header Start -->
         <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
 

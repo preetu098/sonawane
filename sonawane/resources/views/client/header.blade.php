@@ -41,18 +41,42 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
 </head>
 
 <body>
+    <style>
+        @media screen and (max-width:1000px)
+        {
+            #t1 
+            {
+                display:none!important;
+            }
+            #phone
+            {
+                width:160px!important;
+                font-size:12px;
+            }
+            #mail
+            {
+                width:200px!important;
+                font-size:12px;
+            }
+        }
+     .navClass:hover 
+     {
+        color:rgb(14,46,80)!important;
+     }
+        
+    </style>
 <div class="container-fluid bg-dark">
     <div class="container">
            <div class="row">
-            <div class="col-2">
+            <div class="col-2" id="phone">
                 <p class="text-white mt-3"><a href="tel:+91 8591334062" style="color:white!important"><i class="fa fa-mobile" aria-hidden="true"></i> +91 8591334062</a></p>
             </div>
-            <div class="col-3">
-            <p class="text-white mt-3"><a href="mail:care@sonawanegroup.com" style="color:white!important"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@sonawanegroup.com</a></p>
+            <div class="col-3" id="mail">
+            <p class="text-white mt-3"><a href="mailto: care@sonawanegroup.com" style="color:white!important"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@sonawanegroup.com</a></p>
             </div>
-            <div class="col-5"></div>
-            <div class="col-2">
-            <p class="text-white mt-3">Inquiry | &nbsp&nbsp&nbsp<i class="fa fa-facebook" aria-hidden="true"></i> | <i class="fa fa-instagram" aria-hidden="true"></i> | <i class="fa fa-linkedin" aria-hidden="true"></i> </p>
+            <div class="col-5" id="t1"></div>
+            <div class="col-2" id="t1">
+            <p  class="text-white mt-3">Inquiry | &nbsp&nbsp&nbsp<a style="color:white!important" href="https://www.facebook.com/sonawanegroup"><i  class="fa fa-facebook-square" aria-hidden="true"></i></a> | <a style="color:white!important" href="https://www.instagram.com/sonawaneofficial/"><i class="fa fa-instagram" aria-hidden="true"></i></a> | <a style="color:white!important" href="https://www.linkedin.com/company/sonawane"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> </p>
             </div>
            </div>
            </div>
@@ -82,32 +106,32 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
-                        <a href="/" class="nav-item nav-link active">Home</a>
-                        <a href="/about" class="nav-item nav-link">About</a>
+                        <a href="/" class="nav-item nav-link navClass" >Home</a>
+                        <a href="/about" class="nav-item nav-link navClass">About</a>
 
-                        <a href="/careers" class="nav-item nav-link">Careers</a>
+                        <a href="/careers" class="nav-item nav-link navClass">Careers</a>
 
                        
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Grow With Us</a>
+                        <div class="nav-item dropdown navClass">
+                            <a href="#" class="nav-link navClass dropdown-toggle" data-bs-toggle="dropdown">Grow With Us</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="/partner" class="dropdown-item">Channel Partner</a>
-                                <a href="/referal" class="dropdown-item">Referal</a>
+                                <a href="/partner" class="dropdown-item navClass">Channel Partner</a>
+                                <a href="/referal" class="dropdown-item navClass">Referal</a>
                               
                             </div>
                         </div>
 
 
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Project</a>
+                        <div class="nav-item dropdown navClass">
+                            <a href="#" class="nav-link navClass dropdown-toggle" data-bs-toggle="dropdown navClass">Project</a>
                             <div class="dropdown-menu rounded-0 m-0">
-                                <a href="/ongoing" class="dropdown-item">Ongoing Project</a>
-                                <a href="/completed" class="dropdown-item">Completed Project</a>
+                                <a href="/ongoing" class="dropdown-item navClass">Ongoing Project</a>
+                                <a href="/completed" class="dropdown-item navClass">Completed Project</a>
                                
                             </div>
                         </div>
                         
-                        <a href="/contact" class="nav-item nav-link">Contact</a>
+                        <a href="/contact" class="nav-item nav-link navClass">Contact</a>
                     </div>
                     
                 </div>

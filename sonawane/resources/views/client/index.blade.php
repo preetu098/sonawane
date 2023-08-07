@@ -16,6 +16,15 @@
     font-size: 20px;
     transition: .5s;
 }
+.hoverEffect
+{
+    color:rgb(14,46,80)!important;
+}
+.hoverEffect:hover 
+{
+    color:white!important;
+    background-color:rgb(14,46,80)!important;
+}
 </style>
 
 <div class="modal fade" style="margin-top:100px!important;" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -742,7 +751,7 @@
                                 
                             </div>
                             <center>
-                            <button class="btn btn-success mb-3">Read More</button>
+                            <button class="btn btn-success mb-3 text-white" style="background-color:rgb(14,46,80)!important">Read More</button>
                             </center>
                         </div>
                     </div>
@@ -751,9 +760,9 @@
                             <div class="position-relative">
                                 <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg" style="height:250px;width:300px" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1 hoverEffect" href=""><i class="fab fa-facebook-f" ></i></a>
+                                    <a class="btn btn-square mx-1 hoverEffect" href=""><i class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-square mx-1 hoverEffect" href=""><i class="fab fa-instagram" ></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
@@ -761,7 +770,7 @@
                                 <small>Director</small>
                             </div>
                             <center>
-                            <button class="btn btn-success mb-3">Read More</button>
+                            <button class="btn btn-success mb-3 text-white" style="background-color:rgb(14,46,80)!important">Read More</button>
                             </center>
                         </div>
                     </div>
@@ -770,9 +779,9 @@
                             <div class="position-relative">
                                 <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg" style="height:250px;width:300px" alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                    <a class="btn btn-square mx-1 hoverEffect" href=""><i class="fab fa-facebook-f" ></i></a>
+                                    <a class="btn btn-square mx-1 hoverEffect"  href=""><i class="fab fa-twitter" ></i></a>
+                                    <a class="btn btn-square mx-1 hoverEffect" href=""><i class="fab fa-instagram" ></i></a>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
@@ -780,7 +789,7 @@
                                 <small>CEO - Director</small>
                             </div>
                             <center>
-                            <button class="btn btn-success mb-3">Read More</button>
+                            <button class="btn btn-success mb-3 text-white" style="background-color:rgb(14,46,80)!important">Read More</button>
                             </center>
                         </div>
                     </div>

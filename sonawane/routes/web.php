@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
-
+use App\Http\Controllers\LoginController;
+use App\Http\Controllers\DashboardContoller;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -63,4 +64,19 @@ Route::get('/emi',function(){
     return view('client/emi_calcualtor');
 });
 
-Route::resource('/cont','ContactController');
+
+Route::get('/login',function(){
+    return view('login');
+});
+
+
+Route::post('/loginForm',[LoginController::class,'login']);
+
+
+Route::get('/dashboard',function(){
+    return view('admin/index');
+});
+
+Route::get('/logout',[LoginController::class,'logout']);
+Route::get('/admin',[DashboardContoller::class,'getAdminData']);
+Route::post('/addAdmin',[DashboardContoller::class,'addAdmin']);

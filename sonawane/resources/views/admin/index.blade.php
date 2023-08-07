@@ -1,7 +1,11 @@
-<?php include('header.php');?>
+@if($login!=null)
+
+@include('admin.header')
+
 <section class="content-main">
             <div class="content-header">
                 <div>
+                    
                     <h2 class="content-title card-title">Dashboard </h2>
                     <p>Whole data about your business here</p>
                 </div>
@@ -14,5 +18,9 @@
                 <img src="http://krishnaultima.in/images/slider/slide-1.jpg" alt="">
             </div>
            </div>
-            
-   <?php include('footer.php');?>
+
+@else
+return redirect('/login');
+ @endif
+    
+@include('admin.footer');

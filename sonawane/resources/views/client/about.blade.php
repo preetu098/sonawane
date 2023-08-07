@@ -133,7 +133,7 @@
                   
                     <div class="row">
                         <div class="col-lg-4">
-                        <div class="testimonial-item bg-light rounded p-3">
+                        <div class="testimonial-item bg-light rounded p-3 cardAnimate">
                         <div class="bg-white border rounded p-4">
                             <div class="d-flex align-items-center">
                                
@@ -154,7 +154,7 @@
 
 
                         <div class="col-lg-4">
-                        <div class="testimonial-item bg-light rounded p-3">
+                        <div class="testimonial-item bg-light rounded p-3 cardAnimate">
                         <div class="bg-white border rounded p-4">
                             <div class="d-flex align-items-center">
                                
@@ -175,15 +175,15 @@
 
 
                         <div class="col-lg-4">
-                        <div class="testimonial-item bg-light rounded p-3">
+                        <div class="testimonial-item bg-light rounded p-3 cardAnimate">
                         <div class="bg-white border rounded p-4">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
                                    <h6 class="fw-bold mb-1 text-center">Customer Satisfaction And After-Sales Service</h6>
-                                   <!-- <center>
-                                    <img src="img/2051980.png" height="100" width="100" alt="">
-                                   </center> -->
+                                   <center>
+                                    <i class="fa fa-smile-o" aria-hidden="true" style="font-size:50px"></i>
+                                   </center>
                                   <p>Customer satisfaction is at the heart of everything we do. We strive to exceed the expectations of our customers by delivering homes that fulfill their dreams and aspirations. Our dedicated team is always available to address any concerns and provide prompt after-sales service. We believe in building long-term relationships with our customers, and their satisfaction is the ultimate measure of our success.</p>
                                 
                                </div>
@@ -197,15 +197,15 @@
 
 
                         <div class="col-lg-4">
-                        <div class="testimonial-item bg-light rounded p-3">
+                        <div class="testimonial-item bg-light rounded p-3 cardAnimate">
                         <div class="bg-white border rounded p-4">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
                                    <h6 class="fw-bold mb-1 text-center">Investment Opportunities</h6>
-                                   <!-- <center>
-                                    <img src="img/2051980.png" height="100" width="100" alt="">
-                                   </center> -->
+                                   <center>
+                                    <i class="fa fa-line-chart" aria-hidden="true" style="font-size:50px"></i>
+                                   </center>
                                   <p>Sonawane Group offers exciting investment opportunities for those looking to grow their wealth through real estate. With our in-depth market knowledge and strategic location selection, we identify properties with excellent growth potential. Whether you are a seasoned investor or a first-time buyer, we provide guidance and support throughout the investment process. Partner with us to capitalize on the lucrative opportunities available in the real estate market.</p>
                                 
                                </div>
@@ -220,15 +220,15 @@
 
 
                         <div class="col-lg-4">
-                        <div class="testimonial-item bg-light rounded p-3">
+                        <div class="testimonial-item bg-light rounded p-3 cardAnimate">
                         <div class="bg-white border rounded p-4">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
                                    <h6 class="fw-bold mb-1 text-center">Our Story</h6>
-                                   <!-- <center>
-                                    <img src="img/2051980.png" height="100" width="100" alt="">
-                                   </center> -->
+                                   <center>
+                                    <i class="fa fa-book" aria-hidden="true" style="font-size:50px"></i>
+                                   </center>
                                   <p>Sonawane Group began its journey with a vision to create exceptional living spaces that enrich the lives of people. Founded by Mr. Ashish Sonawane, an accomplished entrepreneur and visionary, the company has grown from strength to strength. With a focus on innovation, quality, and customer satisfaction, we have become synonymous with trust and reliability in the real estate industry. Our story is built on a foundation of passion, dedication, and a commitment to excellence.</p>
                                 
                                </div>
@@ -243,15 +243,15 @@
 
 
                         <div class="col-lg-4">
-                        <div class="testimonial-item bg-light rounded p-3">
+                        <div class="testimonial-item bg-light rounded p-3 cardAnimate">
                         <div class="bg-white border rounded p-4">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
                                    <h6 class="fw-bold mb-1 text-center">Core Values</h6>
-                                   <!-- <center>
-                                    <img src="img/2051980.png" height="100" width="100" alt="">
-                                   </center> -->
+                                   <center>
+                                    <i class="fa fa-balance-scale" aria-hidden="true" style="font-size:50px"></i>
+                                   </center>
                                   <p>At Sonawane Group, our core values shape every aspect of our business. Integrity, transparency, and ethical practices are the pillars on which we operate. We believe in fostering strong relationships with our stakeholders based on mutual trust and respect. Innovation, sustainability, and continuous improvement are ingrained in our DNA as we strive to set new benchmarks in the industry.</p>
                                 
                                </div>
@@ -265,15 +265,15 @@
 
 
                         <div class="col-lg-4">
-                        <div class="testimonial-item bg-light rounded p-3">
+                        <div class="testimonial-item bg-light rounded p-3 cardAnimate">
                         <div class="bg-white border rounded p-4">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
                                    <h6 class="fw-bold mb-1 text-center">Quality & Sustainability</h6>
-                                   <!-- <center>
-                                    <img src="img/2051980.png" height="100" width="100" alt="">
-                                   </center> -->
+                                   <center>
+                                    <i class="fa fa-certificate" aria-hidden="true" style="font-size:50px"></i>
+                                   </center>
                                   <p>We are deeply committed to quality and sustainability in all our endeavors. Our construction practices adhere to the highest standards, ensuring durability, safety, and energy efficiency. We incorporate eco-friendly features and technologies to minimize our environmental footprint. By embracing sustainable practices, we contribute to the well-being of our residents and the community at large.</p>
                                 
                                </div>
@@ -299,15 +299,15 @@
 
 
                         <div class="col-lg-4">
-                        <div class="testimonial-item bg-light rounded p-3">
+                        <div class="testimonial-item bg-light rounded p-3 cardAnimate" >
                         <div class="bg-white border rounded p-4">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
                                    <h6 class="fw-bold mb-1 text-center">Other Line Of Businesses</h6>
-                                   <!-- <center>
-                                    <img src="img/5500939.png" height="100" width="100" alt="">
-                                   </center> -->
+                                   <center>
+                                    <i class="fa fa-building" aria-hidden="true" style="font-size:50px"></i>
+                                   </center>
                                   <p>Sonawane Group extends its expertise beyond real estate to other thriving industries.
 
 RMC Plant: Our state-of-the-art Ready Mix Concrete (RMC) plant ensures the supply of high-quality concrete for construction projects.
@@ -334,6 +334,14 @@ Restaurant: Experience culinary excellence at our restaurant, where we offer a d
 
 </div>
 
-
+<style>
+   
+    .cardAnimate:hover 
+    {
+        box-shadow:2px 2px 2px 2px 	rgb(55,55,55);
+        transform:translate(0px,-10px);
+        transition:2s;
+    }
+</style>
 
 @include('client.footer')
