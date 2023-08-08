@@ -27,7 +27,7 @@
 }
 </style>
 
-<div class="modal fade" style="margin-top:100px!important;" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" style="margin-top:180px!important;" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content" style="background-color:rgb(36,50,74)!important">
       <div class="modal-header" style="border:0px !important">
@@ -91,7 +91,21 @@
   </div>
 </div>
 
-
+<style>
+    #mobile{
+        display:none;
+    }
+    @media screen and (max-width:1000px)
+    {
+        #mobile{
+        display:block!important;
+    }
+    #desktop
+    {
+        display:none!important;
+    }
+    }
+</style>
         <div class="container-fluid header bg-white p-0"  style="margin-top:10px;width:100%">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <!-- <div class="col-md-1 p-5 mt-lg-5">
@@ -100,11 +114,12 @@
                 <div class="col-md-12 animated fadeIn">
                     <div class="owl-carousel header-carousel">
                         <div class="owl-carousel-item">
-                            <img class="img-fluid" style="height:600px" src="Banners/Goldclass - Desktop.jpg" alt="">
+                        <img id="mobile" class="img-fluid" style="height:400px" src="banner/Goldclass Mobile Banner.jpg" alt="">
+                            <img id="desktop" class="img-fluid" style="height:600px" src="Banners/Goldclass - Desktop.jpg" alt="">
                         </div>
-                        <div class="owl-carousel-item">
+                        <!-- <div class="owl-carousel-item">
                             <img class="img-fluid" style="height:600px" src="img/carousel-2.jpg" alt="">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
