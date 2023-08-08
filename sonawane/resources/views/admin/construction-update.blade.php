@@ -1,12 +1,11 @@
-<?php include('header.php');?>
+@include('admin.header')
         <section class="content-main">
             <div class="row">
                 <div class="col-9">
                     <div class="content-header">
                         <h2 class="content-title">Construction Update</h2>
                         <div>
-                            <!-- <button class="btn btn-light rounded font-sm mr-5 text-body hover-up">Save to draft</button> -->
-                           
+                        
                         </div>
                     </div>
                 </div>
@@ -14,16 +13,7 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="row gx-5">
-                                <!-- <aside class="col-lg-3 border-end">
-                                    <nav class="nav nav-pills flex-column mb-4">
-                                        <a class="nav-link active" aria-current="page" href="#">General</a>
-                                        <a class="nav-link" href="#">Catgeory info</a>
-                                        <a class="nav-link" href="#">Pricing</a>
-                                        <a class="nav-link" href="#">Images</a>
-                                        <a class="nav-link" href="#">SEO keywords</a>
-                                        <a class="nav-link" href="#">Related items</a>
-                                    </nav>
-                                </aside> -->
+                               
                                 <div class="col-lg-9">
                                     <section class="content-body p-xl-4">
                                         <form>
@@ -41,13 +31,19 @@
                                             </div> <!-- row.// -->
                                            
                                             <div class="row mb-4">
-                                                <label class="col-lg-3 col-form-label">Content Qty</label>
+                                                <label class="col-lg-3 col-form-label">SEO Title</label>
                                                 <div class="col-lg-9">
                                                     <input type="number" class="form-control" placeholder="">
                                                 </div> <!-- col.// -->
                                             </div> <!-- row.// -->
 
-                                           
+                                            <div class="row mb-4">
+                                                <label class="col-lg-3 col-form-label">SEO Description</label>
+                                                <div class="col-lg-9">
+                                                    <textarea class="form-control" placeholder="Type here" rows="4"></textarea>
+                                                </div> <!-- col.// -->
+                                            </div> <!-- row.// -->
+
 
 
                                             
@@ -92,4 +88,4 @@
                 </div>
             </div>
         </section>
-       <?php include('footer.php');?>
+@include('admin.footer')

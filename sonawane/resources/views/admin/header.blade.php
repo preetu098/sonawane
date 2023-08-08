@@ -40,8 +40,8 @@
                         <span class="text">Manage Projects</span>
                     </a>
                     <div class="submenu">
-                        <a href="property-create.php">Create Property</a>
-                        <a href="construction-update.php">Construction Update</a>
+                        <a href="/property">Create Property</a>
+                        <a href="/construction_update">Construction Update</a>
                          <!--<a href="page-products-grid-2.html">Product grid 2</a>
                         <a href="page-categories.html">Categories</a> -->
                     </div>

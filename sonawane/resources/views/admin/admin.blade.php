@@ -5,7 +5,11 @@
             <div class="content-header">
                 <div>
                     <h2 class="content-title card-title">Admin</h2>
-                 
+                    @if(session('success'))
+                   <div class="alert alert-success">
+                        {{session('success')}}
+                   </div>
+                   @endif
                 </div>
                
             </div>
@@ -17,11 +21,11 @@
                                 @csrf
                                 <div class="mb-4">
                                     <label for="product_slug" class="form-label">Email</label>
-                                    <input type="email" name="email" placeholder="Type here" class="form-control" id="product_slug" />
+                                    <input type="email" name="email" placeholder="Type here" class="form-control" id="product_slug" required />
                                 </div>
                                 <div class="mb-4">
                                     <label for="product_slug" class="form-label">Password</label>
-                                    <input type="password" name="password" placeholder="Type here" class="form-control" id="product_slug" />
+                                    <input type="password" name="password" placeholder="Type here" class="form-control" id="product_slug" required/>
                                 </div>
                               
                               

@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardContoller;
+use App\Http\Controllers\PropertyController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -77,6 +78,14 @@ Route::get('/dashboard',function(){
     return view('admin/index');
 });
 
+Route::get('/property',function(){ return view('admin/property-create');});
+
+Route::post('/property-add',[PropertyController::class,'addProperty']);
+
 Route::get('/logout',[LoginController::class,'logout']);
 Route::get('/admin',[DashboardContoller::class,'getAdminData']);
 Route::post('/addAdmin',[DashboardContoller::class,'addAdmin']);
+
+Route::get('/construction_update',function(){
+    return view('admin/construction-update');
+});

@@ -8,12 +8,13 @@ class DashboardContoller extends Controller
 {
     public function addAdmin(Request $request)
     {
+        
         $name=$request->email;
         $password=$request->password;
         $data=DB::insert("insert into admin(name,password) values('$name','$password')");
         if($data!=null)
         {
-            return redirect('/admin');
+            return back()->with('success','Admin Added succesfully');
         }
         else 
         {
