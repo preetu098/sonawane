@@ -175,14 +175,29 @@
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded p-3">
+                        <a href="/hifi">
                         <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                            <img src="http://sonawanegroup.com/uploads/custom-images/property-thumb-2023-06-27-03-48-33-1173.jpg" alt="">
+                            <img src="banner/hifi.jpg" alt="">
                             <div class="d-flex align-items-center">
                                
                                 <div class="ps-3 mt-5">
-                                    <h6 class="fw-bold mb-1">Smart Code</h6>
-                                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, deleniti?</small>
+                                    <h6 class="fw-bold mb-1">Smart Code Hifi Living</h6>
+                                    <small>1 & 2 BHK Smart Homes In Dombivali NXT!</small>
+                                </div>
+                            </div>
+                        </div>
+</a>
+                    </div>
+                    <div class="testimonial-item bg-light rounded p-3">
+                    <div class="bg-white border rounded p-4">
+                            <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
+                            <img src="banner/krishna.jpg" alt="">
+                            <div class="d-flex align-items-center">
+                               
+                                <div class="ps-3 mt-5">
+                                    <h6 class="fw-bold mb-1">Krishna Ultima</h6>
+                                    <small>1 & 2 BHK Homes In Kalyan East</small>
                                 </div>
                             </div>
                         </div>
@@ -190,25 +205,12 @@
                     <div class="testimonial-item bg-light rounded p-3">
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                            <img src="http://sonawanegroup.com/uploads/custom-images/property-thumb-2023-06-27-03-48-33-1173.jpg" alt="">
+                            <img src="banner/smartcode.jpg" alt="" style="height:270px;">
                             <div class="d-flex align-items-center">
                                
                                 <div class="ps-3 mt-5">
-                                    <h6 class="fw-bold mb-1">Smart Code</h6>
-                                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, deleniti?</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-light rounded p-3">
-                    <div class="bg-white border rounded p-4">
-                            <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                            <img src="http://sonawanegroup.com/uploads/custom-images/property-thumb-2023-06-27-03-48-33-1173.jpg" alt="">
-                            <div class="d-flex align-items-center">
-                               
-                                <div class="ps-3 mt-5">
-                                    <h6 class="fw-bold mb-1">Smart Code</h6>
-                                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, deleniti?</small>
+                                    <h6 class="fw-bold mb-1">SmartCode Gold Class</h6>
+                                    <small>1 & 2 BHK Homes In Kalyan East</small>
                                 </div>
                             </div>
                         </div>

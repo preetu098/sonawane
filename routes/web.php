@@ -99,3 +99,14 @@ Route::post('/contactsave',[ContactFormController::class,'addContact']);
 Route::post('/referalForm',[ContactFormController::class,'referalContactForm']);
 Route::post('/careerAdd',[ContactFormController::class,'careerAdd']);
 
+Route::get('/hifi',function(){
+    return view('client/hifi');
+});
+Route::get('/krishna',function(){
+    return view('client/krishna');
+});
+
+Route::get('/goldclass',function(){
+    return view('client/goldclass');
+});
+
