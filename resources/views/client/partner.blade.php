@@ -239,7 +239,7 @@
   
 
 
-
+<!-- 
         <div class="container-xxl " >
             <div class="container">
                 <div class="bg-light rounded p-3">
@@ -320,7 +320,7 @@
     </div>`);
         })
     })
-</script>
+</script> -->
 
   
 @include('client.footer')

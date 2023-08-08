@@ -5,9 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-
-class ContructionModal extends Model
+class ReferalModel extends Model
 {
     use HasFactory;
-    protected $table="construction";
+    protected $table='Referal';
 }

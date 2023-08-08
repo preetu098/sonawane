@@ -179,46 +179,50 @@
                             <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
                             <div class="mb-4">
                                     <h4 class="mb-3">Contact Us</h4>
+                                    @if(session('success'))
+                   <div class="alert alert-success">
+                        {{session('success')}}
+                   </div>
+                   @endif
+                                    <form action="/referalForm" method="post">
+                                        @csrf 
 <div class="row">
     <div class="col-lg-6">
-        <input type="text" class="form-control" placeholder="Name">
+        <input type="text" class="form-control" placeholder="Name" name="name">
     </div>
     <div class="col-lg-6">
-    <input type="text" class="form-control" placeholder="Email">
+    <input type="text" class="form-control" placeholder="Email" name="email">
     </div>
 </div>
 <div class="row mt-3">
     <div class="col-lg-6">
-        <input type="text" class="form-control" placeholder="Phone">
+        <input type="text" class="form-control" placeholder="Phone" name="phone">
     </div>
     <div class="col-lg-6">
-    <input type="text" class="form-control" placeholder="Project Name">
+    <input type="text" class="form-control" placeholder="Project Name" name="project_name">
     </div>
 </div>
 
 <div class="row mt-3">
     <div class="col-lg-6">
-        <input type="text" class="form-control" placeholder="Flat Number">
+        <input type="text" class="form-control" placeholder="Flat Number" name="flat_number">
     </div>
     <div class="col-lg-6">
-    <input type="text" class="form-control" placeholder="Referal Name">
+    <input type="text" class="form-control" placeholder="Referal Name" name="referal_name">
     </div>
 </div>
 
 <div class="row mt-3" id="referal">
     <div class="col-lg-6">
-        <input type="text" class="form-control" placeholder="Referal Email">
+        <input type="text" class="form-control" placeholder="Referal Email" name="referal_email">
     </div>
    
     <div class="col-lg-6">
-    <input type="text" class="form-control" placeholder="Referal Phone">
+    <input type="text" class="form-control" placeholder="Referal Phone" name="referal_phone">
     </div>
    
 </div>
-        <div class="row mt-3">
-    <div class="col-lg-3">
-            <button id="addmore" class="btn text-white" style="background-color:rgb(36,50,74)">+ Add More Referal</button>
-    </div>
+     
    
    
    
@@ -229,6 +233,7 @@
     </div>
 
 </div>
+</form>
 
                                 </div>
                             </div>

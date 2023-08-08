@@ -1,4 +1,19 @@
 @include('client.header')
+<style>
+.testimonial-carousel .owl-nav .owl-prev, .testimonial-carousel .owl-nav .owl-next {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: rgb(36,50,74);
+    border-radius: 40px;
+    font-size: 20px;
+    transition: .5s;
+}
+</style>
         <!-- Header Start -->
         <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
@@ -180,20 +195,26 @@
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
-                                    <h1 class="mb-3">Contact Us</h1>
-                                    <form action="">
+                                    <h1 class="mb-3">Apply Now</h1>
+                                    @if(session('success'))
+                   <div class="alert alert-success">
+                        {{session('success')}}
+                   </div>
+                   @endif
+                                    <form action="/careerAdd" method="post">
+                                        @csrf
                                         <div class="row">
                                             <div class="col-lg-12 mt-1">
-                                               <input type="text" class="form-control"  placeholder="Name"> 
+                                               <input type="text" class="form-control"  placeholder="Name" name="name" required> 
                                             </div>
                                             <div class="col-lg-12 mt-1">
-                                               <input type="text" class="form-control"  placeholder="Email"> 
+                                               <input type="email" class="form-control"  placeholder="Email" name="email" required> 
                                             </div>
                                             <div class="col-lg-12 mt-1">
-                                               <input type="text" class="form-control"  placeholder="Phone"> 
+                                               <input type="number" class="form-control"  placeholder="Phone" name="phone" required> 
                                             </div>
                                             <div class="col-lg-12 mt-1">
-                                            <select class="form-select" aria-label="Default select example">
+                                            <select name="career" class="form-select" aria-label="Default select example">
                                                 <option selected>Open this select menu</option>
                                                 <option value="1">Carrer1</option>
                                                 <option value="2">Carrer2</option>
@@ -204,15 +225,15 @@
                                             <div class="col-lg-12 mt-1">
                                             <div class="input-group">
                                                 <label class="input-group-text" for="inputGroupFile01">Upload</label>
-                                                <input type="file" class="form-control" id="inputGroupFile01">
+                                                <input type="file" name="file" class="form-control" id="inputGroupFile01">
                                                 </div>
                                             </div>
 
                                         </div>
-                                    </form>
+                                   
                                 </div>
-                                <a href="" class="btn btn-primary py-3 px-4 me-2"><i class="fa fa-phone-alt me-2"></i>Send Message</a>
-                               
+                                <button type="submit" class="btn btn-primary py-3 px-4 me-2" style="background-color:rgb(14,46,80)"><i class="fa fa-phone me-2" ></i>Send Message</button>
+                                </form>
                             </div>
                         </div>
                     </div>

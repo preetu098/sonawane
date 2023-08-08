@@ -5,6 +5,9 @@ use App\Http\Controllers\ContactController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\DashboardContoller;
 use App\Http\Controllers\PropertyController;
+use App\Http\Controllers\ConstructionController;
+use App\Http\Controllers\IndexPageController;
+use App\Http\Controllers\ContactFormController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,9 +19,7 @@ use App\Http\Controllers\PropertyController;
 |
 */
 
-Route::get('/',function(){
-    return view('client/index');
-});
+Route::get('/',[IndexPageController::class,'index']);
 
 Route::get('/about',function(){
     return view('client/about');
@@ -78,6 +79,9 @@ Route::get('/dashboard',function(){
     return view('admin/index');
 });
 
+Route::get('/showUpdate',[ConstructionController::class,'showUpdate']);
+
+
 Route::get('/property',function(){ return view('admin/property-create');});
 
 Route::post('/property-add',[PropertyController::class,'addProperty']);
@@ -89,3 +93,9 @@ Route::post('/addAdmin',[DashboardContoller::class,'addAdmin']);
 Route::get('/construction_update',function(){
     return view('admin/construction-update');
 });
+Route::post('/constructiondata',[ConstructionController::class,'addConstruction']);
+
+Route::post('/contactsave',[ContactFormController::class,'addContact']);
+Route::post('/referalForm',[ContactFormController::class,'referalContactForm']);
+Route::post('/careerAdd',[ContactFormController::class,'careerAdd']);
+
