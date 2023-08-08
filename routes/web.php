@@ -16,7 +16,7 @@ use App\Http\Controllers\PropertyController;
 |
 */
 
-Route::get('/',function(){
+Route::get('/abcd',function(){
     return view('client/index');
 });
 
