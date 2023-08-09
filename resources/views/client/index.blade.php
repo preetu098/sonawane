@@ -84,14 +84,13 @@
       </div>
       <div class="modal-footer" style="border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:0px !important;background-color:white!important" >
       <button onclick="saveRecord()" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)">Save</button>
-        <!-- <input type="submit" onclick="saveRecord()" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)"> -->
-        <!-- <button type="button" class="btn btn-primary">Close</button> -->
+       
       </div>
-      <!-- </form> -->
+  
     </div>
   </div>
 </div>
-            </div>
+           
 <style>
     #mobile{
         display:none;
@@ -107,6 +106,10 @@
     }
     }
 </style>
+
+
+
+
         <div class="container-fluid header bg-white p-0"  style="margin-top:10px;width:100%">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <!-- <div class="col-md-1 p-5 mt-lg-5">
@@ -114,7 +117,7 @@
                                    </div> -->
                 <div class="col-md-12 animated fadeIn">
                     
-                        <div class="owl-carousel-item">
+                        
                         <img id="mobile" class="img-fluid" style="height:500px;width:100%" src="banner/Goldclass Mobile Banner.jpg" alt="">
                             <img id="desktop" class="img-fluid" style="height:600px" src="Banners/Goldclass - Desktop.jpg" alt="">
                         </div>
@@ -122,7 +125,7 @@
                             <img class="img-fluid" style="height:600px" src="img/carousel-2.jpg" alt="">
                         </div> -->
                     
-                </div>
+              
             </div>
         </div>
 
