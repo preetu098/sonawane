@@ -198,7 +198,7 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h1 class="mb-3">OUR ONGOING PROJECT</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                    <p>Embark on a Journey of Excellence</p>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded p-3">
@@ -218,6 +218,7 @@
 </a>
                     </div>
                     <div class="testimonial-item bg-light rounded p-3">
+                    <a href="/krishna">
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                             <img src="banner/krishna.jpg" alt="" class="mobileongoing">
@@ -230,8 +231,10 @@
                                 </div>
                             </div>
                         </div>
+</a>
                     </div>
                     <div class="testimonial-item bg-light rounded p-3">
+                    <a href="/goldclass">
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                            
@@ -245,6 +248,7 @@
                                 </div>
                             </div>
                         </div>
+</a>
                     </div>
                 </div>
             </div>

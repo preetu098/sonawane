@@ -59,6 +59,9 @@
                         </div> <!-- form-group// -->
                     </form>
                     @endforeach
+                    <a href="/showUpdate">
+                    <button class="btn text-white" style="background-color:rgb(14,46,80)!important">Back to Home</button>
+</a>
                 </div>     </div>
         </section>
         <footer class="main-footer text-center">
