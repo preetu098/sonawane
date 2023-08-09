@@ -1,9 +1,44 @@
 @include('client.header')
-<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
-<!-- Modal -->
 <style>
-.testimonial-carousel .owl-nav .owl-prev, .testimonial-carousel .owl-nav .owl-next {
+ #mobile{
+        display:none;
+    }
+    @media screen and (max-width:1000px)
+    {
+        #mobile{
+        display:block!important;
+    }
+    #desktop
+    {
+        display:none!important;
+    }
+    }
+    .mobileongoing
+    {
+        display:none!important;
+    }
+    .desktopongoing 
+    {
+        height:300px!important;
+    }
+    @media screen and (max-width:1000px)
+    {
+        .desktopongoing 
+    {
+       display:none!important;
+    }
+    .mobileongoing
+    {
+        display:block!important;
+        height:200px!important;
+    }
+    .img 
+    {
+        width:300px!important;
+    }
+    }
+    .testimonial-carousel .owl-nav .owl-prev, .testimonial-carousel .owl-nav .owl-next {
     position: relative;
     width: 40px;
     height: 40px;
@@ -16,23 +51,16 @@
     font-size: 20px;
     transition: .5s;
 }
-.hoverEffect
-{
-    color:rgb(14,46,80)!important;
-}
-.hoverEffect:hover 
-{
-    color:white!important;
-    background-color:rgb(14,46,80)!important;
-}
 </style>
+
+
 
 <div class="modal fade" style="margin-top:180px!important;" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content" style="background-color:rgb(36,50,74)!important">
       <div class="modal-header" style="border:0px !important">
       
-        <h6 class="modal-title " id="exampleModalLabel" style="color:white!important;margin-left:170px!important">Enquire Now</h6>
+        <h6 class="modal-title " id="exampleModalLabel" style="color:white!important;">Enquire Now</h6>
 
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -90,23 +118,16 @@
     </div>
   </div>
 </div>
-           
-<style>
-    #mobile{
-        display:none;
-    }
-    @media screen and (max-width:1000px)
-    {
-        #mobile{
-        display:block!important;
-    }
-    #desktop
-    {
-        display:none!important;
-    }
-    }
-</style>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        setTimeout(() => {
+        $("#exampleModal1").modal('show')
+       
+    }, 5000);
+    })
+  
+</script>
 
 
 
@@ -143,7 +164,6 @@
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <!-- Button trigger modal -->
 
 
@@ -169,33 +189,7 @@
     </div>
   </div>
 </div>
-<style>
 
-    .mobileongoing
-    {
-        display:none!important;
-    }
-    .desktopongoing 
-    {
-        height:300px!important;
-    }
-    @media screen and (max-width:1000px)
-    {
-        .desktopongoing 
-    {
-       display:none!important;
-    }
-    .mobileongoing
-    {
-        display:block!important;
-        height:200px!important;
-    }
-    .img 
-    {
-        width:300px!important;
-    }
-    }
-</style>
  <!-- Testimonial Start -->
  <div class="container-xxl py-5">
             <div class="container">
@@ -364,51 +358,6 @@
             </div>
         </div>
         <!-- Team End -->
-        <script>
-    $(document).ready(function(){
-       
-        setTimeout(() => {
-            $("#exampleModal1").modal('show')
-        }, 5000);
-       
-    })
-</script>    
-
-<script>
-    function saveRecord()
-    {
-       var myHeaders = new Headers();
-myHeaders.append("Authorization", "Bearer 00D1y0000008p1s!ARIAQPP3jS19aNb2gC1mZPuLM1WQ5dXELN2qi_rdjb2rleL2_3soHsmw2VZNtNEHZ.VlviLgseSdaUUuixeVqfKw3Im3BuEG");
-myHeaders.append("Content-Type", "application/json");
-myHeaders.append("Cookie", "BrowserId=VdmI3C92Ee6p9GELbc7HMA; CookieConsentPolicy=0:0; LSKey-c$CookieConsentPolicy=0:0");
-
-var raw = JSON.stringify({
-  "req": {
-    "name": "pratibha",
-    "mobile": "9999999999",
-    "email": "preetu098@gmail.com",
-    "url": "pratibhatechclasses.com",
-    "remarks": "Lead 101",
-    "UTM_Medium": "Portal Lead",
-    "UTM_Source": "check by pratibha",
-    "LeadIdentifier": "website"
-  }
-});
-
-var requestOptions = {
-  method: 'POST',
-  headers: myHeaders,
-  body: raw,
-  redirect: 'follow'
-};
-
-fetch("https://sonawanegroup2--sonawane.sandbox.lightning.force.com/services/apexrest/unileads", requestOptions)
-  .then(response => response.text())
-  .then(result => console.log(result))
-  .catch(error => console.log('error', error));
 
 
-    }
-</script>
-</div>
 @include('client.footer')
