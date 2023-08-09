@@ -26,4 +26,29 @@ class DashboardContoller extends Controller
         $data=DB::select("select * from admin");
         return view('admin/admin',['data'=>$data]);
     }
+    public function editConstruction(Request $request)
+    {
+        $id=$request->id;
+        $data=DB::select("select * from construction where $id");
+        return view('admin/editconstruction',['data'=>$data]);
+    }
+    public function updateConstruction(Request $request)
+    {
+        $id=$request->id;
+        $header=$request->title;
+        $desc=$request->description;
+        $seo_title=$request->seo_title;
+        $seodescription=$request->seodescription;
+        $file=$request->file;
+
+        
+        $fileName = time().'_'.$request->file->getClientOriginalName();
+        $filePath = $request->file('file')->storeAs('construction', $fileName, 'public');
+       
+
+        DB::table('construction')->where('id',$id)->update(['header'=>DB::raw("'$header'"),'description'=>DB::raw("'$desc'"),'seo_title'=>DB::raw("'$seo_title'"),'seo_desc'=>DB::raw("'$seodescription'"),'image'=>DB::raw("'$filePath'")]);
+
+        return back()->with('success','Updated succesfully');
+
+    }
 }

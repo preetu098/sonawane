@@ -15,19 +15,33 @@
     transition: .5s;
 }
 </style>
-
+<style>
+    #mobile{
+        display:none;
+    }
+    @media screen and (max-width:1000px)
+    {
+        #mobile{
+        display:block!important;
+    }
+    #desktop
+    {
+        display:none!important;
+    }
+    }
+</style>
 <div class="container-fluid header bg-white p-0"  style="margin-top:10px;width:100%">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <!-- <div class="col-md-1 p-5 mt-lg-5">
                     
                                    </div> -->
                 <div class="col-md-12 animated fadeIn">
-                    <div class="owl-carousel header-carousel">
+                   
+                    <img id="mobile" class="img-fluid" style="height:500px;width:100%" src="banner/Goldclass Mobile Banner.jpg" alt="">
+                            <img  id="desktop" class="img-fluid" style="height:400px" src="img/banner.jpg" alt="">
                        
-                            <img class="img-fluid" style="height:400px" src="img/banner.jpg" alt="">
                        
-                       
-                    </div>
+                    
                 </div>
             </div>
         </div>

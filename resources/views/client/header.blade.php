@@ -42,6 +42,12 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
 
 <body>
     <style>
+         .logomobile
+            {
+                height:120px!important;
+                width:250px!important;
+                margin-left:-70px;
+            }
         @media screen and (max-width:1000px)
         {
             #t1 
@@ -58,25 +64,39 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
                 width:200px!important;
                 font-size:12px;
             }
+            #mobilesocial
+            {
+                width:200px!important;
+                font-size:12px;
+            }
+            .logomobile
+            {
+                height:120px!important;
+                width:200px!important;
+                margin-left:-70px;
+            }
+           
         }
      .navClass:hover 
      {
         color:rgb(14,46,80)!important;
      }
-        
+    
+     
     </style>
-<div class="container-fluid bg-dark">
+<div class="container-fluid bg-dark" >
     <div class="container">
            <div class="row">
             <div class="col-2" id="phone">
-                <p class="text-white mt-3"><a href="tel:+91 8591334062" style="color:white!important"><i class="fa fa-mobile" aria-hidden="true"></i> +91 8591334062</a></p>
+                <p class="text-white mt-2 mb-2"><a href="tel:+91 8591334062" style="color:white!important"><i class="fa fa-mobile" aria-hidden="true"></i> +91 8591334062</a></p>
+                
             </div>
             <div class="col-3" id="mail">
-            <p class="text-white mt-3"><a href="mailto: care@sonawanegroup.com" style="color:white!important"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@sonawanegroup.com</a></p>
+            <p class="text-white mt-2 mb-2"><a href="mailto: care@sonawanegroup.com" style="color:white!important"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@sonawanegroup.com</a></p>
             </div>
             <div class="col-5" id="t1"></div>
-            <div class="col-2" id="t1">
-            <p  class="text-white mt-3">Inquiry | &nbsp&nbsp&nbsp<a style="color:white!important" href="https://www.facebook.com/sonawanegroup"><i  class="fa fa-facebook-square" aria-hidden="true"></i></a> | <a style="color:white!important" href="https://www.instagram.com/sonawaneofficial/"><i class="fa fa-instagram" aria-hidden="true"></i></a> | <a style="color:white!important" href="https://www.linkedin.com/company/sonawane"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> </p>
+            <div class="col-2" id="t1" id="mobilesocial">
+            <p  class="text-white mt-1 mb-1 " >Inquiry | &nbsp&nbsp&nbsp<a style="color:white!important" href="https://www.facebook.com/sonawanegroup"><i style="font-size:20px" class="fa fa-facebook-square" aria-hidden="true"></i></a> | <a style="color:white!important" href="https://www.instagram.com/sonawaneofficial/"><i style="font-size:20px" class="fa fa-instagram mt-1" aria-hidden="true"></i></a> | <a style="color:white!important" href="https://www.linkedin.com/company/sonawane"><i style="font-size:20px" class="fa fa-linkedin-square" aria-hidden="true"></i></a> </p>
             </div>
            </div>
            </div>
@@ -95,9 +115,9 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
         <!-- Navbar Start -->
         <div class="container-fluid nav-bar bg-transparent" style="margin-top:-1px!important">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
-                <a href="index.html" class="navbar-brand d-flex align-items-center text-center">
+                <a href="/" class="navbar-brand d-flex align-items-center text-center">
                     <div class=" p-2 me-2">
-                        <img class="img-fluid" src="logo/logo.png" alt="Icon" style="width: 200px!important; height: 180px!important;">
+                        <img class="img-fluid logomobile" src="logo/logo.png" alt="Icon" >
                     </div>
                    
                 </a>

@@ -38,55 +38,56 @@
       </div>
       <div class="modal-body" style="border:0px !important;background-color:white!important">
        <p class="text-success" style="font-size:13px">Please Enter Your Information</p>
-<form action="" method="post" onsubmit="saveRecord()" name="form">
+        <!-- <form action="" method="post"  name="form"> -->
             <!-- input fields -->
             <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
-            <input type="text" class="form-control" name="username" placeholder="Full Name" aria-label="FullName" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" id="username" placeholder="Full Name" aria-label="FullName" aria-describedby="basic-addon1">
             </div>
 
 
             <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
-            <input type="text" class="form-control" name="phone" placeholder="Mobile" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" id="phone" placeholder="Mobile" aria-label="Phone" aria-describedby="basic-addon1">
             </div>
 
             <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-            <input type="text" class="form-control" name="email" placeholder="Email" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" id="email" placeholder="Email" aria-label="Phone" aria-describedby="basic-addon1">
             </div>
 
           
-            <input type="hidden" class="form-control" name="url" value="http://localhost/sonawane_group/client/bannerindex.php" placeholder="URL" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="hidden" class="form-control" id="url" value="http://localhost/sonawane_group/client/bannerindex.php" placeholder="URL" aria-label="Phone" aria-describedby="basic-addon1">
             
 
 
           
         
-            <input type="hidden" class="form-control" placeholder="Remarks" aria-label="Phone" aria-describedby="basic-addon1" name="remark" value="remark by operator">
+            <input type="hidden" class="form-control" placeholder="Remarks" aria-label="Phone" aria-describedby="basic-addon1" id="remark" value="remark by operator">
             
 
            
 
            
-            <input type="hidden" class="form-control" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1" name="utm_medium" value="by operator">
+            <input type="hidden" class="form-control" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1" id="utm_medium" value="by operator">
             
 
            
           
-            <input type="hidden" class="form-control" name="utm_source" value="by operator" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="hidden" class="form-control" id="utm_source" value="by operator" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1">
             
            
-            <input type="hidden" class="form-control" placeholder="Lead Identifier" aria-label="Phone" aria-describedby="basic-addon1" name="lead" value="by operator">
+            <input type="hidden" class="form-control" placeholder="Lead Identifier" aria-label="Phone" aria-describedby="basic-addon1" id="lead" value="by operator">
            
            
 
       </div>
-      <div class="modal-footer" style="border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:0px !important;background-color:white!important">
-        <input type="submit" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)">
+      <div class="modal-footer" style="border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:0px !important;background-color:white!important" >
+      <button onclick="saveRecord()" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)">Save</button>
+        <!-- <input type="submit" onclick="saveRecord()" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)"> -->
         <!-- <button type="button" class="btn btn-primary">Close</button> -->
       </div>
-      </form>
+      <!-- </form> -->
     </div>
   </div>
 </div>
@@ -114,7 +115,7 @@
                 <div class="col-md-12 animated fadeIn">
                     <div class="owl-carousel header-carousel">
                         <div class="owl-carousel-item">
-                        <img id="mobile" class="img-fluid" style="height:400px" src="banner/Goldclass Mobile Banner.jpg" alt="">
+                        <img id="mobile" class="img-fluid" style="height:500px;width:100%" src="banner/Goldclass Mobile Banner.jpg" alt="">
                             <img id="desktop" class="img-fluid" style="height:600px" src="Banners/Goldclass - Desktop.jpg" alt="">
                         </div>
                         <!-- <div class="owl-carousel-item">
@@ -369,21 +370,21 @@
 <script>
     function saveRecord()
     {
-        var myHeaders = new Headers();
-myHeaders.append("Authorization", "Bearer 00D1y0000008p1s!ARIAQLWICFQ5C0GL5CiCV.FIKPKOr_x24eXBgnIChliP76r0nNPxiQ6VK6rXsh6YjqVm8MRsfWUNu1rRnL04IykR5D6VB0ey");
+       var myHeaders = new Headers();
+myHeaders.append("Authorization", "Bearer 00D1y0000008p1s!ARIAQPP3jS19aNb2gC1mZPuLM1WQ5dXELN2qi_rdjb2rleL2_3soHsmw2VZNtNEHZ.VlviLgseSdaUUuixeVqfKw3Im3BuEG");
 myHeaders.append("Content-Type", "application/json");
 myHeaders.append("Cookie", "BrowserId=VdmI3C92Ee6p9GELbc7HMA; CookieConsentPolicy=0:0; LSKey-c$CookieConsentPolicy=0:0");
-alert("submitted succesfully");
+
 var raw = JSON.stringify({
   "req": {
-    "name": document.form.username.value,
-    "mobile": document.form.phone.value,
-    "email": document.form.email.value,
-    "url": document.form.url.value,
-    "remarks": document.form.remark.value,
-    "UTM_Medium": document.form.utm_medium.value,
-    "UTM_Source": document.form.utm_source.value,
-    "LeadIdentifier": document.form.lead.value
+    "name": "pratibha",
+    "mobile": "9999999999",
+    "email": "preetu098@gmail.com",
+    "url": "pratibhatechclasses.com",
+    "remarks": "Lead 101",
+    "UTM_Medium": "Portal Lead",
+    "UTM_Source": "check by pratibha",
+    "LeadIdentifier": "website"
   }
 });
 
@@ -394,7 +395,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("https://sonawanegroup2--sonawane.sandbox.lightning.force.com/services/apexrest/unileads/", requestOptions)
+fetch("https://sonawanegroup2--sonawane.sandbox.lightning.force.com/services/apexrest/unileads", requestOptions)
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));

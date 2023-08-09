@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <h1 class="mb-4">#1 Place To Find The Perfect Property</h1>
+                        <h4 class="mb-4">Our Commitment to Excellence and Customer Satisfaction </h4>
                        
                         <p>We take pride in our diverse portfolio of residential and commercial projects, ranging from high-rise apartments and gated communities to commercial complexes and retail spaces. Each development is meticulously planned and executed, incorporating the latest design trends, advanced construction techniques, and eco-friendly features.</p>
                         <p>Customer satisfaction is at the heart of everything we do. We value the trust and confidence our customers place in us, and we go the extra mile to ensure their needs and preferences are met. Our transparent and ethical business practices, coupled with a strong focus on delivering on-time and within budget, have earned us a loyal clientele and a reputation for excellence.</p>
@@ -63,7 +63,7 @@
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
-                                   
+                                   <h4 class="mb-4">Empowering Communities through Corporate Social Responsibility</h4>
                                     <p>As a socially responsible company, we are committed to making a positive impact on the communities we operate in. We actively engage in various corporate social responsibility initiatives, contributing to the welfare and development of society.</p>
                                     <p>Whether you are looking for your dream home or a lucrative investment opportunity, Sonawane Group offers a range of options to suit your needs. Join us on this exciting journey as we continue to shape the landscape of Maharashtra with our iconic projects.</p>
                                 </div>
@@ -121,7 +121,20 @@
             </div>
         </div>
         <!-- Call to Action End -->
-
+<style>
+    .demo
+    {
+        height:500px!important;
+    }
+    @media screen and (max-width:1000px)
+    {
+        .demo
+    {
+        font-size:15px!important;
+        height:490px!important;
+    }
+    }
+</style>
         <div class="container-xxl py-5" style="margin-top:-100px!important">
             <div class="container">
                 <div class=" mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" >
@@ -133,8 +146,8 @@
                   
                     <div class="row">
                         <div class="col-lg-4">
-                        <div class="testimonial-item bg-light rounded p-3 cardAnimate">
-                        <div class="bg-white border rounded p-4">
+                        <div class="testimonial-item  bg-light rounded p-3 cardAnimate">
+                        <div class="bg-white border rounded p-4 demo">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
@@ -142,7 +155,7 @@
                                    <center>
                                    <i class="fa fa-map-marker" aria-hidden="true" style="font-size:50px"></i>
                                    </center>
-                                  <p>With years of experience in the Kalyan and Dombivli real estate market, Sonawane Group has established itself as a trusted and reliable name in the industry. Our deep understanding of the local market dynamics, trends, and regulations enables us to provide valuable insights to our clients. Whether you are buying, selling, or investing in properties, our expertise ensures that you make informed decisions and maximize your returns.</p>
+                                  <p class="mt-1">With years of experience in the Kalyan and Dombivli real estate market, Sonawane Group has established itself as a trusted and reliable name in the industry. Our deep understanding of the local market dynamics, trends, and regulations enables us to provide valuable insights to our clients. Whether you are buying, selling, or investing in properties, our expertise ensures that you make informed decisions and maximize your returns.</p>
                                 
                                </div>
                            </div>
@@ -155,7 +168,7 @@
 
                         <div class="col-lg-4">
                         <div class="testimonial-item bg-light rounded p-3 cardAnimate">
-                        <div class="bg-white border rounded p-4">
+                        <div class="bg-white border rounded p-4 demo">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
@@ -176,7 +189,7 @@
 
                         <div class="col-lg-4">
                         <div class="testimonial-item bg-light rounded p-3 cardAnimate">
-                        <div class="bg-white border rounded p-4">
+                        <div class="bg-white border rounded p-4 demo">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
@@ -198,7 +211,7 @@
 
                         <div class="col-lg-4">
                         <div class="testimonial-item bg-light rounded p-3 cardAnimate">
-                        <div class="bg-white border rounded p-4">
+                        <div class="bg-white border rounded p-4 demo">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
@@ -221,7 +234,7 @@
 
                         <div class="col-lg-4">
                         <div class="testimonial-item bg-light rounded p-3 cardAnimate">
-                        <div class="bg-white border rounded p-4">
+                        <div class="bg-white border rounded p-4 demo">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
@@ -244,7 +257,7 @@
 
                         <div class="col-lg-4">
                         <div class="testimonial-item bg-light rounded p-3 cardAnimate">
-                        <div class="bg-white border rounded p-4">
+                        <div class="bg-white border rounded p-4 demo">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
@@ -266,7 +279,7 @@
 
                         <div class="col-lg-4">
                         <div class="testimonial-item bg-light rounded p-3 cardAnimate">
-                        <div class="bg-white border rounded p-4">
+                        <div class="bg-white border rounded p-4 demo">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
@@ -299,8 +312,8 @@
 
 
                         <div class="col-lg-4">
-                        <div class="testimonial-item bg-light rounded p-3 cardAnimate" >
-                        <div class="bg-white border rounded p-4">
+                        <div class="testimonial-item bg-light rounded p-3 cardAnimate">
+                        <div class="bg-white border rounded p-4 demo">
                             <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
