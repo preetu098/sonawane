@@ -54,11 +54,11 @@
 
                                             
                                             <div class="row mb-4">
-                                                <label class="col-lg-3 col-form-label">Show HomePage</label>
+                                                <!-- <label class="col-lg-3 col-form-label">Show HomePage</label> -->
                                                 <div class="col-lg-9">
                                                     <label class="form-check my-2">
-                                                        <input type="checkbox" name="show" class="form-check-input" checked="">
-                                                        <span class="form-check-label">Enable this product </span>
+                                                        <input type="hidden" name="show" class="form-check-input" value="no" checked="">
+                                                        <!-- <span class="form-check-label">Enable this product </span> -->
                                                     </label>
                                                 </div> <!-- col.// -->
                                             </div> <!-- row.// -->

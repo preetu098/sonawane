@@ -53,7 +53,16 @@
                         <span class="text">Admin</span>
                     </a>
                 </li>
-             
+                <li class="menu-item">
+                    <a class="menu-link" href="/admincontact"> <i class="icon material-icons md-add_box"></i>
+                        <span class="text">Contacts</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="/getLead"> <i class="icon material-icons md-add_box"></i>
+                        <span class="text">Leads</span>
+                    </a>
+                </li>
             </ul>
             <br>
             <br>
@@ -63,10 +72,7 @@
         <header class="main-header navbar">
             <div class="col-search">
                 <form class="searchform">
-                    <div class="input-group">
-                        <input list="search_terms" type="text" class="form-control" placeholder="Search term">
-                        <button class="btn btn-light bg" type="button"> <i class="material-icons md-search"></i></button>
-                    </div>
+                    
                     <datalist id="search_terms">
                         <option value="Products">
                         <option value="New orders">

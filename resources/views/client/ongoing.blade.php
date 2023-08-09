@@ -65,52 +65,61 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="">
                     <h1 class="mb-3">ONGOING PROJECTS</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                   
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- <a href="/goldclass"> -->
                     <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
                         <div class="d-flex align-items-center">
-                               
+                        <a href="/goldclass">
                                <div class="ps-3 mt-5">
                                 <img src="img/smart.jpg" class="img-fluid image"  alt="" >
                                    <h6 class="fw-bold mb-1 mt-3">SmartCode Gold Class</h6>
                                  <p>1 & 2 BHK Homes in Kalyan East</p>
                                </div>
+</a>
                            </div>
                           
                             
                         </div>
+</a>
                     </div>
                     <div class="testimonial-item bg-light rounded p-3">
+                        <!-- <a href="/krishna"> -->
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                             
                             <div class="d-flex align-items-center">
-                               
+                            <a href="/krishna">
                             <div class="ps-3 mt-5">
                                 <img src="img/krishna.jpg" class="img-fluid image" alt="">
                                    <h6 class="fw-bold mb-1 mt-3">Krishna Ultima</h6>
                                  <p>1 & 2 BHK Homes In Kalyan East</p>
                                </div>
+</a>
                             </div>
                         </div>
+</a>
                     </div>
                     <div class="testimonial-item bg-light rounded p-3">
+                        <!-- <a href="/hifi"> -->
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                           
                             <div class="d-flex align-items-center">
-                               
+                            <a href="/hifi"> 
                             <div class="ps-3 mt-5">
                                 <img src="img/hifi.jpg" class="img-fluid image" alt="">
                                    <h6 class="fw-bold mb-1 mt-3">SmartCode Hi-Fi Living</h6>
                                  <p>1 & 2 BHK Smart Homes In Dombivali NXT!</p>
                                </div>
+</a>
                             </div>
                         </div>
+                       
                     </div>
-                
+
 
 
 

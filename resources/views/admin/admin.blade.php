@@ -36,23 +36,20 @@
                         </div>
                         <div class="col-md-3"></div>
                         <div class="col-md-6">
-                            <div class="table-responsive">
-                                <table class="table table-hover">
-                                    <thead>
-                                        <tr>
-                                           
-                                          
-                                          
-                                            <th>Email</th>
-                                            <th>Password</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
+                            <div class="row">
+                                <div class="col-3">
+                                    <h5>Email</h5>
+                                </div>
+                                <div class="col-3">
+                                    <h5>Password</h5>
+                                </div>
+                            </div>
                                         @foreach($data as $da)
-                                        <tr>
-                                            <td>{{$da->name}}</td>
-                                            <td>{{$da->password}}</td>
-                                        </tr>
+                                        <div class="row">
+                                            <div class="col-5 card">{{$da->name}}</div>
+                                            <div class="col-5 card">{{$da->password}}</div>
+                                        </div>
+                                        
                                         @endforeach
                                                                            </tbody>
                                 </table>

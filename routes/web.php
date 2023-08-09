@@ -8,6 +8,7 @@ use App\Http\Controllers\PropertyController;
 use App\Http\Controllers\ConstructionController;
 use App\Http\Controllers\IndexPageController;
 use App\Http\Controllers\ContactFormController;
+use App\Http\Controllers\LeadController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -116,3 +117,7 @@ Route::get('/goldclass',function(){
 
 Route::get('/editconst/{id}',[DashboardContoller::class,'editConstruction']);
 Route::post('/edit',[DashboardContoller::class,'updateConstruction']);
+Route::get('/admincontact',[DashboardContoller::class,'contacts']);
+
+Route::post('/addLead',[LeadController::class,'addLead']);
+Route::get('/getLead',[DashboardContoller::class,'getLead']);

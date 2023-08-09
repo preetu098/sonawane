@@ -30,6 +30,7 @@
                         {{session('success')}}
                    </div>
                    @endif
+                  
 					</h6>
                     <h4 class="card-title mb-4">Construction Record Update</h4>
                     @foreach($data as $d)
@@ -51,7 +52,11 @@
                             <textarea class="form-control" placeholder="SEO Description" name="seodescription" >{{$d->seo_desc}}</textarea>
                         </div> <!-- form-group// -->
                         <div class="mb-3">
-                            <input type="file" class="form-control" value="{{$d->image}}" name="file">
+                           <img style="height:200px!important;width:100%" src="{{asset('/storage/'.$d->image)}}" class="img-fluid"/>
+                        </div> <!-- form-group// -->
+                       
+                        <div class="mb-3">
+                            <input type="file" class="form-control" value="{{asset('/storage/'.$d->image)}}" name="file">
                         </div> <!-- form-group// -->
                        
                         <div class="mb-4">
@@ -60,7 +65,7 @@
                     </form>
                     @endforeach
                     <a href="/showUpdate">
-                    <button class="btn text-white" style="background-color:rgb(14,46,80)!important">Back to Home</button>
+                    <button class="btn text-white" style="background-color:rgb(14,46,80)!important">Back to Home</button>             
 </a>
                 </div>     </div>
         </section>

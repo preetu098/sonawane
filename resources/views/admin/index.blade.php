@@ -23,4 +23,4 @@
 return redirect('/login');
  @endif
     
-@include('admin.footer');
+@include('admin.footer')

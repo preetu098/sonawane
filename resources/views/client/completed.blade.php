@@ -52,7 +52,7 @@
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="">
                     <h1 class="mb-3">Completed Projects</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                   
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded p-3">
@@ -60,9 +60,9 @@
                         <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
-                                <img class="img-fluid image" src="img/complete/property-thumb-2023-06-20-03-45-27-2087.jpg" alt="">
-                                   <h6 class="fw-bold mb-1 mt-3">SmartCode Gold Class</h6>
-                                 <p>1 & 2 BHK Homes in Kalyan East</p>
+                                <img class="img-fluid image" src="comp/a1.png" alt="">
+                                   <h6 class="fw-bold mb-1 mt-3">Krishna Heights</h6>
+                                 <p>1 & 2 BHK Smart Homes In Dombilvali NXT!</p>
                                </div>
                            </div>
                           
@@ -76,9 +76,9 @@
                             <div class="d-flex align-items-center">
                                
                             <div class="ps-3 mt-5">
-                                <img class="img-fluid image" src="img/complete/property-thumb-2023-06-24-07-08-54-6939.jpg" alt="">
-                                   <h6 class="fw-bold mb-1 mt-3">Krishna Ultima</h6>
-                                 <p>1 & 2 BHK Homes In Kalyan East</p>
+                                <img class="img-fluid image" src="comp/a2.jpg" alt="">
+                                   <h6 class="fw-bold mb-1 mt-3">Krishna Square</h6>
+                                 <p>1 & 2 BHK Smart Homes In Dombivali NXT!</p>
                                </div>
                             </div>
                         </div>
@@ -90,8 +90,8 @@
                             <div class="d-flex align-items-center">
                                
                             <div class="ps-3 mt-5">
-                                <img class="img-fluid image" src="img/complete/property-thumb-2023-06-24-07-12-59-9959.jpg" alt="">
-                                   <h6 class="fw-bold mb-1 mt-3">SmartCode Hi-Fi Living</h6>
+                                <img class="img-fluid image" src="comp/a3.jpg" alt="">
+                                   <h6 class="fw-bold mb-1 mt-3">Krishna Nisarg</h6>
                                  <p>1 & 2 BHK Smart Homes In Dombivali NXT!</p>
                                </div>
                             </div>
@@ -107,8 +107,8 @@
                             <div class="d-flex align-items-center">
                                
                             <div class="ps-3 mt-5">
-                                <img class="img-fluid image" src="img/complete/property-thumb-2023-06-24-09-59-19-4226.png" alt="">
-                                   <h6 class="fw-bold mb-1 mt-3">SmartCode Hi-Fi Living</h6>
+                                <img class="img-fluid image" src="comp/a4.jpg" alt="">
+                                   <h6 class="fw-bold mb-1 mt-3">Krishna Paradise</h6>
                                  <p>1 & 2 BHK Smart Homes In Dombivali NXT!</p>
                                </div>
                             </div>

@@ -1,6 +1,18 @@
 @include('client.header')
 
 <style>
+    .hoverEffect
+{
+    color:rgb(14,46,80)!important;
+}
+.hoverEffect:hover 
+{
+    color:white!important;
+    background-color:rgb(14,46,80)!important;
+}
+    .w-100 {
+    width: 100%!important;
+}
  #mobile{
         display:none;
     }
@@ -35,7 +47,7 @@
     }
     .img 
     {
-        width:300px!important;
+        width:100%!important;
     }
     }
     .testimonial-carousel .owl-nav .owl-prev, .testimonial-carousel .owl-nav .owl-next {
@@ -58,63 +70,64 @@
 <div class="modal fade" style="margin-top:180px!important;" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content" style="background-color:rgb(36,50,74)!important">
-      <div class="modal-header" style="border:0px !important">
+      <div class="modal-header justify-content-center" style="border:0px !important">
       
-        <h6 class="modal-title " id="exampleModalLabel" style="color:white!important;">Enquire Now</h6>
+        <h6 class="modal-title " id="exampleModalLabel" style="color:white!important;"><center>Enquire Now</center></h6>
 
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="border:0px !important;background-color:white!important">
        <p class="text-success" style="font-size:13px">Please Enter Your Information</p>
-        <!-- <form action="" method="post"  name="form"> -->
+        <form action="/addLead" method="post"  name="form">
+            @csrf
             <!-- input fields -->
             <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
-            <input type="text" class="form-control" id="username" placeholder="Full Name" aria-label="FullName" aria-describedby="basic-addon1">
+            <input type="text" class="form-control" name="username" placeholder="Full Name" aria-label="FullName" aria-describedby="basic-addon1" required>
             </div>
 
 
             <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
-            <input type="text" class="form-control" id="phone" placeholder="Mobile" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="number" required class="form-control" name="phone" placeholder="Mobile" aria-label="Phone" aria-describedby="basic-addon1">
             </div>
 
             <div class="input-group mb-3">
             <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
-            <input type="text" class="form-control" id="email" placeholder="Email" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="email" required class="form-control" name="email" placeholder="Email" aria-label="Phone" aria-describedby="basic-addon1">
             </div>
 
           
-            <input type="hidden" class="form-control" id="url" value="http://localhost/sonawane_group/client/bannerindex.php" placeholder="URL" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="hidden" class="form-control" name="url" value="http://127.0.0.1:8000/" placeholder="URL" aria-label="Phone" aria-describedby="basic-addon1">
             
 
 
           
         
-            <input type="hidden" class="form-control" placeholder="Remarks" aria-label="Phone" aria-describedby="basic-addon1" id="remark" value="remark by operator">
+            <input type="hidden" class="form-control" placeholder="Remarks" aria-label="Phone" aria-describedby="basic-addon1" name="remark" value="remark by operator">
             
 
            
 
            
-            <input type="hidden" class="form-control" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1" id="utm_medium" value="by operator">
+            <input type="hidden" class="form-control" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1" name="utm_medium" value="by operator">
             
 
            
           
-            <input type="hidden" class="form-control" id="utm_source" value="by operator" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1">
+            <input type="hidden" class="form-control" name="utm_source" value="by operator" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1">
             
            
-            <input type="hidden" class="form-control" placeholder="Lead Identifier" aria-label="Phone" aria-describedby="basic-addon1" id="lead" value="by operator">
+            <input type="hidden" class="form-control" placeholder="Lead Identifier" aria-label="Phone" aria-describedby="basic-addon1" name="lead" value="by operator">
            
            
 
       </div>
       <div class="modal-footer" style="border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:0px !important;background-color:white!important" >
-      <button onclick="saveRecord()" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)">Save</button>
-       
+      <!-- <button onclick="saveRecord()" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)">Save</button> -->
+      <input type="submit" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)"/>
       </div>
-  
+            </form>
     </div>
   </div>
 </div>
@@ -290,13 +303,13 @@
                     <h1 class="mb-3">Meet The Visionaries Behind Sonawane Group</h1>
                     <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
                 </div>
-                <div class="row g-4">
-                <div class="col-lg-1 col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="margin-left:50px!important"></div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row g-4" style="place-content:center!important">
+               
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                            <img  class="img-fluid mobileongoing" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg"  alt="">
-                                <img  class="img-fluid desktopongoing" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg"  alt="">
+                            <img  class="img-fluid mobileongoing w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg"  alt="">
+                                <img  class="img-fluid desktopongoing w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg"  alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <!-- <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -313,11 +326,11 @@
                             </center>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid mobileongoing" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg"  alt="">
-                                <img class="img-fluid desktopongoing" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg"  alt="">
+                                <img class="img-fluid mobileongoing w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg"  alt="">
+                                <img class="img-fluid desktopongoing w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg"  alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <a class="btn btn-square mx-1 hoverEffect" href=""><i class="fab fa-facebook-f" ></i></a>
                                     <a class="btn btn-square mx-1 hoverEffect" href=""><i class="fab fa-twitter"></i></a>
@@ -333,11 +346,11 @@
                             </center>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid mobileongoing img" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg"  alt="">
-                                <img class="img-fluid desktopongoing" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg"  alt="">
+                                <img class="img-fluid mobileongoing img w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg"  alt="">
+                                <img class="img-fluid desktopongoing w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg"  alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <a class="btn btn-square mx-1 hoverEffect" href=""><i class="fab fa-facebook-f" ></i></a>
                                     <a class="btn btn-square mx-1 hoverEffect"  href=""><i class="fab fa-twitter" ></i></a>
@@ -359,5 +372,5 @@
         </div>
         <!-- Team End -->
 
-
+</div>
 @include('client.footer')

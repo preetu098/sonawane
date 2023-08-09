@@ -88,7 +88,7 @@
     .test
     {
         
-        height:400px!important;
+        height:420px!important;
     }
     .testimonial-carousel
     {
@@ -98,8 +98,8 @@
     {
         .test
     {
-margin-top:-20px!important;
-        height:410px!important;
+        margin-top:-20px!important;
+        height:420px!important;
         font-size:17px!important;
     }
     /* .testimonial-carousel
@@ -114,14 +114,14 @@ margin-top:-20px!important;
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="">
                     <h1 class="mb-3">OPEN POSITIONS IN SONAWANE GROUP</h1>
-                    <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
+                  
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded p-3 test">
                         <div class="bg-white border rounded p-4">
                         <div class="d-flex align-items-center">
                                
-                               <div class="ps-3 mt-5">
+                               <div class="ps-3">
                                    <h6 class="fw-bold mb-1">SALES EXECUTIVE(Residential) - OPENING (2)</h6>
                                   <p>Experience : 2- 3 years</p>
                                   <p>Education: Graduate / undergraduate</p>
@@ -139,7 +139,7 @@ margin-top:-20px!important;
                             
                             <div class="d-flex align-items-center">
                                
-                                <div class="ps-3 mt-5">
+                                <div class="ps-3">
                                     <h6 class="fw-bold mb-1">PRE-SALES / TELE-CALLING - OPENING (1)</h6>
                                   <p>Experience : 1-3 years in telesales / freshers</p>
                                   <p>Education: Graduate / undergraduate</p>
@@ -155,7 +155,7 @@ margin-top:-20px!important;
                           
                             <div class="d-flex align-items-center">
                                
-                                <div class="ps-3 mt-5">
+                                <div class="ps-3">
                                     <h6 class="fw-bold mb-1">MARKETING EXECUTIVE - OPENING (2)</h6>
                                  <p>Experience : 2-3 years in lead generation</p>
                                  <p>Education: Graduate / undergraduate</p>
@@ -176,7 +176,7 @@ margin-top:-20px!important;
                           
                             <div class="d-flex align-items-center">
                                
-                                <div class="ps-3 mt-5">
+                                <div class="ps-3">
                                     <h6 class="fw-bold mb-1">MARKETING MANAGER - OPENING (1)</h6>
                                  <p>Experience : 3-5 years</p>
                                  <p>Education: Graduate / undergraduate</p>
@@ -193,7 +193,7 @@ margin-top:-20px!important;
                           
                             <div class="d-flex align-items-center">
                                
-                                <div class="ps-3 mt-5">
+                                <div class="ps-3">
                                     <h6 class="fw-bold mb-1">VIDEO EDITOR - OPENING (1)</h6>
                                  <p>Experience : 1-2 years</p>
                                  <p>Education: Graduate / undergraduate</p>
@@ -249,7 +249,7 @@ margin-top:-20px!important;
                                                <input type="email" class="form-control"  placeholder="Email" name="email" required> 
                                             </div>
                                             <div class="col-lg-12 mt-1">
-                                               <input type="number" class="form-control"  placeholder="Phone" name="phonex" required> 
+                                               <input type="number" class="form-control"  placeholder="Phone" name="phone" required> 
                                             </div>
                                             <div class="col-lg-12 mt-1">
                                             <select name="career" class="form-select" aria-label="Default select example">

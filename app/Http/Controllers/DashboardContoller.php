@@ -40,15 +40,24 @@ class DashboardContoller extends Controller
         $seo_title=$request->seo_title;
         $seodescription=$request->seodescription;
         $file=$request->file;
-
+        if($request->hasFile('file')){
         
         $fileName = time().'_'.$request->file->getClientOriginalName();
         $filePath = $request->file('file')->storeAs('construction', $fileName, 'public');
-       
-
         DB::table('construction')->where('id',$id)->update(['header'=>DB::raw("'$header'"),'description'=>DB::raw("'$desc'"),'seo_title'=>DB::raw("'$seo_title'"),'seo_desc'=>DB::raw("'$seodescription'"),'image'=>DB::raw("'$filePath'")]);
+        }
+        DB::table('construction')->where('id',$id)->update(['header'=>DB::raw("'$header'"),'description'=>DB::raw("'$desc'"),'seo_title'=>DB::raw("'$seo_title'"),'seo_desc'=>DB::raw("'$seodescription'")]);
 
         return back()->with('success','Updated succesfully');
 
+    }
+    public function contacts()
+    {
+        $data=DB::select("select * from contact");
+        return view('admin/contact',["data"=>$data]);
+    }
+    public function getLead(){
+        $data=DB::select("select * from lead");
+        return view('admin/lead',["data"=>$data]);
     }
 }
