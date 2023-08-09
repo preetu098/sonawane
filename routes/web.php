@@ -18,7 +18,11 @@ use App\Http\Controllers\ContactFormController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/clear-cache', function() {
+    $exitCode = Artisan::call('cache:clear');
+    $exitCode = Artisan::call('config:cache');
+    return 'DONE'; //Return anything
+});
 Route::get('/',[IndexPageController::class,'index']);
 
 Route::get('/about',function(){

@@ -32,7 +32,20 @@
             </div>
         </div>
         <!-- Header End -->
-
+<style>
+    .image
+    {
+        height:300px!important;
+        
+    }
+    @media screen and (max-width:1000px)
+    {
+        .image
+        {
+            height:200px!important;
+        }
+    }
+</style>
        
 <div class="container-xxl py-5 mt-5" >
             <div class="container">
@@ -46,7 +59,7 @@
                         <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
-                                <img src="img/smart.jpg" alt="" style="height:260px;">
+                                <img src="img/smart.jpg" class="img-fluid image"  alt="" >
                                    <h6 class="fw-bold mb-1 mt-3">SmartCode Gold Class</h6>
                                  <p>1 & 2 BHK Homes in Kalyan East</p>
                                </div>
@@ -62,7 +75,7 @@
                             <div class="d-flex align-items-center">
                                
                             <div class="ps-3 mt-5">
-                                <img src="img/krishna.jpg" alt="">
+                                <img src="img/krishna.jpg" class="img-fluid image" alt="">
                                    <h6 class="fw-bold mb-1 mt-3">Krishna Ultima</h6>
                                  <p>1 & 2 BHK Homes In Kalyan East</p>
                                </div>
@@ -76,7 +89,7 @@
                             <div class="d-flex align-items-center">
                                
                             <div class="ps-3 mt-5">
-                                <img src="img/hifi.jpg" alt="">
+                                <img src="img/hifi.jpg" class="img-fluid image" alt="">
                                    <h6 class="fw-bold mb-1 mt-3">SmartCode Hi-Fi Living</h6>
                                  <p>1 & 2 BHK Smart Homes In Dombivali NXT!</p>
                                </div>

@@ -2,7 +2,20 @@
         <!-- Header Start -->
         <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
 
-
+<style>
+    @media screen and (max-width:1000px)
+    {
+        .heading
+        {
+            margin-left:15px!important;
+            margin-right:15px!important;
+        }
+        #join 
+        {
+            margin-top:-100px!important;
+        }
+    }
+</style>
         <div class="container-fluid header bg-white p-0"  style="margin-top:10px;width:100%">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <!-- <div class="col-md-1 p-5 mt-lg-5">
@@ -10,18 +23,18 @@
                                    </div> -->
                 <div class="col-md-12 animated fadeIn">
                     <div class="owl-carousel header-carousel">
-                       
+                       <div class="container">
                            <div class="row">
                             <div class="col-lg-6">
                             <img class="img-fluid" style="height:400px;width:400px" src="https://cdni.iconscout.com/illustration/premium/thumb/referral-marketing-5114594-4264512.png?f=webp" alt="">
                             </div>
-                            <div class="col-lg-6">
-                                <h3 class="mt-5 mb-5">Sonawane Circle of Trust </h3>
-                                <p>Join the Inner Circle of Home Seekers</p>
-                                <p>Welcome to Sonawane's Circle of Trust, an exclusive referral program designed to reward our esteemed customers like you. At Sonawane Group, we believe in the power of connections and the importance of community. That's why we have created this special program to honor your trust in us and provide you with an opportunity to share the joy of finding a dream home with your friends and loved ones.</p>
+                            <div class="col-lg-6 ">
+                                <h3 class="mt-5 mb-5 heading">Sonawane Circle of Trust </h3>
+                                <p class="heading">Join the Inner Circle of Home Seekers</p>
+                                <p class="heading">Welcome to Sonawane's Circle of Trust, an exclusive referral program designed to reward our esteemed customers like you. At Sonawane Group, we believe in the power of connections and the importance of community. That's why we have created this special program to honor your trust in us and provide you with an opportunity to share the joy of finding a dream home with your friends and loved ones.</p>
                             </div>
                            </div>
-                       
+                           </div>
                        
                     </div>
                 </div>
@@ -140,7 +153,7 @@
             </div>
         </div>
         <!-- Call to Action End -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-5" id="join">
             <div class="container">
                 <div class="bg-light rounded p-3">
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
@@ -187,37 +200,37 @@
                                     <form action="/referalForm" method="post">
                                         @csrf 
 <div class="row">
-    <div class="col-lg-6">
+    <div class="col-lg-6 mt-1">
         <input type="text" class="form-control" placeholder="Name" name="name">
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 mt-1">
     <input type="text" class="form-control" placeholder="Email" name="email">
     </div>
 </div>
-<div class="row mt-3">
-    <div class="col-lg-6">
+<div class="row mt-1">
+    <div class="col-lg-6 mt-1">
         <input type="text" class="form-control" placeholder="Phone" name="phone">
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 mt-1">
     <input type="text" class="form-control" placeholder="Project Name" name="project_name">
     </div>
 </div>
 
-<div class="row mt-3">
-    <div class="col-lg-6">
+<div class="row mt-1">
+    <div class="col-lg-6 mt-1">
         <input type="text" class="form-control" placeholder="Flat Number" name="flat_number">
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 mt-1">
     <input type="text" class="form-control" placeholder="Referal Name" name="referal_name">
     </div>
 </div>
 
-<div class="row mt-3" id="referal">
-    <div class="col-lg-6">
+<div class="row mt-1" id="referal">
+    <div class="col-lg-6 mt-1">
         <input type="text" class="form-control" placeholder="Referal Email" name="referal_email">
     </div>
    
-    <div class="col-lg-6">
+    <div class="col-lg-6 mt-1">
     <input type="text" class="form-control" placeholder="Referal Phone" name="referal_phone">
     </div>
    
@@ -227,7 +240,7 @@
    
    
 </div>
-<div class="row mt-3">
+<div class="row mt-1">
     <div class="col-lg-3">
         <button class="btn text-white" style="background-color:rgb(36,50,74)">Send Message</button>
     </div>

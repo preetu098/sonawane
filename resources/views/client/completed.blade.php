@@ -15,7 +15,21 @@
     transition: .5s;
 }
 </style>
-
+<style>
+    .image
+    {
+        height:300px!important;
+        width:400px!important;
+        
+    }
+    @media screen and (max-width:1000px)
+    {
+        .image
+        {
+            height:200px!important;
+        }
+    }
+</style>
 <div class="container-fluid header bg-white p-0"  style="margin-top:10px;width:100%">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
                 <!-- <div class="col-md-1 p-5 mt-lg-5">
@@ -46,7 +60,7 @@
                         <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
-                                <img src="img/complete/property-thumb-2023-06-20-03-45-27-2087.jpg" alt="" style="height:270px;">
+                                <img class="img-fluid image" src="img/complete/property-thumb-2023-06-20-03-45-27-2087.jpg" alt="">
                                    <h6 class="fw-bold mb-1 mt-3">SmartCode Gold Class</h6>
                                  <p>1 & 2 BHK Homes in Kalyan East</p>
                                </div>
@@ -62,7 +76,7 @@
                             <div class="d-flex align-items-center">
                                
                             <div class="ps-3 mt-5">
-                                <img style="height:270px" src="img/complete/property-thumb-2023-06-24-07-08-54-6939.jpg" alt="">
+                                <img class="img-fluid image" src="img/complete/property-thumb-2023-06-24-07-08-54-6939.jpg" alt="">
                                    <h6 class="fw-bold mb-1 mt-3">Krishna Ultima</h6>
                                  <p>1 & 2 BHK Homes In Kalyan East</p>
                                </div>
@@ -76,7 +90,7 @@
                             <div class="d-flex align-items-center">
                                
                             <div class="ps-3 mt-5">
-                                <img style="height:270px" src="img/complete/property-thumb-2023-06-24-07-12-59-9959.jpg" alt="">
+                                <img class="img-fluid image" src="img/complete/property-thumb-2023-06-24-07-12-59-9959.jpg" alt="">
                                    <h6 class="fw-bold mb-1 mt-3">SmartCode Hi-Fi Living</h6>
                                  <p>1 & 2 BHK Smart Homes In Dombivali NXT!</p>
                                </div>
@@ -93,7 +107,7 @@
                             <div class="d-flex align-items-center">
                                
                             <div class="ps-3 mt-5">
-                                <img style="height:270px" src="img/complete/property-thumb-2023-06-24-09-59-19-4226.png" alt="">
+                                <img class="img-fluid image" src="img/complete/property-thumb-2023-06-24-09-59-19-4226.png" alt="">
                                    <h6 class="fw-bold mb-1 mt-3">SmartCode Hi-Fi Living</h6>
                                  <p>1 & 2 BHK Smart Homes In Dombivali NXT!</p>
                                </div>

@@ -71,6 +71,31 @@
         <!-- Testimonial End -->
 </div>
 </div>
+<style>
+    .test
+    {
+        
+        height:400px!important;
+    }
+    .testimonial-carousel
+    {
+        height:550px!important;
+    }
+    @media screen and (max-width:1000px)
+    {
+        .test
+    {
+margin-top:-20px!important;
+        height:410px!important;
+        font-size:17px!important;
+    }
+    /* .testimonial-carousel
+    {
+        height:400px!important;
+    } */
+        
+    }
+</style>
  <!-- Testimonial Start -->
  <div class="container-xxl py-5">
             <div class="container">
@@ -79,7 +104,7 @@
                     <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="testimonial-item bg-light rounded p-3">
+                    <div class="testimonial-item bg-light rounded p-3 test">
                         <div class="bg-white border rounded p-4">
                         <div class="d-flex align-items-center">
                                
@@ -95,7 +120,7 @@
                             
                         </div>
                     </div>
-                    <div class="testimonial-item bg-light rounded p-3">
+                    <div class="testimonial-item bg-light rounded p-3 test">
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                             
@@ -111,7 +136,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="testimonial-item bg-light rounded p-3">
+                    <div class="testimonial-item bg-light rounded p-3 test">
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                           
@@ -132,7 +157,7 @@
 
 
 
-                <div class="testimonial-item bg-light rounded p-3">
+                <div class="testimonial-item bg-light rounded p-3 test">
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                           
@@ -149,7 +174,7 @@
                         </div>
                     </div>
     
-                <div class="testimonial-item bg-light rounded p-3">
+                <div class="testimonial-item bg-light rounded p-3 test">
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                           
@@ -185,7 +210,7 @@
         </div>
       
         <!-- Call to Action Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl py-5" style="margin-top:-240px!important">
             <div class="container">
                 <div class="bg-light rounded p-3">
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
@@ -211,7 +236,7 @@
                                                <input type="email" class="form-control"  placeholder="Email" name="email" required> 
                                             </div>
                                             <div class="col-lg-12 mt-1">
-                                               <input type="number" class="form-control"  placeholder="Phone" name="phone" required> 
+                                               <input type="number" class="form-control"  placeholder="Phone" name="phonex" required> 
                                             </div>
                                             <div class="col-lg-12 mt-1">
                                             <select name="career" class="form-select" aria-label="Default select example">

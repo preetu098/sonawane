@@ -123,7 +123,7 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
 
 
                         <div class="nav-item dropdown navClass">
-                            <a href="#" class="nav-link navClass dropdown-toggle" data-bs-toggle="dropdown navClass">Project</a>
+                            <a href="#" class="nav-link navClass dropdown-toggle" data-bs-toggle="dropdown">Project</a>
                             <div class="dropdown-menu rounded-0 m-0">
                                 <a href="/ongoing" class="dropdown-item navClass">Ongoing Project</a>
                                 <a href="/completed" class="dropdown-item navClass">Completed Project</a>

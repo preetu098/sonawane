@@ -171,11 +171,11 @@
                             <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
                             <div class="mb-4">
                                     <h4 class="mb-3">Contact Us</h4>
-<div class="row">
-    <div class="col-lg-6">
+<div class="row mt-3">
+    <div class="col-lg-6 mt-3">
         <input type="text" class="form-control" placeholder="Name">
     </div>
-    <div class="col-lg-6">
+    <div class="col-lg-6 mt-3">
     <input type="text" class="form-control" placeholder="Email">
     </div>
 </div>

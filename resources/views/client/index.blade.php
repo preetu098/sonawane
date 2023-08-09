@@ -165,7 +165,33 @@
     </div>
   </div>
 </div>
+<style>
 
+    .mobileongoing
+    {
+        display:none!important;
+    }
+    .desktopongoing 
+    {
+        height:300px!important;
+    }
+    @media screen and (max-width:1000px)
+    {
+        .desktopongoing 
+    {
+       display:none!important;
+    }
+    .mobileongoing
+    {
+        display:block!important;
+        height:200px!important;
+    }
+    .img 
+    {
+        width:300px!important;
+    }
+    }
+</style>
  <!-- Testimonial Start -->
  <div class="container-xxl py-5">
             <div class="container">
@@ -178,7 +204,8 @@
                         <a href="/hifi">
                         <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                            <img src="banner/hifi.jpg" alt="">
+                            <img src="banner/hifi.jpg" class="mobileongoing" alt="">
+                            <img src="banner/hifi.jpg" class="desktopongoing" alt="">
                             <div class="d-flex align-items-center">
                                
                                 <div class="ps-3 mt-5">
@@ -192,7 +219,8 @@
                     <div class="testimonial-item bg-light rounded p-3">
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                            <img src="banner/krishna.jpg" alt="">
+                            <img src="banner/krishna.jpg" alt="" class="mobileongoing">
+                            <img src="banner/krishna.jpg" alt="" class="desktopongoing">
                             <div class="d-flex align-items-center">
                                
                                 <div class="ps-3 mt-5">
@@ -205,7 +233,9 @@
                     <div class="testimonial-item bg-light rounded p-3">
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                            <img src="banner/smartcode.jpg" alt="" style="height:270px;">
+                           
+                            <img src="banner/smartcode.jpg" alt="" class="mobileongoing">
+                            <img src="banner/smartcode.jpg" alt="" class="desktopongoing">
                             <div class="d-flex align-items-center">
                                
                                 <div class="ps-3 mt-5">
@@ -236,8 +266,9 @@
                     <div class="testimonial-item bg-light rounded p-3">
                         <div class="bg-white border rounded p-4">
                          
-                            <img class="img-fluid" src="{{asset('/storage/'.$record->image)}}" style="height:400px;width:100%">
-                               
+                            <img class="img-fluid desktopongoing" src="{{asset('/storage/'.$record->image)}}" >
+                            <img class="img-fluid mobileongoing" src="{{asset('/storage/'.$record->image)}}" >
+                              
                                 <div class="ps-3 mt-5">
                                     <h6 class="fw-bold mb-1">{{$record->header}}</h6>
                                     <small>{{$record->description}}</small>
@@ -262,7 +293,8 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg" style="height:250px;width:300px" alt="">
+                            <img  class="img-fluid mobileongoing" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg"  alt="">
+                                <img  class="img-fluid desktopongoing" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg"  alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <!-- <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -282,7 +314,8 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg" style="height:250px;width:300px" alt="">
+                                <img class="img-fluid mobileongoing" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg"  alt="">
+                                <img class="img-fluid desktopongoing" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg"  alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <a class="btn btn-square mx-1 hoverEffect" href=""><i class="fab fa-facebook-f" ></i></a>
                                     <a class="btn btn-square mx-1 hoverEffect" href=""><i class="fab fa-twitter"></i></a>
@@ -301,7 +334,8 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg" style="height:250px;width:300px" alt="">
+                                <img class="img-fluid mobileongoing img" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg"  alt="">
+                                <img class="img-fluid desktopongoing" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg"  alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <a class="btn btn-square mx-1 hoverEffect" href=""><i class="fab fa-facebook-f" ></i></a>
                                     <a class="btn btn-square mx-1 hoverEffect"  href=""><i class="fab fa-twitter" ></i></a>

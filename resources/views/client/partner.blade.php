@@ -13,9 +13,11 @@
                        
                            <div class="row ms-5">
                             <div class="col-lg-6">
-                            <h3 class="mt-5 mb-5">Channel Partner Rewards Program</h3>
-                                <p>Welcome to Sonawane Partner Rewards Program! At Sonawane Group, we value our partnership with individuals and organizations looking to join forces with us. As a channel partner, you have the opportunity to unlock exciting rewards and incentives that come with being part of our esteemed network. Join us on this journey of growth and success, and let's achieve new heights together!</p>
+                                <div class="container">                            <h3 class="mt-5 mb-5">Channel Partner Rewards Program</h3>
+                                <p> At Sonawane Group, we value our partnership with individuals and organizations looking to join forces with us. As a channel partner, you have the opportunity to unlock exciting rewards and incentives that come with being part of our esteemed network. Join us on this journey of growth and success, and let's achieve new heights together!</p>
                             </div>
+                            </div>
+
                             <div class="col-lg-6">
                                <img src="https://s4iwebsolutions.com/wp-content/uploads/2022/01/S4iWeb__10_-removebg-preview.png" class="img-fluid" alt="">
                             </div>
@@ -109,23 +111,37 @@
         <!-- Testimonial End -->
 </div>
 </div>
+<style>
+    .img
+    {
+        width:300px;
+        height:200px;
+    }
+    @media screen and (max-width)
+    {
+        .ca1
+        {
+            width:300px!important;
+        }
+    }
+</style>
  <!-- Testimonial Start -->
  <!--  -->
       
         <!-- Call to Action Start -->
         <div class="container-xxl py-5" style="margin-top:-70px!important">
-            <div class="container">
+           
                 <div class="rounded p-3">
                     <div class="rounded p-4" >
                     <h4 class="text-center mb-1">How its Work</h4>
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="testimonial-item bg-light rounded p-3">
+                            <div class="testimonial-item bg-light rounded p-3 ">
                         <div class="bg-white border rounded p-4">
                         <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
-                                <img src="img/lets-connect.webp" style="height:200px;width:300px" alt="">
+                                <img src="img/lets-connect.webp" class="img-fluid img" alt="">
                                    <h6 class="fw-bold mb-1">Connect with our Group</h6>
                                   <p>Begin your journey by becoming a part of our esteemed network. Collaborate with Sonawane Group and gain access to a wide range of real estate projects that are renowned for their quality and customer satisfaction.</p>
                                </div>
@@ -137,12 +153,12 @@
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 
-                                    <div class="testimonial-item bg-light rounded p-3">
+                                    <div class="testimonial-item bg-light rounded p-3 ca1">
                         <div class="bg-white border rounded p-4">
                         <div class="d-flex align-items-center">
                                
                                <div class="ps-3 mt-5">
-                                <img src="https://www.bizportals365.com/wp-content/uploads/Customer-Portal-Solution.png" style="height:200px;width:300px" alt="">
+                                <img src="https://www.bizportals365.com/wp-content/uploads/Customer-Portal-Solution.png" class="img-fluid img" alt="">
                                    <h6 class="fw-bold mb-1">Partner Portal Access</h6>
                                   <p>Once you have joined our group, you will gain exclusive access to our Partner Portal. This user-friendly platform will provide you with valuable insights into our latest projects, sales tools, marketing materials, and more.</p>
                                </div>
@@ -158,7 +174,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+           
         </div>
         <!-- Call to Action End -->
         <div class="container-xxl py-5" style="margin-top:-120px!important">
