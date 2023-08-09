@@ -91,7 +91,7 @@
     </div>
   </div>
 </div>
-
+            </div>
 <style>
     #mobile{
         display:none;
@@ -113,7 +113,7 @@
                     
                                    </div> -->
                 <div class="col-md-12 animated fadeIn">
-                    <div class="owl-carousel header-carousel">
+                    
                         <div class="owl-carousel-item">
                         <img id="mobile" class="img-fluid" style="height:500px;width:100%" src="banner/Goldclass Mobile Banner.jpg" alt="">
                             <img id="desktop" class="img-fluid" style="height:600px" src="Banners/Goldclass - Desktop.jpg" alt="">
@@ -121,7 +121,7 @@
                         <!-- <div class="owl-carousel-item">
                             <img class="img-fluid" style="height:600px" src="img/carousel-2.jpg" alt="">
                         </div> -->
-                    </div>
+                    
                 </div>
             </div>
         </div>

@@ -13,6 +13,19 @@
     font-size: 20px;
     transition: .5s;
 }
+#mobile{
+        display:none;
+    }
+    @media screen and (max-width:1000px)
+    {
+        #mobile{
+        display:block!important;
+    }
+    #desktop
+    {
+        display:none!important;
+    }
+    }
 </style>
         <!-- Header Start -->
         <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
@@ -24,12 +37,12 @@
                     
                                    </div> -->
                 <div class="col-md-12 animated fadeIn">
-                    <div class="owl-carousel header-carousel">
+               
+                    <img id="mobile" class="img-fluid" style="height:500px;width:100%" src="banner/Welcome To Career Page-fotor-2023080922711.png" alt="">
+                            <img id="desktop" class="img-fluid"  src="banner/Welcome To Career Page.png" alt="">
                        
-                            <img class="img-fluid" style="height:600px" src="https://www.pngarts.com/files/1/Career-Transparent-Images.png" alt="">
                        
-                       
-                    </div>
+                    
                 </div>
             </div>
         </div>
