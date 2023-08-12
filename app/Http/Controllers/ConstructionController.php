@@ -30,4 +30,10 @@ class ConstructionController extends Controller
         $data=DB::select("select * from construction");
         return view('admin/showContruction',['all_record'=>$data]);
     }
+
+
+   
+
+
+
 }

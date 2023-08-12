@@ -51,6 +51,15 @@ class DashboardContoller extends Controller
         return back()->with('success','Updated succesfully');
 
     }
+
+    public function deleteConstruction(Request $request)
+    {
+        $id=$request->id;
+        DB::delete("delete from construction where $id");
+        return back()->with('success','Deleted succesfully');
+    }
+
+
     public function contacts()
     {
         $data=DB::select("select * from contact");

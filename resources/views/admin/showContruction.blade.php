@@ -31,6 +31,8 @@
                                     <h5 class="card-title">{{$record->seo_desc}}</h5>
                                     <h5 class="card-title">{{$record->showpage}}</h5> -->
                                     <a href="/editconst/id={{$record->id}}"><button class="btn" style="background-color:rgb(14,46,80);color:white">Update</button></a>
+
+                                    <a href="/deleteConstruction/id={{$record->id}}"><button class="btn" style="background-color:rgb(14,46,80);color:white">Delete</button></a>
                                     </div>
                                 </div>
                             </div>

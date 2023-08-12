@@ -121,3 +121,5 @@ Route::get('/admincontact',[DashboardContoller::class,'contacts']);
 
 Route::post('/addLead',[LeadController::class,'addLead']);
 Route::get('/getLead',[DashboardContoller::class,'getLead']);
+
+Route::get('/deleteConstruction/{id}',[DashboardContoller::class,'deleteConstruction']);

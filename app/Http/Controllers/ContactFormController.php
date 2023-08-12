@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\ContactModel;
 use App\Models\ReferalModel;
 use App\Models\CareerModel;
-
+use Illuminate\Support\Facades\Validator;
 class ContactFormController extends Controller
 {
     public function addContact(Request $request)
@@ -38,13 +38,22 @@ class ContactFormController extends Controller
     }
     public function careerAdd(Request $request)
     {
+     
+           
                 $co=new CareerModel;
                 $co->name=$request->name;
                 $co->email=$request->email;
                 $co->phone=$request->phone;
                 $co->career=$request->career;
-                $co->file=$request->file;
+                $fileName = time().'_'.$request->file->getClientOriginalName();
+                $filePath = $request->file('file')->storeAs('construction', $fileName, 'public');
+                $cp->file=  $filePath;
+
+                $co->file= $filePath;
                 $co->save();
-                return back()->with('success','Contact Submitted Succesfully');
+                return back()->with('success','Apply succesfully');
+            
+          
+        
     }
 }

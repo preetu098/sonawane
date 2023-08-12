@@ -261,9 +261,11 @@
                                             </div>
 
                                             <div class="col-lg-12 mt-1">
+                                          
                                             <div class="input-group">
                                                 <label class="input-group-text" for="inputGroupFile01">Upload</label>
-                                                <input type="file" name="file" class="form-control" id="inputGroupFile01">
+                                                <input type="file"  name="file" class="form-control" id="inputGroupFile01" required><br>
+                                            
                                                 </div>
                                             </div>
 
