@@ -22,11 +22,13 @@
                     
                                    </div> -->
                 <div class="col-md-12 animated fadeIn">
-                    <div class="">
+                  
                        <div class="container">
                            <div class="row">
                             <div class="col-lg-6">
-                            <img class="img-fluid" style="height:400px;width:400px" src="https://cdni.iconscout.com/illustration/premium/thumb/referral-marketing-5114594-4264512.png?f=webp" alt="">
+                                <center>
+                            <img class="img-fluid"  src="banner/Sonawane Circle of trust (400 x 400) (3) (1).png" alt="">
+                            </center>
                             </div>
                             <div class="col-lg-6 ">
                                 <h3 class="mt-5 mb-5 heading">Sonawane Circle of Trust </h3>
@@ -36,7 +38,7 @@
                            </div>
                            </div>
                        
-                    </div>
+                  
                 </div>
             </div>
         </div>
@@ -123,35 +125,7 @@
         <!-- Testimonial End -->
 </div>
 </div>
- <!-- Testimonial Start -->
- <!--  -->
-      
-        <!-- Call to Action Start -->
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="bg-light rounded p-3">
-                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                                <img class="img-fluid rounded w-100" src="img/benefit.png" alt="">
-                            </div>
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="mb-4">
-                                    <h1 class="mb-3">Benefits of Joining</h1>
-                                    <p><strong>Exciting Rewards:</strong>Enjoy attractive rewards for every successful referral, making your journey with Sonawane Group even more rewarding.</p>
-                                    <p><strong>Priority Access:</strong>Gain early access to our upcoming projects, special promotions, and exclusive events. Be the first to know about new opportunities in the real estate market.</p>
-                                    <p><strong>Enhanced Services:</strong>Experience personalized assistance from our dedicated referral program team, ensuring a seamless and rewarding journey for you and your referrals.</p>
-                                    <p><strong>Community Engagement:</strong>Connect with fellow members of the Circle of Trust through networking events, social gatherings, and online forums. Share experiences, insights, and valuable information about the real estate industry.</p>
-                                    <p><strong>Contribution to Society:</strong>Sonawane Group believes in giving back to society. For every successful referral, we pledge to make a charitable donation, making a positive impact on the community.</p>
-                                </div>
-                               
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <!-- Call to Action End -->
         <div class="container-xxl py-5" id="join">
             <div class="container">

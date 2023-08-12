@@ -44,7 +44,7 @@
                        
                         <p>We take pride in our diverse portfolio of residential and commercial projects, ranging from high-rise apartments and gated communities to commercial complexes and retail spaces. Each development is meticulously planned and executed, incorporating the latest design trends, advanced construction techniques, and eco-friendly features.</p>
                         <p>Customer satisfaction is at the heart of everything we do. We value the trust and confidence our customers place in us, and we go the extra mile to ensure their needs and preferences are met. Our transparent and ethical business practices, coupled with a strong focus on delivering on-time and within budget, have earned us a loyal clientele and a reputation for excellence.</p>
-                        <a class="btn btn-primary py-3 px-5 mt-3" href="" style="background-color:#071728">Read More</a>
+                       
                     </div>
                 </div>
             </div>

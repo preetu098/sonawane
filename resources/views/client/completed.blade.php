@@ -118,71 +118,71 @@
 <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="mb-3">Completed Projects</h1>
+                    <h3 class="mb-3">Completed Projects</h3>
                    
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded">
                         
-                        <div class="bg-white border rounded p-4">
+                        <div class="bg-white border rounded">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                             <img src="comp/a1.png" class="mobileongoing" alt="">
                             <img src="comp/a1.png" class="desktopongoing" alt="">
-                            <div class="d-flex align-items-center">
+                            <div class="text-center">
                                
-                                <div class="ps-3 mt-1">
-                                    <h6 class="fw-bold mb-1">Krishna Heights</h6>
+                               
+                                    <h6 class="fw-bold mb-1 mt-3">Krishna Heights</h6>
                                     <small>1 & 2 BHK Smart Homes In Dombilvali NXT!</small>
-                                </div>
+                                
                             </div>
                         </div>
 
                     </div>
                     <div class="testimonial-item bg-light rounded ">
                   
-                    <div class="bg-white border rounded p-4">
+                    <div class="bg-white border rounded ">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                              <img src="comp/a2.jpg" class="mobileongoing" alt="">
                             <img src="comp/a2.jpg" class="desktopongoing" alt="">
-                            <div class="d-flex align-items-center">
+                            <div class="text-center">
                                
-                                <div class="ps-3 mt-1">
-                                    <h6 class="fw-bold mb-1">Krishna Square</h6>
+                                
+                                    <h6 class="fw-bold mb-1 mt-3">Krishna Square</h6>
                                     <small>1 & 2 BHK Smart Homes In Dombivali NXT!</small>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-light rounded ">
                     
-                    <div class="bg-white border rounded p-4">
+                    <div class="bg-white border rounded">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                            
                              <img src="comp/a3.jpg" class="mobileongoing" alt="">
                             <img src="comp/a3.jpg" class="desktopongoing" alt="">
-                            <div class="d-flex align-items-center">
+                            <div class="text-center">
                                
-                                <div class="ps-3 mt-1">
-                                    <h6 class="fw-bold mb-1">Krishna Nisarg</h6>
+                                
+                                    <h6 class="fw-bold mb-1 mt-3">Krishna Nisarg</h6>
                                     <small>1 & 2 BHK Smart Homes In Dombivali NXT!</small>
-                                </div>
+                               
                             </div>
                         </div>
 </a>
                     </div>
                     <div class="testimonial-item bg-light rounded ">
                    
-                    <div class="bg-white border rounded p-4">
+                    <div class="bg-white border rounded ">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                            
                             <img src="comp/a4.jpg" class="mobileongoing" alt="">
                             <img src="comp/a4.jpg" class="desktopongoing" alt="">
-                            <div class="d-flex align-items-center">
+                            <div class="text-center">
                                
-                                <div class="ps-3 mt-1">
-                                    <h6 class="fw-bold mb-1">Krishna Paradise</h6>
+                               
+                                    <h6 class="fw-bold mb-1 mt-3">Krishna Paradise</h6>
                                     <small>1 & 2 BHK Smart Homes In Dombivali NXT!</small>
-                                </div>
+                               
                             </div>
                         </div>
 

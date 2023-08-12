@@ -322,10 +322,10 @@
 
 
 /*** Testimonial ***/
-.testimonial-carousel {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-}
+/*.testimonial-carousel {*/
+/*    padding-left: 1.5rem;*/
+/*    padding-right: 1.5rem;*/
+/*}*/
 
 @media (min-width: 576px) {
     .testimonial-carousel {
@@ -359,6 +359,7 @@
     justify-content: center;
     color: #FFFFFF;
     background: var(--primary);
+    opacity: 0.5;
     border-radius: 40px;
     font-size: 20px;
     transition: .5s;
@@ -367,6 +368,7 @@
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
     background: var(--dark);
+    opacity: 0.5;
 }
 
 

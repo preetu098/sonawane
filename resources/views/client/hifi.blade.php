@@ -1137,9 +1137,9 @@ ol, ul {
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-          <p>Dombivli - 10 Minutes</p>
-          <p>Kopar - 2 Minutes</p>
-          <p>Thakurli - 15 Minutes</p>
+          <p class="text-white">Dombivli - 10 Minutes</p>
+          <p class="text-white">Kopar - 2 Minutes</p>
+          <p class="text-white">Thakurli - 15 Minutes</p>
          
       </div>
     </div>
@@ -1154,10 +1154,10 @@ ol, ul {
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-           <p>Sonal Business Park - 12 Minutes</p>
-          <p>Patel R Mart - 10 Mintes</p>
-          <p>Ramkrishna Bazar - 10 Minutes</p>
-          <p>Reliance Fresh - 12 Minutes</p>
+           <p class="text-white">Sonal Business Park - 12 Minutes</p>
+          <p class="text-white">Patel R Mart - 10 Mintes</p>
+          <p class="text-white">Ramkrishna Bazar - 10 Minutes</p>
+          <p class="text-white">Reliance Fresh - 12 Minutes</p>
          
       </div>
     </div>
@@ -1172,10 +1172,10 @@ ol, ul {
     </h2>
     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-           <p>Samarth Multispecility - 7 Minutes</p>
-          <p>Venus Hospital - 5 Minutes</p>
-          <p>Sparsh Hospital - 9 Minutes</p>
-          <p>AIMS Hospital - 17 Minutes</p>
+           <p class="text-white">Samarth Multispecility - 7 Minutes</p>
+          <p class="text-white">Venus Hospital - 5 Minutes</p>
+          <p class="text-white">Sparsh Hospital - 9 Minutes</p>
+          <p class="text-white">AIMS Hospital - 17 Minutes</p>
       </div>
     </div>
   </div>
@@ -1191,10 +1191,10 @@ ol, ul {
     </h2>
     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-           <p>B R Madhvi English School - 5 Minutes</p>
-          <p>DNC Multipurpose School - 8 Minutes</p>
-           <p>Swami Vivekanand School - 6 Minutes</p>
-          <p>CP Goenka International School - 7 Minutes</p>
+           <p class="text-white">B R Madhvi English School - 5 Minutes</p>
+          <p class="text-white">DNC Multipurpose School - 8 Minutes</p>
+           <p class="text-white">Swami Vivekanand School - 6 Minutes</p>
+          <p class="text-white">CP Goenka International School - 7 Minutes</p>
          
          
       </div>
@@ -1214,10 +1214,10 @@ ol, ul {
     </h2>
     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-           <p>Miraj Cinema - 11 Minutes</p>
-          <p>Tilak Cinema - 7 Minutes</p>
-          <p>Inox - 20 Minutes</p>
-         <p>PVR - 25 Minutes</p>
+           <p class="text-white">Miraj Cinema - 11 Minutes</p>
+          <p class="text-white">Tilak Cinema - 7 Minutes</p>
+          <p class="text-white">Inox - 20 Minutes</p>
+         <p class="text-white">PVR - 25 Minutes</p>
          
          
       </div>
@@ -1666,7 +1666,7 @@ ol, ul {
                 <div class="row g-4">
                    
                     <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d737.1046269283377!2d73.08170983309886!3d19.208467218039715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bfabfbadcd53%3A0x654ef9e0a5fe01d8!2sGold%20Crest%20project%20Sonawane!5e1!3m2!1sen!2sin!4v1684736126852!5m2!1sen!2sin"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d737.1046269283377!2d73.08170983309886!3d19.208467218039715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bfabfbadcd53%3A0x654ef9e0a5fe01d8!2sGold%20Crest%20project%20Sonawane!5e1!3m2!1sen!2sin!4v1684736126852!5m2!1sen!2sin"  height="450" style="border:0;" width="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">

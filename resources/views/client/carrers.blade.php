@@ -88,7 +88,7 @@
     .test
     {
         
-        height:420px!important;
+        height:380px!important;
     }
     .testimonial-carousel
     {
@@ -99,7 +99,7 @@
         .test
     {
         margin-top:-20px!important;
-        height:420px!important;
+        height:380px!important;
         font-size:17px!important;
     }
     /* .testimonial-carousel
@@ -118,7 +118,7 @@
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item bg-light rounded p-3 test">
-                        <div class="bg-white border rounded p-4">
+                        <div class="bg-white border rounded p-4 " style="height:350px">
                         <div class="d-flex align-items-center">
                                
                                <div class="ps-3">
@@ -134,7 +134,7 @@
                         </div>
                     </div>
                     <div class="testimonial-item bg-light rounded p-3 test">
-                    <div class="bg-white border rounded p-4">
+                    <div class="bg-white border rounded p-4 "style="height:350px">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                             
                             <div class="d-flex align-items-center">
@@ -150,7 +150,7 @@
                         </div>
                     </div>
                     <div class="testimonial-item bg-light rounded p-3 test">
-                    <div class="bg-white border rounded p-4">
+                    <div class="bg-white border rounded p-4 " style="height:350px">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                           
                             <div class="d-flex align-items-center">
@@ -171,7 +171,7 @@
 
 
                 <div class="testimonial-item bg-light rounded p-3 test">
-                    <div class="bg-white border rounded p-4">
+                    <div class="bg-white border rounded p-4 " style="height:350px">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                           
                             <div class="d-flex align-items-center">
@@ -188,7 +188,7 @@
                     </div>
     
                 <div class="testimonial-item bg-light rounded p-3 test">
-                    <div class="bg-white border rounded p-4">
+                    <div class="bg-white border rounded p-4" style="height:350px">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
                           
                             <div class="d-flex align-items-center">

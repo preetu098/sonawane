@@ -9,7 +9,7 @@
                     
                                    </div> -->
                 <div class="col-md-12 animated fadeIn">
-                    <div class="owl-carousel header-carousel">
+                  
                        
                            <div class="row ms-5">
                             <div class="col-lg-6">
@@ -24,7 +24,7 @@
                            </div>
                        
                        
-                    </div>
+                   
                 </div>
             </div>
         </div>
@@ -57,7 +57,7 @@
            
                 <div class="rounded p-3">
                     <div class="rounded p-4" >
-                    <h4 class="text-center mb-1">How its Work</h4>
+                    <h4 class="text-center mb-3 mt-3">How its Work</h4>
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                             <div class="testimonial-item bg-light rounded p-3 ">
@@ -266,5 +266,5 @@
     })
 </script> -->
 
-  
+</div>
 @include('client.footer')

@@ -32,7 +32,7 @@
 
      </h2>
 
-     <div id="collapseItemOne" class="accordion-collapse collapse show" data-bs-parent="#JAZAccordion">
+     <div id="collapseItemOne" class="accordion-collapse collapse" data-bs-parent="#JAZAccordion">
 
          <div class="card-body">
 
@@ -44,11 +44,11 @@
 
  </div>
 
- <div class="accordion-item">
+ <div class="accordion-item" style="background-color:white!important">
 
      <h2 class="accordion-header" id="headingTwo">
 
-         <button type="button" class="accordion-button" data-bs-toggle="collapse" data-bs-target="#collapseItemTwo">What types of properties does Sonawane Group offer?</button>
+         <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#collapseItemTwo">What types of properties does Sonawane Group offer?</button>
 
      </h2>
 

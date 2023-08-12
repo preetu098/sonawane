@@ -1128,11 +1128,11 @@ ol, ul {
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-          <p>KALYAN STATION - 2.5 KM</p>
-          <p>VITTALWADI STATION - 3.5 km</p>
-          <p>ULHASNAGAR STATION - 5.6 km</p>
-          <p>DOMBIVALI STATION - 6.3 km</p>
-          <p>TAKURLI STATION - 4.7 km</p>
+          <p class="text-white">KALYAN STATION - 2.5 KM</p>
+          <p class="text-white">VITTALWADI STATION - 3.5 km</p>
+          <p class="text-white">ULHASNAGAR STATION - 5.6 km</p>
+          <p class="text-white">DOMBIVALI STATION - 6.3 km</p>
+          <p class="text-white">TAKURLI STATION - 4.7 km</p>
       </div>
     </div>
   </div>
@@ -1146,10 +1146,10 @@ ol, ul {
     </h2>
     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-           <p>D MART - 3.3 km</p>
-          <p>METRO MALL - 1.9 km</p>
-          <p>BIG BAZAR - 2.0 km</p>
-          <p>PALAVA XPERIA MALL - 9.5 km</p>
+           <p class="text-white">D MART - 3.3 km</p>
+          <p class="text-white">METRO MALL - 1.9 km</p>
+          <p class="text-white">BIG BAZAR - 2.0 km</p>
+          <p class="text-white">PALAVA XPERIA MALL - 9.5 km</p>
          
       </div>
     </div>
@@ -1164,9 +1164,9 @@ ol, ul {
     </h2>
     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-           <p>FORTIS HOSPITAL - 3.1 km</p>
-          <p>MEERA HOSPITAL - 5.5 km</p>
-          <p>AM-PM HOSPITAL - 3.3 km</p>
+           <p class="text-white">FORTIS HOSPITAL - 3.1 km</p>
+          <p class="text-white">MEERA HOSPITAL - 5.5 km</p>
+          <p class="text-white">AM-PM HOSPITAL - 3.3 km</p>
          
       </div>
     </div>
@@ -1183,12 +1183,12 @@ ol, ul {
     </h2>
     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-           <p>OMKAR SCHOOL CBSE - 4.8 km</p>
-          <p>ARYA GURUKUL SCHOOL CBSE- 2.5 km</p>
-         <p>Model College of Science & Commerce – 10 mins</p>
-          <p>St. Paul’s College - 15 mins</p>  
-          <p>B. K Birla College - 15 mins</p>
-             <p>Saket College of Arts & Science - 12 mins</p>
+           <p class="text-white">OMKAR SCHOOL CBSE - 4.8 km</p>
+          <p class="text-white">ARYA GURUKUL SCHOOL CBSE- 2.5 km</p>
+         <p class="text-white">Model College of Science & Commerce – 10 mins</p>
+          <p class="text-white">St. Paul’s College - 15 mins</p>  
+          <p class="text-white">B. K Birla College - 15 mins</p>
+             <p class="text-white">Saket College of Arts & Science - 12 mins</p>
       </div>
     </div>
   </div>
@@ -1206,9 +1206,9 @@ ol, ul {
     </h2>
     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
       <div class="accordion-body">
-           <p>BANK OF BARODA - 2.2 km</p>
-          <p>AXIS BANK - 2.5 km</p>
-          <p>ICICI BANK - 1.5 km</p>
+           <p class="text-white">BANK OF BARODA - 2.2 km</p>
+          <p class="text-white">AXIS BANK - 2.5 km</p>
+          <p class="text-white">ICICI BANK - 1.5 km</p>
          
          
       </div>
@@ -1533,7 +1533,7 @@ ol, ul {
                 <div class="row g-4">
                    
                     <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.440813037621!2d73.1309517!3d19.2196111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7958f3281c837%3A0xa880a386e30eaa81!2sGaondevi%20Crown!5e0!3m2!1sen!2sin!4v1680610898095!5m2!1sen!2sin"height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.440813037621!2d73.1309517!3d19.2196111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7958f3281c837%3A0xa880a386e30eaa81!2sGaondevi%20Crown!5e0!3m2!1sen!2sin!4v1680610898095!5m2!1sen!2sin"height="450" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <div class="col-md-6">
                         <div class="wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Modern Theme</title>
+    <title>Sonawane Group</title>
     <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -162,7 +162,7 @@ img {
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="/" class="nav-item nav-link navClass" >Home</a>
-                        <a href="/about" class="nav-item nav-link navClass">About</a>
+                        <a href="/about" class="nav-item nav-link navClass">AboutUs</a>
 
                         <a href="/careers" class="nav-item nav-link navClass">Careers</a>
 
@@ -223,7 +223,7 @@ img {
  
        
         </div>
-        <button type="button" style="" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <button type="button" style="background-color:white!important" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body" style="border:0px !important;background-color:white!important">
        <p class="text-success" style="font-size:13px">Please Enter Your Information</p>
