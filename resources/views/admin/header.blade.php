@@ -15,6 +15,7 @@
     <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg"> -->
     <!-- Template CSS -->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -31,12 +32,12 @@
         <nav>
             <ul class="menu-aside">
                 <li class="menu-item">
-                    <a class="menu-link" href="index.php"> <i class="icon material-icons md-home"></i>
+                    <a class="menu-link" href="index.php"><i class="fa fa-home" aria-hidden="true" style="font-size:20px"></i>
                         <span class="text">Dashboard</span>
                     </a>
                 </li>
                 <li class="menu-item has-submenu">
-                    <a class="menu-link" href="page-products-list.html"> <i class="icon material-icons md-add_box"></i>
+                    <a class="menu-link" href="page-products-list.html"> <i class="fa fa-calendar-check-o" aria-hidden="true" style="font-size:20px"></i>
                         <span class="text">Manage Projects</span>
                     </a>
                     <div class="submenu">
@@ -49,18 +50,23 @@
                     </div>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="/admin"> <i class="icon material-icons md-add_box"></i>
+                    <a class="menu-link" href="/admin"> <i class="fa fa-lock" aria-hidden="true" style="font-size:20px"></i>
                         <span class="text">Admin</span>
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="/admincontact"> <i class="icon material-icons md-add_box"></i>
+                    <a class="menu-link" href="/admincontact"><i class="fa fa-phone-square" aria-hidden="true" style="font-size:20px"></i>
                         <span class="text">Contacts</span>
                     </a>
                 </li>
                 <li class="menu-item">
-                    <a class="menu-link" href="/getLead"> <i class="icon material-icons md-add_box"></i>
+                    <a class="menu-link" href="/getLead"> <i class="fa fa-bullhorn" aria-hidden="true" style="font-size:20px"></i>
                         <span class="text">Leads</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="/getnewsletter"> <i class="fa fa-newspaper-o" aria-hidden="true" style="font-size:20px"></i>
+                        <span class="text">Newsletters</span>
                     </a>
                 </li>
             </ul>

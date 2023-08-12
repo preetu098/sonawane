@@ -9,6 +9,7 @@ use App\Http\Controllers\ConstructionController;
 use App\Http\Controllers\IndexPageController;
 use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\LeadController;
+use App\Http\Controllers\NewsletterController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -123,3 +124,9 @@ Route::post('/addLead',[LeadController::class,'addLead']);
 Route::get('/getLead',[DashboardContoller::class,'getLead']);
 
 Route::get('/deleteConstruction/{id}',[DashboardContoller::class,'deleteConstruction']);
+
+// newsletter
+Route::post('/newsletter',[NewsletterController::class,'addNewsLetter']);
+Route::get('/getnewsletter',[NewsletterController::class,'getNewsletters']);
+
+//end newsletter
