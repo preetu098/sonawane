@@ -60,88 +60,134 @@
         }
     }
 </style>
-       
-<div class="container-xxl py-5 mt-5" >
+   
+<style>
+    .hoverEffect
+{
+    color:rgb(14,46,80)!important;
+}
+.hoverEffect:hover 
+{
+    color:white!important;
+    background-color:rgb(14,46,80)!important;
+}
+    .w-100 {
+    width: 100%!important;
+}
+ #mobile{
+        display:none;
+    }
+    @media screen and (max-width:1000px)
+    {
+        #mobile{
+        display:block!important;
+    }
+    #desktop
+    {
+        display:none!important;
+    }
+    }
+    .mobileongoing
+    {
+        display:none!important;
+    }
+    .desktopongoing 
+    {
+        height:300px!important;
+        width:100%!important;
+    }
+   
+    @media screen and (max-width:1000px)
+    {
+        .desktopongoing 
+    {
+       display:none!important;
+    }
+    .mobileongoing
+    {
+        display:block!important;
+        height:200px!important;
+        width:100%!important;
+    }
+    .img 
+    {
+        width:100%!important;
+    }
+    }
+    .testimonial-carousel .owl-nav .owl-prev, .testimonial-carousel .owl-nav .owl-next {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: rgb(36,50,74);
+    border-radius: 40px;
+    font-size: 20px;
+    transition: .5s;
+}
+</style>
+
+    
+ <div class="container-xxl py-5">
             <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="">
-                    <h1 class="mb-3">ONGOING PROJECTS</h1>
-                   
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="mb-3">OUR ONGOING PROJECT</h1>
+                    <p>Embark on a Journey of Excellence</p>
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <!-- <a href="/goldclass"> -->
-                    <div class="testimonial-item bg-light rounded p-3">
+                    <div class="testimonial-item bg-light rounded">
+                        <a href="/hifi">
                         <div class="bg-white border rounded p-4">
-                        <div class="d-flex align-items-center">
-                        <a href="/goldclass">
-                               <div class="ps-3 mt-5">
-                                <img src="img/smart.jpg" class="img-fluid image"  alt="" >
-                                   <h6 class="fw-bold mb-1 mt-3">SmartCode Gold Class</h6>
-                                 <p>1 & 2 BHK Homes in Kalyan East</p>
-                               </div>
-</a>
-                           </div>
-                          
-                            
-                        </div>
-</a>
-                    </div>
-                    <div class="testimonial-item bg-light rounded p-3">
-                        <!-- <a href="/krishna"> -->
-                    <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                            
+                            <img src="banner/hifi.jpg" class="mobileongoing" alt="">
+                            <img src="banner/hifi.jpg" class="desktopongoing" alt="">
                             <div class="d-flex align-items-center">
-                            <a href="/krishna">
-                            <div class="ps-3 mt-5">
-                                <img src="img/krishna.jpg" class="img-fluid image" alt="">
-                                   <h6 class="fw-bold mb-1 mt-3">Krishna Ultima</h6>
-                                 <p>1 & 2 BHK Homes In Kalyan East</p>
-                               </div>
-</a>
+                               
+                                <div class="ps-3 mt-1">
+                                    <h6 class="fw-bold mb-1">Smart Code Hifi Living</h6>
+                                    <small>1 & 2 BHK Smart Homes In Dombivali</small>
+                                </div>
                             </div>
                         </div>
 </a>
                     </div>
-                    <div class="testimonial-item bg-light rounded p-3">
-                        <!-- <a href="/hifi"> -->
+                    <div class="testimonial-item bg-light rounded ">
+                    <a href="/krishna">
                     <div class="bg-white border rounded p-4">
                             <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                          
+                            <img src="banner/krishna.jpg" alt="" class="mobileongoing">
+                            <img src="banner/krishna.jpg" alt="" class="desktopongoing">
                             <div class="d-flex align-items-center">
-                            <a href="/hifi"> 
-                            <div class="ps-3 mt-5">
-                                <img src="img/hifi.jpg" class="img-fluid image" alt="">
-                                   <h6 class="fw-bold mb-1 mt-3">SmartCode Hi-Fi Living</h6>
-                                 <p>1 & 2 BHK Smart Homes In Dombivali NXT!</p>
-                               </div>
-</a>
+                               
+                                <div class="ps-3 mt-1">
+                                    <h6 class="fw-bold mb-1">Krishna Ultima</h6>
+                                    <small>1 & 2 BHK Homes In Kalyan East</small>
+                                </div>
                             </div>
                         </div>
-                       
+</a>
                     </div>
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    <div class="testimonial-item bg-light rounded ">
+                    <a href="/goldclass">
+                    <div class="bg-white border rounded p-4">
+                            <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
+                           
+                            <img src="banner/smartcode.jpg" alt="" class="mobileongoing">
+                            <img src="banner/smartcode.jpg" alt="" class="desktopongoing">
+                            <div class="d-flex align-items-center">
+                               
+                                <div class="ps-3 mt-1">
+                                    <h6 class="fw-bold mb-1">SmartCode Gold Class</h6>
+                                    <small>1 & 2 BHK Homes In Kalyan East</small>
+                                </div>
+                            </div>
+                        </div>
+</a>
+                    </div>
+                </div>
             </div>
         </div>
- 
-</div>
 </div>
 @include('client.footer')

@@ -22,7 +22,7 @@
                     
                                    </div> -->
                 <div class="col-md-12 animated fadeIn">
-                    <div class="owl-carousel header-carousel">
+                    <div class="">
                        <div class="container">
                            <div class="row">
                             <div class="col-lg-6">
@@ -173,7 +173,7 @@
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 
-                                <img class="img-fluid rounded w-100" src="img/girl.png" alt="">
+                                <img class="img-fluid rounded w-100" style="" src="banner/Sonawane Circle of trust (400 x 400) (2).png" alt="">
                                
                                
                             </div>

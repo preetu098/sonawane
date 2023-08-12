@@ -9,7 +9,7 @@
                     </nav>
                 </div>
                 <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="http://sonawanegroup.com/uploads/custom-images/property-thumb-2023-06-25-12-08-59-9451.jpg" alt="">
+                    <img class="img-fluid" src="banner/b1.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -36,7 +36,7 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s" >
                         <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="http://sonawanegroup.com/uploads/custom-images/property-thumb-2023-06-25-12-11-08-9670.jpg">
+                            <img class="img-fluid w-100" src="banner/Our Commitment to Excellence and Customer Satisfaction.webp" style="width:486pc;height:273 px">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -59,7 +59,7 @@
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                                <img class="img-fluid rounded w-100" src="http://sonawanegroup.com/uploads/custom-images/property-thumb-2023-06-20-03-45-27-2087.jpg" alt="">
+                                <img class="img-fluid rounded w-100" src="banner/Empowering Communities through Corporate Social Responsibility.webp" style="width:486px; width:273px" alt="">
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
@@ -83,7 +83,7 @@
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
                         <div class="row g-5 align-items-center">
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                                <img class="img-fluid rounded w-100" src="https://freepngimg.com/thumb/vision/6-2-vision-png-image.png" alt="">
+                                <img class="img-fluid rounded w-100" src="banner/6-2-vision-png-image.png" style="width:571px;height:286px" alt="">
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 <div class="mb-4">
@@ -113,7 +113,7 @@
                             </div>
                             <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                                 
-                                <img class="img-fluid rounded w-100" src="https://www.aiimsdeoghar.edu.in/Content/resources/images/mission.png" alt="">
+                                <img class="img-fluid rounded w-100" src="banner/mission.png" style="width:571p×;292 px" alt="">
                             </div>
                         </div>
                     </div>
@@ -126,11 +126,11 @@
     {
         height:500px!important;
     }
-    @media screen and (max-width:1000px)
+    @media screen and (max-width:1471px)
     {
         .demo
     {
-        font-size:15px!important;
+        font-size:12px!important;
         height:490px!important;
     }
     }
@@ -326,6 +326,26 @@
 RMC Plant: Our state-of-the-art Ready Mix Concrete (RMC) plant ensures the supply of high-quality concrete for construction projects.
 Infrastructure: We undertake infrastructure projects, including roads, bridges, and utilities, with a focus on quality and timely execution.
 Restaurant: Experience culinary excellence at our restaurant, where we offer a delightful range of cuisines to tantalize your taste buds.</p>
+                                  
+                               </div>
+                           </div>
+                          
+                            
+                        </div>
+                    </div>
+                        </div>
+                        
+                          <div class="col-lg-4">
+                        <div class="testimonial-item bg-light rounded p-3 cardAnimate">
+                        <div class="bg-white border rounded p-4 demo">
+                            <div class="d-flex align-items-center">
+                               
+                               <div class="ps-3 mt-5">
+                                   <h6 class="fw-bold mb-1 text-center">Innovative Design and Architecture</h6>
+                                   <center>
+                                    <i class="fa fa-paint-brush" aria-hidden="true" style="font-size:50px"></i>
+                                   </center>
+                                  <p>At Sonawane Group, we take immense pride in our innovative approach to design and architecture. Our team of skilled architects and designers consistently strive to create unique and aesthetically pleasing living spaces. From contemporary designs to functional layouts, we ensure that each project reflects our commitment to delivering homes that not only meet modern living standards but also stand as architectural landmarks. Our focus on innovation extends beyond construction, enriching the lifestyle of our residents and adding value to the communities we build.</p>
                                   
                                </div>
                            </div>

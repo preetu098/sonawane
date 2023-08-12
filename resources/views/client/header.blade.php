@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>Modern Theme</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
+     <link rel="icon" href="assets/hifi/images/favicon.png" type="image/png" sizes="16x16">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -42,26 +43,52 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
 
 <body>
     <style>
+img {
+    max-width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    img {
+        max-width: 100%;
+    }
+}
+        p 
+        {
+            color:rgb(14,46,80)!important;
+        }
+        small 
+        {
+            color:rgb(14,46,80)!important;
+        }
          .logomobile
             {
-                height:120px!important;
-                width:250px!important;
+                
+                height:149px!important;
+                width:200px!important;
                 margin-left:-70px;
+            }
+            #enquiry
+            {
+                display:none!important;
             }
         @media screen and (max-width:1000px)
         {
+            #enquiry
+            {
+                display:block!important;
+            }
             #t1 
             {
                 display:none!important;
             }
             #phone
             {
-                width:160px!important;
+                width:125px!important;
                 font-size:12px;
             }
             #mail
             {
-                width:200px!important;
+                width:290px!important;
                 font-size:12px;
             }
             #mobilesocial
@@ -71,11 +98,11 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
             }
             .logomobile
             {
-                height:120px!important;
+                height:149px!important;
                 width:200px!important;
                 margin-left:-70px;
             }
-           
+  
         }
      .navClass:hover 
      {
@@ -92,13 +119,21 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
                 
             </div>
             <div class="col-3" id="mail">
-            <p class="text-white mt-2 mb-2"><a href="mailto: care@sonawanegroup.com" style="color:white!important"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@sonawanegroup.com</a></p>
+            <p class="text-white mt-2 mb-2"><a href="mailto: care@sonawanegroup.com" style="color:white!important"><i class="fa fa-envelope-o" aria-hidden="true"></i> care@sonawanegroup.com</a>
+            
+            
+            </p>
+            
+                
+            
+            
             </div>
-            <div class="col-5" id="t1"></div>
-            <div class="col-2" id="t1" id="mobilesocial">
-            <p  class="text-white mt-1 mb-1 " >Inquiry | &nbsp&nbsp&nbsp<a style="color:white!important" href="https://www.facebook.com/sonawanegroup"><i style="font-size:20px" class="fa fa-facebook-square" aria-hidden="true"></i></a> | <a style="color:white!important" href="https://www.instagram.com/sonawaneofficial/"><i style="font-size:20px" class="fa fa-instagram mt-1" aria-hidden="true"></i></a> | <a style="color:white!important" href="https://www.linkedin.com/company/sonawane"><i style="font-size:20px" class="fa fa-linkedin-square" aria-hidden="true"></i></a> </p>
+            <div class="col-4" id="t1"></div>
+            <div class="col-3" id="t1" id="mobilesocial">
+            <p  class="text-white mt-1 mb-1 " ><button id="popup" class="btn btn-link text-white">Enquire</button> | &nbsp&nbsp&nbsp<a style="color:white!important" href="https://www.facebook.com/sonawanegroup"><i style="font-size:20px" class="fa fa-facebook-square" aria-hidden="true"></i></a> &nbsp <a style="color:white!important" href="https://www.instagram.com/sonawaneofficial/"><i style="font-size:20px" class="fa fa-instagram mt-1" aria-hidden="true"></i></a> &nbsp&nbsp <a style="color:white!important" href="https://www.linkedin.com/company/sonawane"><i style="font-size:20px" class="fa fa-linkedin-square" aria-hidden="true"></i></a> </p>
             </div>
            </div>
+         
            </div>
         </div>
     <div class="container-xxl bg-white p-0">
@@ -157,5 +192,106 @@ background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, F
                 </div>
             </nav>
 </div>
+
+
         <!-- Navbar End -->
+
+<div class="modal fade" style="margin-top:180px!important;" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style="background-color:rgb(36,50,74)!important">
+      <div class="modal-header justify-content-center" style="border:0px !important">
+          <div class="container">
+                 <div class="row">
+          <div class="col-12">
+              <h6 class="modal-title text-center" id="exampleModalLabel" style="color:white!important;place-content:center!important"><center>Enquire Now</center></h6>
+              
+          </div>
+          </div>
+          <!--<style>-->
+          <!--    .modaltask-->
+          <!--    {-->
+          <!--        padding-left:10px!important;-->
+          <!--    }-->
+          <!--</style>-->
+          <!--<div class="col-2 modaltask">-->
+              
+              
+          <!--</div>/-->
+          
+          
+        
+ 
+       
+        </div>
+        <button type="button" style="" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body" style="border:0px !important;background-color:white!important">
+       <p class="text-success" style="font-size:13px">Please Enter Your Information</p>
+        <form action="/addLead" method="post"  name="form">
+            @csrf
+            <!-- input fields -->
+            <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" class="form-control" name="username" placeholder="Full Name" aria-label="FullName" aria-describedby="basic-addon1" required>
+            </div>
+
+
+            <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <input type="number" required class="form-control" name="phone" placeholder="Mobile" aria-label="Phone" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <input type="email" required class="form-control" name="email" placeholder="Email" aria-label="Phone" aria-describedby="basic-addon1">
+            </div>
+
+          
+            <input type="hidden" class="form-control" name="url" value="http://127.0.0.1:8000/" placeholder="URL" aria-label="Phone" aria-describedby="basic-addon1">
+            
+
+
+          
+        
+            <input type="hidden" class="form-control" placeholder="Remarks" aria-label="Phone" aria-describedby="basic-addon1" name="remark" value="remark by operator">
+            
+
+           
+
+           
+            <input type="hidden" class="form-control" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1" name="utm_medium" value="by operator">
+            
+
+           
+          
+            <input type="hidden" class="form-control" name="utm_source" value="by operator" placeholder="UTM Medium" aria-label="Phone" aria-describedby="basic-addon1">
+            
+           
+            <input type="hidden" class="form-control" placeholder="Lead Identifier" aria-label="Phone" aria-describedby="basic-addon1" name="lead" value="by operator">
+           
+           
+
+      </div>
+      <div class="modal-footer" style="border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:0px !important;background-color:white!important" >
+      <!-- <button onclick="saveRecord()" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)">Save</button> -->
+      <input type="submit" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)"/>
+      </div>
+            </form>
+    </div>
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        setTimeout(() => {
+        $("#exampleModal1").modal('show')
+       
+    }, 5000);
+    })
+    
+    $("#popup").click(function(){
+ $("#exampleModal1").modal('show')
+    })
+  
+</script>
 
