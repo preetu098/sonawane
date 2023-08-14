@@ -239,7 +239,7 @@
                         {{session('success')}}
                    </div>
                    @endif
-                                    <form action="/careerAdd" method="post">
+                                    <form action="/careerAdd" method="post" enctype="multipart/form-data">
                                         @csrf
                                         <div class="row">
                                             <div class="col-lg-12 mt-1">

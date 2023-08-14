@@ -7,6 +7,8 @@ use App\Models\ContactModel;
 use App\Models\ReferalModel;
 use App\Models\CareerModel;
 use Illuminate\Support\Facades\Validator;
+use DB;
+
 class ContactFormController extends Controller
 {
     public function addContact(Request $request)
@@ -38,16 +40,17 @@ class ContactFormController extends Controller
     }
     public function careerAdd(Request $request)
     {
-     
+
            
                 $co=new CareerModel;
                 $co->name=$request->name;
                 $co->email=$request->email;
                 $co->phone=$request->phone;
                 $co->career=$request->career;
+                
                 $fileName = time().'_'.$request->file->getClientOriginalName();
-                $filePath = $request->file('file')->storeAs('construction', $fileName, 'public');
-                $cp->file=  $filePath;
+                $filePath = $request->file('file')->storeAs('careers', $fileName, 'public');
+                $co->file=  $filePath;
 
                 $co->file= $filePath;
                 $co->save();
@@ -55,5 +58,10 @@ class ContactFormController extends Controller
             
           
         
+    }
+    public function getCareers()
+    {
+        $data= DB::select("select * from careers order by id desc");
+        return view('admin/careers',["data"=>$data]);
     }
 }

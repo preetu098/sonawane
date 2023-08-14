@@ -69,6 +69,12 @@
                         <span class="text">Newsletters</span>
                     </a>
                 </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="/careersReport"> <i class="fa fa-file" aria-hidden="true" style="font-size:20px"></i>
+                        <span class="text">Careers</span>
+                    </a>
+                </li>
+              
             </ul>
             <br>
             <br>

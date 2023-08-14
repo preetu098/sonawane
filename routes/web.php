@@ -130,3 +130,5 @@ Route::post('/newsletter',[NewsletterController::class,'addNewsLetter']);
 Route::get('/getnewsletter',[NewsletterController::class,'getNewsletters']);
 
 //end newsletter
+
+Route::get('/careersReport',[ContactFormController::class,'getCareers']);
