@@ -8,11 +8,26 @@ use App\Models\ReferalModel;
 use App\Models\CareerModel;
 use Illuminate\Support\Facades\Validator;
 use DB;
-
+use Mail;
+use Illuminate\Mail\Mailable;
 class ContactFormController extends Controller
 {
     public function addContact(Request $request)
-    {
+    {  try {
+        $mailable = new Mailable();
+        $mailable
+        ->from('preetu098@gmail.com')
+        ->to('preetu098@gmail.com')
+        ->subject('helllllllllllllllllllllo')
+        ->html('helllllo helooooooooo');
+
+         $result = Mail::send($mailable);
+                }
+                catch(\Symfony\Component\Mailer\Exception\TransportException $exception)
+                {
+                    echo "process fail";
+                }
+
             $contact=new ContactModel;
             $contact->name=$request->name;
             $contact->email=$request->email;
