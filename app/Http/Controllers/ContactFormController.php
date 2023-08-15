@@ -9,7 +9,6 @@ use App\Models\CareerModel;
 use Illuminate\Support\Facades\Validator;
 use DB;
 use Mail;
-use Illuminate\Mail\Mailable;
 class ContactFormController extends Controller
 {
     public function addContact(Request $request)

@@ -1369,7 +1369,7 @@ ol, ul {
        
 <div class="container" style="margin-top: 10px;">
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs mt-3 mb-3">
+    <ul class="nav nav-tabs mt-3 mb-3" style="justify-content:center!important">
       <li class="nav-item">
         <a class="nav-link active btn" style="background-color:rgb(14,46,80)!important;color:white!important" data-bs-toggle="tab" href="#msg">Elevation</a>
       </li>
@@ -1542,7 +1542,7 @@ ol, ul {
        
 <div class="container" style="margin-top: 10px;">
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs mt-3 mb-3">
+    <ul class="nav nav-tabs mt-3 mb-3" style="justify-content:center!important">
       <li class="nav-item">
         <a class="nav-link active btn" style="background-color:rgb(14,46,80)!important;color:white!important" data-bs-toggle="tab" href="#msg1">Floor Plan</a>
       </li>
@@ -1741,4 +1741,33 @@ ol, ul {
 
 
 </div>
+
+<div class="container-fluid bg-dark text-white-50 footer  wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-12 col-md-6 text-center">
+                        <img src="logopages/hifi.png" height="150" width="150" alt="">
+                        <p class="text-white">For any inquiries, questions, or to register your interest, please contact us using the details below</p>
+<p class="text-white">
+HiFi Living Sales Lounge, Ayre Gaon Road, Dombivli East, Dombivli, Maharashtra - 421201.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            © <a href="#" style="text-decoration:none!important"> </a><a href="" style="text-decoration:none!important">Copyright 2023, Sonawane Group .All Rights Reserved.</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu">
+                              
+                                <a href="/faq">FaQs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 @include('client.footer')

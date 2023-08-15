@@ -9,7 +9,7 @@
                     </nav>
                 </div>
                 <div class="col-md-6 animated fadeIn">
-                    <img class="img-fluid" src="banner/b1.jpg" alt="">
+                    <img class="img-fluid" src="banner/About Us  Hero Banner (1).jpg" alt="">
                 </div>
             </div>
         </div>

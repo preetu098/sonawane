@@ -5,6 +5,54 @@
 {
     color:rgb(14,46,80)!important;
 }
+.wsus__section_heading h2 {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+}
+.wsus__section_heading span {
+    color: #0A547A;
+}
+.w-100 {
+    width: 100%!important;
+}
+.wsus__single_team_img .team_link {
+    background: #f1b70570 !important;
+}
+.wsus__single_team_img .team_link {
+    background: #0A547A61;
+    position: absolute;
+    top: 0;
+    right: -60px;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s ease;
+    -moz-transition: all linear .3s ease;
+    -ms-transition: all linear .3s ease;
+    -o-transition: all linear .3s ease;
+}
+.wsus__single_team {
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 8px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 25px;
+    border: 1px solid #eee;
+}.wsus__single_team_img {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    display: block;
+}
 .hoverEffect:hover 
 {
     color:white!important;
@@ -235,6 +283,88 @@
             </div>
         </div>
       
+        <section class="wsus__team_area mt-5 xs_mt_70 pb-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="wsus__section_heading text-center mb_15">
+          <h2>Meet The Visionaries Behind Sonawane Group </h2>
+          <span>Leadership that Drives Excellence &amp; Innovation</span>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="place-content: center;">
+             <div class="col-xl-3 col-sm-6 col-lg-4">
+        <div class="wsus__single_team">
+          <div class="wsus__single_team_img">
+            <img src="logopages/meet1.jpg" alt="team images" class="imf-fluid w-100">
+            <ul class="team_link">
+              
+              
+              
+                          </ul>
+          </div>
+          <h4>Mr. Sonawane</h4>
+          <p>Founder</p>
+        </div>
+    </div>
+               <div class="col-xl-3 col-sm-6 col-lg-4">
+        <div class="wsus__single_team">
+          <div class="wsus__single_team_img">
+            <img src="logopages/meet2.jpg" alt="team images" class="imf-fluid w-100">
+            <ul class="team_link">
+              
+              
+                            <li><a href="https://www.instagram.com/amit.sonawane2227/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+              
+                          </ul>
+          </div>
+          <h4>Amit Sonawane</h4>
+          <p>Director</p>
+        </div>
+    </div>
+               <div class="col-xl-3 col-sm-6 col-lg-4">
+        <div class="wsus__single_team">
+          <div class="wsus__single_team_img">
+            <img src="banner/WhatsApp Image 2023-08-14 at 2.46.20 PM.jpeg" alt="team images" class="imf-fluid w-100">
+            <ul class="team_link">
+                            <li><a href="https://www.linkedin.com/in/ashish-sonawane-87a8701a9/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+              
+                            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+              
+                            <li><a href="https://www.twitter.com/"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+              
+                            <li><a href="https://www.instagram.com/sonawaneashish_2227/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                          </ul>
+          </div>
+          <h4>Ashish Sonawane</h4>
+          <p>CEO - Director</p>
+        </div>
+    </div>
+                                                                                                                        </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- Team Start -->
         <div class="container-xxl py-5">
             <div class="container">
@@ -247,7 +377,7 @@
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                            <img  class="img-fluid mobileongoing w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg"  alt="">
+                            <img  class="img-fluid mobileongoing w-100" src=""  alt="">
                                 <img  class="img-fluid desktopongoing w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg"  alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <!-- <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
@@ -288,8 +418,8 @@
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid mobileongoing img w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg"  alt="">
-                                <img class="img-fluid desktopongoing w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2021-10-07-08-39-11-6641.jpg"  alt="">
+                                <img class="img-fluid mobileongoing img w-100" src="banner/WhatsApp Image 2023-08-14 at 2.46.20 PM.jpeg"  alt="">
+                                <img class="img-fluid desktopongoing w-100" src="banner/WhatsApp Image 2023-08-14 at 2.46.20 PM.jpeg"  alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <a class="btn btn-square mx-1 hoverEffect" href="https://www.facebook.com/"><i class="fab fa-facebook-f" ></i></a>
                                     <a class="btn btn-square mx-1 hoverEffect"  href="https://twitter.com/"><i class="fab fa-twitter" ></i></a>

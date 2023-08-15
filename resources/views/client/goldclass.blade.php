@@ -1360,7 +1360,7 @@ ol, ul {
        
 <div class="container" style="margin-top: 10px;">
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs mt-3 mb-3">
+    <ul class="nav nav-tabs mt-3 mb-3" style="justify-content:center!important">
       <li class="nav-item">
         <a class="nav-link active btn" style="background-color:rgb(14,46,80)!important;color:white!important" data-bs-toggle="tab" href="#msg">Exterior</a>
       </li>

@@ -83,12 +83,12 @@ img {
             }
             #phone
             {
-                width:125px!important;
+                width:123px!important;
                 font-size:12px;
             }
             #mail
             {
-                width:290px!important;
+                width:210px!important;
                 font-size:12px;
             }
             #mobilesocial
@@ -162,7 +162,7 @@ img {
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto">
                         <a href="/" class="nav-item nav-link navClass" >Home</a>
-                        <a href="/about" class="nav-item nav-link navClass">AboutUs</a>
+                        <a href="/about" class="nav-item nav-link navClass">About Us</a>
 
                         <a href="/careers" class="nav-item nav-link navClass">Careers</a>
 
