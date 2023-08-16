@@ -1388,35 +1388,35 @@ ol, ul {
     <div class="tab-content">
       <div class="tab-pane container active" id="msg">
         <div class="row">
-            <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb">
-                                    <img src="assets/krishna/hifiimages/hifi1.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hifi1.jpg" class="l-box">
+            <div class="col-md-4 pd0" >
+                 <div class="amenities-gallery mg-mb" onclick="popup()">
+                                    <img src="assets/krishna/hifiimages/hifi1.jpg" >
+                                    
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                     
                                 </div>
            
             </div>
             <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb">
+                 <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/hifi2.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hifi2.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                    
                                 </div>
            
             </div>
             <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb">
+                 <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/hifi3.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hifi3.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                   
                                    
                                 </div>
            
@@ -1427,32 +1427,31 @@ ol, ul {
       <div class="tab-pane container fade" id="pro">
           <div class="row">
              <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/hinter1.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hinter1.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
                                     
                                 </div>
                             </div>
              <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/hinter2.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hinter2.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                   
                                    
                                 </div>
                             </div>
              <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/hiame1.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hiame1.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                      <div class="title03">Master Bedroom</div>
                                 </div>
                             </div>
@@ -1461,52 +1460,49 @@ ol, ul {
       <div class="tab-pane container fade" id="set">
            <div class="row">
              <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/hiame2.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hiame2.jpg" class="l-box">
+                                    
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
-                                  
-                                </div>
-                            </div>
-             <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
-                                    <img src="assets/krishna/hifiimages/hiame3.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hiame3.jpg" class="l-box">
-                                        <div class="ami-overlay">
-                                        </div>
-                                    </a>
                                     
                                 </div>
                             </div>
+             <div class="col-md-4 pd0">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
+                                    <img src="assets/krishna/hifiimages/hiame3.jpg">
+                                    
+                                        <div class="ami-overlay">
+                                        </div>
+                                  
+                                </div>
+                            </div>
                                  <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/hiame4.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hiame4.jpg" class="l-box">
+                                    
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                    
                                 </div>
                             </div>
                              <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()"> 
                                     <img src="assets/krishna/hifiimages/hiame5.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hiame5.jpg" class="l-box">
+                                  
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
                                    
                                 </div>
                             </div>
                              <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/hiame6.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hiame6.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                   
                                    
                                 </div>
                             </div>
@@ -1514,12 +1510,12 @@ ol, ul {
       </div>
       <div class="tab-pane container fade" id="set1">
            <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/hifiview1.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/hifiview1.jpg" class="l-box">
+                                    
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                   
                                 </div>
                             </div>
@@ -1557,68 +1553,67 @@ ol, ul {
       <div class="tab-pane container active" id="msg1">
         <div class="row">
             <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb floor blur">
+                 <div class="amenities-gallery mg-mb floor blur" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/tab/hififloor1.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/tab/hififloor1.jpg" class="l-box" target="_blank">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                    
                                 </div>
            
             </div>
             <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb floor blur">
+                 <div class="amenities-gallery mg-mb floor blur" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/tab/hififloor2.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/tab/hififloor2.jpg" class="l-box" target="_blank">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                   
                                     
                                 </div>
            
             </div>
             
             <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb floor blur">
+                 <div class="amenities-gallery mg-mb floor blur" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/tab/hififloor3.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/tab/hififloor4.jpg" class="l-box" target="_blank">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                    
                                 </div>
            
             </div>
             <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb floor blur">
+                 <div class="amenities-gallery mg-mb floor blur" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/tab/hififloor4.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/tab/hififloor4.jpg" class="l-box" target="_blank">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
-                                   
+                                    
                                 </div>
            
             </div>
              <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb floor blur">
+                 <div class="amenities-gallery mg-mb floor blur" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/tab/hififloor5.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/tab/hififloor5.jpg" class="l-box" target="_blank">
+                                    
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                  
                                   
                                 </div>
            
             </div>
              <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb floor blur">
+                 <div class="amenities-gallery mg-mb floor blur" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/tab/hififloor6.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/tab/hififloor6.jpg" class="l-box" target="_blank">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                  
                                     
                                 </div>
            
@@ -1629,22 +1624,22 @@ ol, ul {
       <div class="tab-pane container fade" id="pro1">
           <div class="row">
              <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb floor blur">
+                                <div class="amenities-gallery mg-mb floor blur" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/tab/hififloor1tab2.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/tab/hififloor1tab2.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                      <div class="title03">Grand Entrance Lobby</div>
                                 </div>
                             </div>
              <div class="col-md-4 pd0">
-                                 <div class="amenities-gallery mg-mb floor blur">
+                                 <div class="amenities-gallery mg-mb floor blur" onclick="popup()">
                                     <img src="assets/krishna/images/gallery/floorplan/8.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/images/gallery/floorplan/8.jpg" class="l-box">
+                                  
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                   
                                      <div class="title03">Grand Entrance Lobby</div>
                                 </div>
                             </div>
@@ -1668,9 +1663,9 @@ ol, ul {
                     <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d737.1046269283377!2d73.08170983309886!3d19.208467218039715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7bfabfbadcd53%3A0x654ef9e0a5fe01d8!2sGold%20Crest%20project%20Sonawane!5e1!3m2!1sen!2sin!4v1684736126852!5m2!1sen!2sin"  height="450" style="border:0;" width="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" style=";border-radius:5px;box-shadow: 0 0 0 1px rgba(53,72,91,.07), 0 2px 2px rgba(0,0,0,.01), 0 4px 4px rgba(0,0,0,.02), 0 10px 8px rgba(0,0,0,.03), 0 15px 15px rgba(0,0,0,.03), 0 30px 30px rgba(0,0,0,.04), 0 70px 65px rgba(0,0,0,.05);" >
                         <div class="wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                           
+                        <h2 class="mt-3 text-center">Get in touch with us</h2>
                             <form action="/contactsave" method="post">
                                 <input type="hidden" name="_token" value="3yuqHRJZGvaIaChACuQ7YGFVAXK7sl8Pfxd24hgM">                                <div class="row g-3">
                                     <div class="col-md-6">
@@ -1751,7 +1746,7 @@ ol, ul {
 <p class="text-white">
 HiFi Living Sales Lounge, Ayre Gaon Road, Dombivli East, Dombivli, Maharashtra - 421201.</p>
 
-<img src="qrcode/qrcode.jpeg" " height="150" width="150" alt="">
+<img src="qrcode/hifiqrcode.jpeg" height="150" width="150" alt="">
 <p class="text-white  mt-3"><i class="fas fa-building" aria-hidden="true"></i>MahaRERA Registration No: P51700031489 | The project name is Gold Crest (Marketed as HiFi Living).</p>
 <p class="text-white">For more details visit the website: https://maharera.mahaonline.gov.in</p>
 

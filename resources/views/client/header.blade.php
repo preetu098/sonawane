@@ -273,8 +273,8 @@ img {
            
 
       </div>
-      <div class="modal-footer" style="border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:0px !important;background-color:white!important" >
-      <!-- <button onclick="saveRecord()" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)">Save</button> -->
+      <div class="modal-footer" style="border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:0px !important;place-content:center;background-color:white!important;margin-top:-10px!important" >
+    
       <input type="submit" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)"/>
       </div>
             </form>
@@ -293,6 +293,12 @@ img {
     $("#popup").click(function(){
  $("#exampleModal1").modal('show')
     })
+
+
+    function popup()
+    {
+        $("#exampleModal1").modal('show')
+    }
   
 </script>
 

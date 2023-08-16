@@ -10,6 +10,7 @@ use App\Http\Controllers\IndexPageController;
 use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\LeadController;
 use App\Http\Controllers\NewsletterController;
+use App\Http\Controllers\JobController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,9 +32,7 @@ Route::get('/about',function(){
     return view('client/about');
 });
 
-Route::get('/careers',function(){
-    return view('client/carrers');
-});
+Route::get('/careers',[JobController::class,'getRecord']);
 
 Route::get('/partner',function(){
     return view('client/partner');
@@ -137,3 +136,20 @@ Route::get('/getnewsletter',[NewsletterController::class,'getNewsletters']);
 //end newsletter
 
 Route::get('/careersReport',[ContactFormController::class,'getCareers']);
+
+
+Route::get('/job',function(){
+    return view('admin/job');
+});
+
+Route::post('/jobAdd',[JobController::class,'addModel']);
+
+
+Route::get('/showJobs',[JobController::class,'showJobs']);
+
+Route::get('/deleteJob/{id}',[JobController::class,'deleteJob']);
+
+Route::get('/editjob/{id}',[JobController::class,'editjob']);
+
+
+Route::post('/editJobData',[JobController::class,'editjobData']);

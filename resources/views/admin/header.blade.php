@@ -23,7 +23,7 @@
     <aside class="navbar-aside" id="offcanvas_aside">
         <div class="aside-top">
             <a href="index.html" class="brand-wrap">
-                <img src="https://seeklogo.com/images/H/house-building-logo-E7BBA84AFA-seeklogo.com.png" class="logo" alt="Evara Dashboard">
+                <img src="logo/logo.png" class="logo" alt="Evara Dashboard">
             </a>
             <div>
                 <button class="btn btn-icon btn-aside-minimize"> <i class="text-muted material-icons md-menu_open"></i> </button>
@@ -74,7 +74,17 @@
                         <span class="text">Careers</span>
                     </a>
                 </li>
-              
+
+                <li class="menu-item">
+                    <a class="menu-link" href="/job"> <i class="fa fa-file" aria-hidden="true" style="font-size:20px"></i>
+                        <span class="text">Jobs</span>
+                    </a>
+                </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="/showJobs"> <i class="fa fa-file" aria-hidden="true" style="font-size:20px"></i>
+                        <span class="text">Show Jobs</span>
+                    </a>
+                </li>
             </ul>
             <br>
             <br>

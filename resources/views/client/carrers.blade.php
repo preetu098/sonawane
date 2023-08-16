@@ -117,93 +117,32 @@
                   
                 </div>
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    @foreach($record as $r)
                     <div class="testimonial-item bg-light rounded p-3 test">
                         <div class="bg-white border rounded p-4 " style="height:350px">
                         <div class="d-flex align-items-center">
                                
                                <div class="ps-3">
-                                   <h6 class="fw-bold mb-1">SALES EXECUTIVE(Residential) - OPENING (2)</h6>
-                                  <p>Experience : 2- 3 years</p>
-                                  <p>Education: Graduate / undergraduate</p>
-                                  <p>Employement type: permanent / fulltime Key</p>
-                                  <p>Skills: Customer handling, lead management, CRM, direct sales, partner sales</p>
+                                   <h6 class="fw-bold mb-1">{{$r->job}}</h6>
+                                  <p>Experience : {{$r->exp}}</p>
+                                  <p>Education: {{$r->education}}</p>
+                                  <p>Employement type: {{$r->emplo}}</p>
+                                  <p>Skills: {{$r->emplo}}</p>
                                </div>
                            </div>
                           
                             
                         </div>
                     </div>
-                    <div class="testimonial-item bg-light rounded p-3 test">
-                    <div class="bg-white border rounded p-4 "style="height:350px">
-                            <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                            
-                            <div class="d-flex align-items-center">
-                               
-                                <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">PRE-SALES / TELE-CALLING - OPENING (1)</h6>
-                                  <p>Experience : 1-3 years in telesales / freshers</p>
-                                  <p>Education: Graduate / undergraduate</p>
-                                  <p>Employement type: permanent / fulltime Key</p>
-                                  <p>Skills:communication, customer sourcing, customer sourcing , objection handling technique , conviction power.</p>
-                                </div>
-                            </div>
-                        </div>
+                        
+                    @endforeach
                     </div>
-                    <div class="testimonial-item bg-light rounded p-3 test">
-                    <div class="bg-white border rounded p-4 " style="height:350px">
-                            <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                          
-                            <div class="d-flex align-items-center">
-                               
-                                <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">MARKETING EXECUTIVE - OPENING (2)</h6>
-                                 <p>Experience : 2-3 years in lead generation</p>
-                                 <p>Education: Graduate / undergraduate</p>
-                                 <p>Employement type: permanent / fulltime Key</p>
-                                 <p>Skills:Digital marketing, SEO, social media tool, off-page / on-page strategies</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    </div> 
+</div>    
+
                 
 
-
-
-
-                <div class="testimonial-item bg-light rounded p-3 test">
-                    <div class="bg-white border rounded p-4 " style="height:350px">
-                            <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                          
-                            <div class="d-flex align-items-center">
-                               
-                                <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">MARKETING MANAGER - OPENING (1)</h6>
-                                 <p>Experience : 3-5 years</p>
-                                 <p>Education: Graduate / undergraduate</p>
-                                 <p>Employement type: permanent / fulltime Key</p>
-                                 <p>Skills: Online & offline stategies,in depth knowledge of all social tools, Search engine, social media, ability to handle team</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
     
-                <div class="testimonial-item bg-light rounded p-3 test">
-                    <div class="bg-white border rounded p-4" style="height:350px">
-                            <!-- <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd erat eos</p> -->
-                          
-                            <div class="d-flex align-items-center">
-                               
-                                <div class="ps-3">
-                                    <h6 class="fw-bold mb-1">VIDEO EDITOR - OPENING (1)</h6>
-                                 <p>Experience : 1-2 years</p>
-                                 <p>Education: Graduate / undergraduate</p>
-                                 <p>Employement type: permanent / fulltime Key</p>
-                                 <p>Skills: Any video editing software knowledge<br><br></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
 
 
@@ -219,8 +158,8 @@
 
 
 
-            </div>
-        </div>
+
+      
       
         <!-- Call to Action Start -->
         <div class="container-xxl py-5" style="margin-top:-240px!important">

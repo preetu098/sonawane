@@ -1088,7 +1088,7 @@ p {
     font-weight: 600;
     /* color: #114072; */
     /* background: #CB5AA1; */
-    background: linear-gradient(47deg, #03172e 0%, #1f0e27 82%);
+  
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1351,7 +1351,7 @@ ol, ul {
 <section class="glob-sec" id="gallery">
     <div class="container">
         <!-- <img class="head-icon wow fadeInUp" data-wow-duration="1s" data-wow-delay="1s" src="images/head-icon.png"> -->
-        <h2 class="sec-head head-center wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">Gallery</h2>
+        <h2 class= "head-center wow fadeInUp text-dark" style="color:black!important" data-wow-duration="1s" data-wow-delay="0.5s">Gallery</h2>
         <!--<h3 class="sub-head">View Your Dream Homes</h3>-->
         <div class="head-line"></div>
 
@@ -1378,34 +1378,34 @@ ol, ul {
       <div class="tab-pane container active" id="msg">
         <div class="row">
             <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb">
+                 <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/building1.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/building1.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                    
                                 </div>
            
             </div>
              <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb">
+                 <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/building2.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/building2.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                    
                                 </div>
            
             </div>
               <div class="col-md-4 pd0">
-                 <div class="amenities-gallery mg-mb">
+                 <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/building3.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/building3.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                   
                                    
                                 </div>
            
@@ -1416,17 +1416,17 @@ ol, ul {
       <div class="tab-pane container fade" id="pro">
           <div class="row">
              <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/int1.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/int1.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                      
                                 </div>
                             </div>
              <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/int2.jpg">
                                     <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/int2.jpg" class="l-box">
                                         <div class="ami-overlay">
@@ -1436,12 +1436,12 @@ ol, ul {
                                 </div>
                             </div>
              <div class="col-md-4 pd0">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/int3.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/int3.jpg" class="l-box">
+                                  
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                     
                                 </div>
                             </div>
@@ -1450,44 +1450,44 @@ ol, ul {
       <div class="tab-pane container fade" id="set">
            <div class="row">
               <div class="col-md-3 pd0 blur">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/fl1.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/fl1.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                 
                                     
                                 </div>
                             </div>
              <div class="col-md-3 pd0 blur">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/fl2.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/fl2.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                  
                                     
                                 </div>
                             </div>
                             
                             
                             <div class="col-md-3 pd0 blur">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/fl3.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/fl3.jpg" class="l-box">
+                                  
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                   
                                     
                                 </div>
                             </div>
              <div class="col-md-3 pd0 blur">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/fl5.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/fl5.jpg" class="l-box">
+                                  
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                  
                                     
                                 </div>
                             </div>
@@ -1495,23 +1495,23 @@ ol, ul {
                        
                        
                           <div class="col-md-3 pd0 blur">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/fl7.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/fl7.jpg" class="l-box">
+                                  
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                    
                                     
                                 </div>
                             </div> 
                             
                                <div class="col-md-3 pd0 blur">
-                                <div class="amenities-gallery mg-mb">
+                                <div class="amenities-gallery mg-mb" onclick="popup()">
                                     <img src="assets/krishna/hifiimages/goldclas/fl9.jpg">
-                                    <a data-fancybox="interior" href="assets/krishna/hifiimages/goldclas/fl9.jpg" class="l-box">
+                                   
                                         <div class="ami-overlay">
                                         </div>
-                                    </a>
+                                   
                                     
                                 </div>
                             </div> 
@@ -1535,9 +1535,9 @@ ol, ul {
                     <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.440813037621!2d73.1309517!3d19.2196111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7958f3281c837%3A0xa880a386e30eaa81!2sGaondevi%20Crown!5e0!3m2!1sen!2sin!4v1680610898095!5m2!1sen!2sin"height="450" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6" style=";border-radius:5px;box-shadow: 0 0 0 1px rgba(53,72,91,.07), 0 2px 2px rgba(0,0,0,.01), 0 4px 4px rgba(0,0,0,.02), 0 10px 8px rgba(0,0,0,.03), 0 15px 15px rgba(0,0,0,.03), 0 30px 30px rgba(0,0,0,.04), 0 70px 65px rgba(0,0,0,.05);" >
                         <div class="wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-                           
+                        <h2 class="mt-3 text-center">Get in touch with us</h2>
                             <form action="/contactsave" method="post">
                                 <input type="hidden" name="_token" value="3yuqHRJZGvaIaChACuQ7YGFVAXK7sl8Pfxd24hgM">                                <div class="row g-3">
                                     <div class="col-md-6">

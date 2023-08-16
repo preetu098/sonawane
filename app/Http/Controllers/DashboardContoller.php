@@ -69,4 +69,6 @@ class DashboardContoller extends Controller
         $data=DB::select("select * from lead");
         return view('admin/lead',["data"=>$data]);
     }
+
+    
 }
