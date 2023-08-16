@@ -85,6 +85,7 @@ img {
             {
                 width:123px!important;
                 font-size:12px;
+                margin-left:30px;
             }
             #mail
             {
@@ -171,7 +172,7 @@ img {
                             <a href="#" class="nav-link navClass dropdown-toggle" data-bs-toggle="dropdown">Grow With Us</a>
                             <div class="dropdown-menu rounded-0 m-0">
                                 <a href="/partner" class="dropdown-item navClass">Channel Partner</a>
-                                <a href="/referal" class="dropdown-item navClass">Referal</a>
+                                <a href="/referal" class="dropdown-item navClass">Referral</a>
                               
                             </div>
                         </div>
@@ -186,7 +187,7 @@ img {
                             </div>
                         </div>
                         
-                        <a href="/contact" class="nav-item nav-link navClass">Contact</a>
+                        <a href="/contact" class="nav-item nav-link navClass">Contact Us</a>
                     </div>
                     
                 </div>
@@ -196,7 +197,7 @@ img {
 
         <!-- Navbar End -->
 
-<div class="modal fade" style="margin-top:180px!important;" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" style="margin-top:150px!important;" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content" style="background-color:rgb(36,50,74)!important">
       <div class="modal-header justify-content-center" style="border:0px !important">

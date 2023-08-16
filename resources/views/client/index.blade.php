@@ -80,7 +80,7 @@
     }
     .desktopongoing 
     {
-        height:300px!important;
+        height:200px!important;
         width:100%!important;
     }
    
@@ -93,8 +93,10 @@
     .mobileongoing
     {
         display:block!important;
-        height:200px!important;
-        width:100%!important;
+        height:250px!important;
+        width:387px!important;
+
+        
     }
     .img 
     {
@@ -283,67 +285,7 @@
             </div>
         </div>
       
-        <section class="wsus__team_area mt-5 xs_mt_70 pb-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="wsus__section_heading text-center mb_15">
-          <h2>Meet The Visionaries Behind Sonawane Group </h2>
-          <span>Leadership that Drives Excellence &amp; Innovation</span>
-        </div>
-      </div>
-    </div>
-    <div class="row" style="place-content: center;">
-             <div class="col-xl-3 col-sm-6 col-lg-4">
-        <div class="wsus__single_team">
-          <div class="wsus__single_team_img">
-            <img src="logopages/meet1.jpg" alt="team images" class="imf-fluid w-100">
-            <ul class="team_link">
-              
-              
-              
-                          </ul>
-          </div>
-          <h4>Mr. Sonawane</h4>
-          <p>Founder</p>
-        </div>
-    </div>
-               <div class="col-xl-3 col-sm-6 col-lg-4">
-        <div class="wsus__single_team">
-          <div class="wsus__single_team_img">
-            <img src="logopages/meet2.jpg" alt="team images" class="imf-fluid w-100">
-            <ul class="team_link">
-              
-              
-                            <li><a href="https://www.instagram.com/amit.sonawane2227/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-              
-                          </ul>
-          </div>
-          <h4>Amit Sonawane</h4>
-          <p>Director</p>
-        </div>
-    </div>
-               <div class="col-xl-3 col-sm-6 col-lg-4">
-        <div class="wsus__single_team">
-          <div class="wsus__single_team_img">
-            <img src="banner/WhatsApp Image 2023-08-14 at 2.46.20 PM.jpeg" alt="team images" class="imf-fluid w-100">
-            <ul class="team_link">
-                            <li><a href="https://www.linkedin.com/in/ashish-sonawane-87a8701a9/"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-              
-                            <li><a href="https://www.facebook.com/"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-              
-                            <li><a href="https://www.twitter.com/"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-              
-                            <li><a href="https://www.instagram.com/sonawaneashish_2227/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                          </ul>
-          </div>
-          <h4>Ashish Sonawane</h4>
-          <p>CEO - Director</p>
-        </div>
-    </div>
-                                                                                                                        </div>
-  </div>
-</section>
+       
 
 
 
@@ -376,9 +318,9 @@
                
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item rounded overflow-hidden">
-                            <div class="position-relative">
-                            <img  class="img-fluid mobileongoing w-100" src=""  alt="">
-                                <img  class="img-fluid desktopongoing w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-07-01-04-19-48-4949.jpg"  alt="">
+                            <div class="position-relative p-4">
+                            <img  class="img-fluid mobileongoing w-100" src="logopages/meet1.jpg"  alt="">
+                                <img  class="img-fluid desktopongoing w-100" src="logopages/meet1.jpg"  alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                     <!-- <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                                     <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
@@ -397,7 +339,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item rounded overflow-hidden">
-                            <div class="position-relative">
+                            <div class="position-relative p-4">
                                 <img class="img-fluid mobileongoing w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg"  alt="">
                                 <img class="img-fluid desktopongoing w-100" src="http://sonawanegroup.com/uploads/custom-images/partner-2023-06-21-04-25-00-6376.jpg"  alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
@@ -417,7 +359,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item rounded overflow-hidden">
-                            <div class="position-relative">
+                            <div class="position-relative p-4">
                                 <img class="img-fluid mobileongoing img w-100" src="banner/WhatsApp Image 2023-08-14 at 2.46.20 PM.jpeg"  alt="">
                                 <img class="img-fluid desktopongoing w-100" src="banner/WhatsApp Image 2023-08-14 at 2.46.20 PM.jpeg"  alt="">
                                 <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">

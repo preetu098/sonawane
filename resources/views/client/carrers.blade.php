@@ -38,8 +38,8 @@
                                    </div> -->
                 <div class="col-md-12 animated fadeIn">
                
-                    <img id="mobile" class="img-fluid" style="height:500px;width:100%" src="banner/Welcome To Career Page-fotor-2023080922711.png" alt="">
-                            <img id="desktop" class="img-fluid"  src="banner/Welcome To Career Page.png" alt="">
+                    <img id="mobile" class="img-fluid" style="" src="banner/WhatsApp Image 2023-08-16 at 12.21.12 PM.jpeg" alt="">
+                            <img id="desktop" class="img-fluid"  src="banner/WhatsApp Image 2023-08-16 at 12.21.12 PM.jpeg" alt="">
                        
                        
                     
@@ -56,7 +56,7 @@
             <div class="container">
                 <div class=" mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" >
                   
-                    <p>At Sonawane Group We believe in the power of collaboration, innovation, and the pursuit of excellence. We are a dynamic and rapidly growing real estate company, committed to delivering exceptional projects that redefine the standards of quality and luxury. As we continue to expand our horizons, we are constantly seeking talented individuals who share our passion for excellence and are eager to make a meaningful impact in the real estate industry.</p>
+                    <h4 class="text-center">At Sonawane Group We believe in the power of collaboration, innovation, and the pursuit of excellence. We are a dynamic and rapidly growing real estate company, committed to delivering exceptional projects that redefine the standards of quality and luxury. As we continue to expand our horizons, we are constantly seeking talented individuals who share our passion for excellence and are eager to make a meaningful impact in the real estate industry.</h4>
                 </div>
                <div class="row">
                 <div class="col-lg-12">

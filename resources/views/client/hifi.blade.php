@@ -1750,24 +1750,15 @@ ol, ul {
                         <p class="text-white">For any inquiries, questions, or to register your interest, please contact us using the details below</p>
 <p class="text-white">
 HiFi Living Sales Lounge, Ayre Gaon Road, Dombivli East, Dombivli, Maharashtra - 421201.</p>
+
+<img src="qrcode/qrcode.jpeg" " height="150" width="150" alt="">
+<p class="text-white  mt-3"><i class="fas fa-building" aria-hidden="true"></i>MahaRERA Registration No: P51700031489 | The project name is Gold Crest (Marketed as HiFi Living).</p>
+<p class="text-white">For more details visit the website: https://maharera.mahaonline.gov.in</p>
+
                     </div>
 
                 </div>
             </div>
-            <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            © <a href="#" style="text-decoration:none!important"> </a><a href="" style="text-decoration:none!important">Copyright 2023, Sonawane Group .All Rights Reserved.</a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                              
-                                <a href="/faq">FaQs</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          
         </div>
 @include('client.footer')

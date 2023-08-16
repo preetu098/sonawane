@@ -38,7 +38,7 @@
                 <div class="col-md-12 animated fadeIn">
                    
                     <img id="mobile" class="img-fluid" style="width:100%" src="img/banner.jpg" alt="">
-                            <img  id="desktop" class="img-fluid" style="height:300px;width:100%" src="img/banner.jpg" alt="">
+                            <img  id="desktop" class="img-fluid" style="height:200px;width:100%" src="img/banner.jpg" alt="">
                        
                        
                     

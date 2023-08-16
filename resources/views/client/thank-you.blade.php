@@ -1,4 +1,4 @@
-<?php include('header.php');?>
+@include('client.header')
         <!-- Header Start -->
         <div class="container-fluid header bg-white p-0 mb-5" style="margin-top:10px">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">
@@ -12,8 +12,10 @@
                     <p>Greeting From Sonawane Group,</p>
                     <p>Thank you for expressing interest on our website</p>
                     <p>Our expert will get in touch with you shortly.</p>
-                    <button class="btn btn-link mb-5">Go Back To Home</button>
-                    </center>
+                    <a href="/">
+                    <button class="btn mb-5" style="background-color:0E2E50!important">Go Back To Home</button>
+</a>   
+                </center>
                 </div>
                 <div class="col-md-4 animated fadeIn">
                    
@@ -25,4 +27,4 @@
 
 
         
-<?php include('footer.php');?>
+@include('client.footer')

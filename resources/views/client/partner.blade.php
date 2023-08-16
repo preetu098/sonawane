@@ -107,8 +107,8 @@
         <!-- Call to Action End -->
         <div class="container-xxl py-5" style="margin-top:-120px!important">
             <div class="container">
-                <div class="bg-light rounded p-3">
-                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                <div class=" rounded p-3" style="border:0px!important">
+                    <div class="bg-white rounded p-4" >
                     <h4 class="text-center">Benefits of Joining:</h4>
                     <p class="text-center"> By becoming a partner with Sonawane Group, you can enjoy a host of benefits that will make your association with us truly rewarding.</p>
                         <div class="row g-5 align-items-center">
@@ -133,7 +133,7 @@
                                 
                                <h6 class="text-center">Swift Processing within 72 Hours</h6>
                                <center>
-                               <img src="img/ruppes.png" height="100" width="100" alt="">
+                               <img src="banner/Untitled design (2).png" height="100" width="100" alt="">
                               
                                <p>We value your time and commitment. You can count on us for swift processing and timely payouts, ensuring you experience seamless transactions</p>
                                </center>
@@ -167,7 +167,7 @@
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s" >
                         <div class="about-img position-relative overflow-hidden p-5 pe-0">
-                            <img class="img-fluid w-100" src="http://sonawanegroup.com/uploads/custom-images/property-thumb-2023-06-25-12-11-08-9670.jpg">
+                            <img class="img-fluid w-100" src="banner/WhatsApp Image 2023-08-16 at 12.41.17 PM.jpeg">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">

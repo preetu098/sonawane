@@ -14,7 +14,50 @@
             </div>
         </div>
         <!-- Header End -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="bg-light rounded p-3">
+                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                                <img class="img-fluid rounded w-100" src="banner/6-2-vision-png-image.png" style="width:571px;height:286px" alt="">
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="mb-4">
+                                   <h5>Our Vision</h5>
+                                    <p>At Sonawane Group, our vision is to be the preferred choice for homebuyers and investors in Kalyan and Dombivli, offering them exceptional living and investment opportunities. We aim to create sustainable, well-designed, and thoughtfully planned spaces that enhance the quality of life and contribute to the development of the communities we serve.</p>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to Action End -->
 
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="bg-light rounded p-3">
+                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="mb-4">
+                                   <h5>Our Mission</h5>
+                                    <p>Our mission is to exceed customer expectations by delivering projects that are not only aesthetically pleasing but also functionally efficient and equipped with modern amenities. We strive to build lasting relationships with our customers, based on trust, transparency, and integrity.</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                                
+                                <img class="img-fluid rounded w-100" src="banner/mission.png" style="width:571p×;292 px" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Call to Action End -->
 <style>
     .about-img::before {
     position: absolute;
@@ -77,50 +120,7 @@
         <!-- Call to Action End -->
 <!-- vision -->
  <!-- Call to Action Start -->
- <div class="container-xxl py-5">
-            <div class="container">
-                <div class="bg-light rounded p-3">
-                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                                <img class="img-fluid rounded w-100" src="banner/6-2-vision-png-image.png" style="width:571px;height:286px" alt="">
-                            </div>
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="mb-4">
-                                   <h5>Our Vision</h5>
-                                    <p>At Sonawane Group, our vision is to be the preferred choice for homebuyers and investors in Kalyan and Dombivli, offering them exceptional living and investment opportunities. We aim to create sustainable, well-designed, and thoughtfully planned spaces that enhance the quality of life and contribute to the development of the communities we serve.</p>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Call to Action End -->
 
-
-        <div class="container-xxl py-5">
-            <div class="container">
-                <div class="bg-light rounded p-3">
-                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div class="mb-4">
-                                   <h5>Our Mission</h5>
-                                    <p>Our mission is to exceed customer expectations by delivering projects that are not only aesthetically pleasing but also functionally efficient and equipped with modern amenities. We strive to build lasting relationships with our customers, based on trust, transparency, and integrity.</p>
-                                </div>
-                            </div>
-                            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                                
-                                <img class="img-fluid rounded w-100" src="banner/mission.png" style="width:571p×;292 px" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Call to Action End -->
 <style>
     .demo
     {

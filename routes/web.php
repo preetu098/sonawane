@@ -116,6 +116,11 @@ Route::get('/goldclass',function(){
     return view('client/goldclass');
 });
 
+Route::get('/thank-you',function(){
+    return view('client/thank-you');
+});
+
+
 Route::get('/editconst/{id}',[DashboardContoller::class,'editConstruction']);
 Route::post('/edit',[DashboardContoller::class,'updateConstruction']);
 Route::get('/admincontact',[DashboardContoller::class,'contacts']);
