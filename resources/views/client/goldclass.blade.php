@@ -1608,4 +1608,23 @@ ol, ul {
 
 
 </div>
+<div class="container-fluid text-white-50 footer  wow fadeIn" data-wow-delay="0.1s" style="visibility: visible; animation-delay: 0.1s; animation-name: fadeIn;background-color:White!important">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-12 col-md-6 text-center">
+                        <img src="logo/golclc.png" height="150" width="150" alt="">
+                        <p class="text-dark">For any inquiries, questions, or to register your interest, please contact us using the details below</p>
+<p class="text-dark">
+Tisgaon Road, Beside Krishna Nisarag, Santosh Nagar, Kalyan (E), Maharashtra - 421306.</p>
+
+<img src="qrcode/qrcode.jpeg" " height="150" width="150" alt="">
+<p class="text-dark mt-3"><i class="fas fa-building" aria-hidden="true"></i>MahaRERA Registration No: P51700031006 | The project name is Krishna Anand.</p>
+<p class="text-dark">For more details visit the website: https://maharera.mahaonline.gov.in</p>
+
+                    </div>
+
+                </div>
+            </div>
+          
+        </div>
 @include('client.footer')

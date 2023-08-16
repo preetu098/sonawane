@@ -59,23 +59,23 @@
                    <h4 class="text-center mt-3 mb-3">How it Works:</h4>
                   
                     <div class="row">
-                        <div class="col-lg-4">
-                        <div class="testimonial-item bg-light rounded p-3">
-                        <div class="bg-white border rounded p-4">
-                            <div class="d-flex align-items-center">
-                               
-                               <div class="ps-3 mt-5">
-                                   <h6 class="fw-bold mb-1 text-center">Refer</h6>
-                                   <center>
-                                    <img src="img/2051980.png" height="100" width="100" alt="">
-                                   </center>
-                                  <p>As a valued member of Sonawane Group, you can refer your friends, family members, colleagues, and acquaintances who are looking for their dream home. Simply provide their contact details to us through our referral form or inform our dedicated referral program team.</p>
+                            <div class="col-lg-4">
+                            <div class="testimonial-item bg-light rounded p-3">
+                            <div class="bg-white border rounded p-4">
+                                <div class="d-flex align-items-center">
                                 
-                               </div>
-                           </div>
-                          
+                                <div class="ps-3 mt-5">
+                                    <h6 class="fw-bold mb-1 text-center">Refer</h6>
+                                    <center>
+                                        <img src="img/2051980.png" height="100" width="100" alt="">
+                                    </center>
+                                    <p>As a valued member of Sonawane Group, you can refer your friends, family members, colleagues, and acquaintances who are looking for their dream home. Simply provide their contact details to us through our referral form or inform our dedicated referral program team.</p>
+                                    
+                                </div>
+                            </div>
                             
-                        </div>
+                            
+                            </div>
                     </div>
                         </div>
                         <div class="col-lg-4">
@@ -119,15 +119,7 @@
                     </div>
                 </div>
                </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
-</div>
-</div>
-
-        <!-- Call to Action End -->
-        <div class="container-xxl py-5" id="join">
+               <div class="container-xxl py-5" id="join">
             <div class="container">
                 <div class="bg-light rounded p-3">
                     <div class="bg-white rounded p-4" >
@@ -155,10 +147,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-
-        <div class="container-xxl " style="margin-top:-80px!important">
+            <div class="container-xxl mt-5">
             <div class="container">
                 <div class="bg-light rounded p-3">
                     <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
@@ -232,6 +221,19 @@
         </div>
 
 
+        </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+</div>
+</div>
+
+        <!-- Call to Action End -->
+    
+
+ 
 <script>
     $(document).ready(function(){
         $("#addmore").click(function(){
