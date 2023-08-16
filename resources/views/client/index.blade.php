@@ -184,7 +184,16 @@
 
 
 
-
+<style>
+    .owl-item
+    {
+        /* width:0px!important; */
+    }
+    element.style {
+    /* width: 560px; */
+    margin-right: 24px;
+}
+</style>
 
 
 
@@ -196,10 +205,10 @@
                     <h3 class="mb-3">OUR ONGOING PROJECT</h3>
                     <p>Embark on a Journey of Excellence</p>
                 </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="testimonial-item bg-light rounded">
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s" >
+                    <div class="testimonial-item bg-light rounded" >
                         <a href="/hifi">
-                        <div class="bg-white border rounded">
+                        <div class="bg-white border rounded" >
                            
                             <img src="banner/hifi.jpg" class="mobileongoing" alt="">
                             <img src="banner/hifi.jpg" class="desktopongoing" alt="">
