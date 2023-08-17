@@ -9,43 +9,15 @@ use App\Models\CareerModel;
 use App\Mail\MyTestMail;
 use Illuminate\Support\Facades\Validator;
 use DB;
+use App\Mail\EnquiryMail;
 use Mail;
-
-
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
 
 class ContactFormController extends Controller
 {
     public function addContact(Request $request)
     {  
-        require base_path("vendor/autoload.php");
-        $mail=new PHPMailer(true);
-        try 
-        {
-            $mail->SMTPDebug=0;
-            $mail->isSMTP();
-            $mail->Host='smtp.gmail.com';
-            $mail->SMTPAuth=true;
-            $mail->Username='preetu098@gmail.com';
-            $mail->Password='Preetu09812345';
-            $mail->SMTPSecure='tls';
-            $mail->Port=587;
-            $mail->setFrom('preetu098@gmail.com');
-           if(!$mail->send())
-           {
-            return back()->with('failed','something went wrong');
-           }
-           else 
-           {
-            return back()->with('success','done');
-           }
-        }
-        catch(Exception $e)
-        {
-return back()->with('error','jkefj');
-        }
-
+        Mail::to('marketing.sonawane@gmail.com')->send(new MyTestMail($request));
+        
             $contact=new ContactModel;
             $contact->name=$request->name;
             $contact->email=$request->email;
@@ -80,7 +52,7 @@ return back()->with('error','jkefj');
         $contact->message=$request->message;
 
        
-        Mail::to('preetu098@gmail.com')->send(new MyTestMail($request));
+       
 
         $contact->save();
         return back()->with('success','Contact Submitted Succesfully');

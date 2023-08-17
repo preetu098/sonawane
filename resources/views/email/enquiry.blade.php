@@ -1,5 +1,5 @@
-<p>Student Name : {{$details->name}}</p>
-<p>Student Email : {{$details->email}}</p>
-<p>Student Subject : {{$details->subject}}</p>
-<p>phone : {{$details->phone}}</p>
-<p>Comment : {{$details->message}}</p>
+<p>User  Name : {{$details->name}}</p>
+<p>user Email : {{$details->email}}</p>
+<p>Subject : {{$details->subject}}</p>
+<p>Phone : {{$details->phone}}</p>
+<p>Message : {{$details->message}}</p>

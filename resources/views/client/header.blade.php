@@ -228,7 +228,21 @@ img {
       </div>
       <div class="modal-body" style="border:0px !important;background-color:white!important">
        <p class="text-success" style="font-size:13px">Please Enter Your Information</p>
-        <form action="/addLead" method="post"  name="form">
+
+<script>
+    function validate()
+    {
+        var phone=document.form.phone.value;
+        if(phone.length<10 ||phone.length>10)
+        {
+            alert("please enter 10 digits numbers");
+            return false;
+        }
+        return true;
+    }
+</script>
+
+        <form action="/addLead" method="post"  name="form" onsubmit="return validate()">
             @csrf
             <!-- input fields -->
             <div class="input-group mb-3">

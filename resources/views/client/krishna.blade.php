@@ -1632,7 +1632,19 @@ ol, ul {
                     <div class="col-md-6" style=";border-radius:5px;box-shadow: 0 0 0 1px rgba(53,72,91,.07), 0 2px 2px rgba(0,0,0,.01), 0 4px 4px rgba(0,0,0,.02), 0 10px 8px rgba(0,0,0,.03), 0 15px 15px rgba(0,0,0,.03), 0 30px 30px rgba(0,0,0,.04), 0 70px 65px rgba(0,0,0,.05);">
                         <div class="wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <h2 class="mt-3 text-center">Get in touch with us</h2>
-                            <form action="/addContactkrishna" method="post">
+                        <script>
+    function validate()
+    {
+        var phone=document.form.phone.value;
+        if(phone.length<10 ||phone.length>10)
+        {
+            alert("please enter 10 digits numbers");
+            return false;
+        }
+        return true;
+    }
+</script>
+                            <form action="/addContactkrishna" method="post" name="form">
                                 @csrf
                                                               <div class="row g-3">
                                     <div class="col-md-6">

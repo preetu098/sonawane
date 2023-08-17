@@ -9,6 +9,7 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
+
 class MyTestMail extends Mailable
 {
     use Queueable, SerializesModels;
@@ -26,7 +27,7 @@ class MyTestMail extends Mailable
 
     public function build()
     {
-        return $this->markdown('email.enquiry')->subject(config('app.name') . ', Enquiry');
+        return $this->markdown('email.enquiry')->subject(config('Contact Message') . ', Enquiry');
     }
     /**
      * Get the message envelope.
@@ -36,7 +37,7 @@ class MyTestMail extends Mailable
     public function envelope()
     {
         return new Envelope(
-            subject: 'My Test Mail',
+            subject: 'Mail By Sonawane Group.com',
         );
     }
 
