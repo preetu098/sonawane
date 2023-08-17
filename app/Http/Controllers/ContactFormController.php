@@ -31,6 +31,7 @@ class ContactFormController extends Controller
 
     public function addContacthifi(Request $request)
     {
+        Mail::to('marketing.sonawane@gmail.com')->send(new MyTestMail($request));
         // dump($request);
         $contact=new ContactModel;
         $contact->name=$request->name;
@@ -43,7 +44,7 @@ class ContactFormController extends Controller
     }
     public function addContactkrishna(Request $request)
     {
-       
+        Mail::to('marketing.sonawane@gmail.com')->send(new MyTestMail($request));
         $contact=new ContactModel;
         $contact->name=$request->name;
         $contact->email=$request->email;
@@ -60,6 +61,7 @@ class ContactFormController extends Controller
     }
     public function addContactgoldClass(Request $request)
     {
+        Mail::to('marketing.sonawane@gmail.com')->send(new MyTestMail($request));
         // dump($request);
         $contact=new ContactModel;
         $contact->name=$request->name;
@@ -77,6 +79,7 @@ class ContactFormController extends Controller
 
     public function referalContactForm(Request $request)
     {
+        Mail::to('marketing.sonawane@gmail.com')->send(new MyTestMail($request));
             $referal=new ReferalModel;
             $referal->name=$request->name;
             $referal->email=$request->email;
@@ -92,7 +95,7 @@ class ContactFormController extends Controller
     }
     public function careerAdd(Request $request)
     {
-
+        Mail::to('marketing.sonawane@gmail.com')->send(new MyTestMail($request));
            
                 $co=new CareerModel;
                 $co->name=$request->name;
