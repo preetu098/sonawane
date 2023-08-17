@@ -23,6 +23,7 @@
                                     <th scope="col">CP Firm Type</th>
                                     <th scope="col">CP Type</th>
                                     <th scope="col">Date</th>
+                                    <th scope="col">Action</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -39,6 +40,7 @@
                                     <td>{{$d->cp_firm_type}}</td>
                                     <td>{{$d->cp_type}}</td>
                                     <td>{{$d->created_at}}</td>
+                                    <td><a href="/deletepartner/id={{$d->id}}">Delete</a></td>
                                 </tr>
                     @endforeach
                             </tbody>

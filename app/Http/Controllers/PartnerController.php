@@ -31,4 +31,10 @@ class PartnerController extends Controller
         $data=DB::select("select * from partner");
         return view('admin/partnerRecord',['data'=>$data]);
     }
+    public function deletepartner(Request $request)
+    {
+        $id=$request->id;
+        DB::delete("delete from partner where $id");
+        return back()->with('success','Deleted succesfully');
+    }
 }

@@ -164,6 +164,11 @@ Route::post('/editJobData',[JobController::class,'editjobData']);
 Route::post('/addpartner',[PartnerController::class,'addPartner']);
 
 Route::get('/getPartner',[PartnerController::class,'getPartner']);
+
+
+Route::get('/deletepartner/{id}',[PartnerController::class,'deletepartner']);
+
+
 // Route::get('/sendMail',function(){
 //     $data=array("name"=>"Pratibha Rajawat");
 //     Mail::send('email',$data,function($message){
