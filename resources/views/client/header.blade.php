@@ -99,8 +99,8 @@ img {
             }
             .logomobile
             {
-                height:149px!important;
-                width:200px!important;
+                /* height:100px!important; */
+                /* width:114px!important; */
                 margin-left:-70px;
             }
   
@@ -232,18 +232,18 @@ img {
             @csrf
             <!-- input fields -->
             <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1"><i class="fa fa-user" aria-hidden="true"></i></span>
+            <span class="input-group-text" style="background-color:rgb(14,46,80)!important" id="basic-addon1"><i class="fa fa-user" aria-hidden="true" style="color:White" ></i></span>
             <input type="text" class="form-control" name="username" placeholder="Full Name" aria-label="FullName" aria-describedby="basic-addon1" required>
             </div>
 
 
             <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
+            <span class="input-group-text" id="basic-addon1" style="background-color:rgb(14,46,80)!important" ><i class="fa fa-phone" aria-hidden="true" style="color:White"></i></span>
             <input type="number" required class="form-control" name="phone" placeholder="Mobile" aria-label="Phone" aria-describedby="basic-addon1">
             </div>
 
             <div class="input-group mb-3">
-            <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+            <span class="input-group-text" id="basic-addon1" style="background-color:rgb(14,46,80)!important"><i class="fa fa-envelope-o" aria-hidden="true" style="color:White"></i></span>
             <input type="email" required class="form-control" name="email" placeholder="Email" aria-label="Phone" aria-describedby="basic-addon1">
             </div>
 
@@ -275,7 +275,7 @@ img {
       </div>
       <div class="modal-footer" style="border-bottom-left-radius:5px;border-bottom-right-radius:5px;border:0px !important;place-content:center;background-color:white!important;margin-top:-10px!important" >
     
-      <input type="submit" value="Save" class="btn btn-primary" style="background-color:rgb(36,50,74)"/>
+      <input type="submit" value="Submit" class="btn btn-primary" style="background-color:rgb(36,50,74)"/>
       </div>
             </form>
     </div>

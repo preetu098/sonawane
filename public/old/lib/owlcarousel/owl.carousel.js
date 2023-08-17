@@ -287,8 +287,8 @@
 				rtl = this.settings.rtl,
 				css = {
 					'width': 'auto',
-					'margin-left': rtl ? margin : '',
-					'margin-right': rtl ? '' : margin
+					// 'margin-left': rtl ? margin : '',
+					// 'margin-right': rtl ? '' : margin
 				};
 
 			!grid && this.$stage.children().css(css);

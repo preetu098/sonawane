@@ -11,6 +11,9 @@ use App\Http\Controllers\ContactFormController;
 use App\Http\Controllers\LeadController;
 use App\Http\Controllers\NewsletterController;
 use App\Http\Controllers\JobController;
+use App\Http\Controllers\PartnerController;
+
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -104,6 +107,10 @@ Route::post('/contactsave',[ContactFormController::class,'addContact']);
 Route::post('/referalForm',[ContactFormController::class,'referalContactForm']);
 Route::post('/careerAdd',[ContactFormController::class,'careerAdd']);
 
+
+Route::post('/hificontact',[ContactFormController::class,'addContacthifi']);
+Route::post('/addContactkrishna',[ContactFormController::class,'addContactkrishna']);
+Route::post('/addContactgoldClass',[ContactFormController::class,'addContactgoldClass']);
 Route::get('/hifi',function(){
     return view('client/hifi');
 });
@@ -153,3 +160,13 @@ Route::get('/editjob/{id}',[JobController::class,'editjob']);
 
 
 Route::post('/editJobData',[JobController::class,'editjobData']);
+
+Route::post('/addpartner',[PartnerController::class,'addPartner']);
+
+Route::get('/getPartner',[PartnerController::class,'getPartner']);
+// Route::get('/sendMail',function(){
+//     $data=array("name"=>"Pratibha Rajawat");
+//     Mail::send('email',$data,function($message){
+//         $message->to('preetu098@gmail.com')->subject('helllllllo');
+//     });
+// });

@@ -1,5 +1,11 @@
 @include('client.header')
 <style>
+      @media screen and (min-width:1000px){
+    .owl-item 
+{
+    width:400px!important;
+}
+}
     .hoverEffect
 {
     color:rgb(14,46,80)!important;

@@ -1666,8 +1666,9 @@ ol, ul {
                     <div class="col-md-6" style=";border-radius:5px;box-shadow: 0 0 0 1px rgba(53,72,91,.07), 0 2px 2px rgba(0,0,0,.01), 0 4px 4px rgba(0,0,0,.02), 0 10px 8px rgba(0,0,0,.03), 0 15px 15px rgba(0,0,0,.03), 0 30px 30px rgba(0,0,0,.04), 0 70px 65px rgba(0,0,0,.05);" >
                         <div class="wow fadeInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <h2 class="mt-3 text-center">Get in touch with us</h2>
-                            <form action="/contactsave" method="post">
-                                <input type="hidden" name="_token" value="3yuqHRJZGvaIaChACuQ7YGFVAXK7sl8Pfxd24hgM">                                <div class="row g-3">
+                            <form action="/hificontact" method="post">
+                                @csrf
+                                                               <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="name" placeholder="Your Name" name="name" required="">

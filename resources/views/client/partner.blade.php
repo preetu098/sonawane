@@ -265,6 +265,109 @@
         })
     })
 </script> -->
+<div class="container-xxl mt-5 pb-5">
+            <div class="container">
+                <div class="bg-light rounded p-3">
+                    <div class="bg-white rounded p-4" style="border: 1px dashed rgba(0, 185, 142, .3)">
+                        <div class="row g-5 align-items-center">
+                            <div class="col-lg-12 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="mb-4">
+                                    <h4 class="mb-3">Contact Us</h4>
+                                    @if(session('success'))
+                   <div class="alert alert-success">
+                        {{session('success')}}
+                   </div>
+                   @endif
+                                    <form action="/addpartner" method="post">
+                                        @csrf 
+<div class="row">
+    <div class="col-lg-6 mt-1">
+        <input type="text" class="form-control" placeholder="Channel Partner Firm name" name="name" required>
+    </div>
+    <div class="col-lg-6 mt-1">
+    <input type="text" class="form-control" placeholder="Email" name="email" required>
+    </div>
+</div>
+<div class="row mt-1">
+    <div class="col-lg-6 mt-1">
+        <input type="text" class="form-control" placeholder="Phone" name="phone" required>
+    </div>
+    <div class="col-lg-6 mt-1">
+    <input type="text" class="form-control" placeholder="Name As per Maharera" name="name_maherera" required>
+    </div>
+</div>
 
+<div class="row mt-1">
+    <div class="col-lg-6 mt-1">
+        <select class="form-select text-dark" name="rera_ava" required>
+            <option value="Rera Available">Rera Available</option>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+        <!-- <input type="text" class="form-control" placeholder="Flat Number" name="flat_number"> -->
+    </div>
+    <div class="col-lg-6 mt-1">
+    <input type="text" class="form-control" placeholder="Pan Number" name="pan_number" required>
+    </div>
+</div>
+
+<div class="row mt-1" id="referal">
+    <div class="col-lg-6 mt-1">
+    <select class="form-select text-dark" name="cp_firm_type" >
+            <option value="">CP Firm Type</option>
+            <option value="ndividual">Individual</option>
+            <option value="Pvt Ltd">Pvt Ltd</option>
+            <option value="Public Ltd">Public Ltd</option>
+            <option value="Partnership">Partnership</option>
+            <option value="Proprietor">Proprietor</option>
+            <option value="LLP">LLP</option>
+            <option value="OPC">OPC</option>
+        </select>
+    </div>
+   
+    <div class="col-lg-6 mt-1">
+    <select class="form-select text-dark" name="cp_type" required>
+            <option value="">CP Type</option>
+            <option value="ICP">ICP</option>
+            <option value="RCP">RCP</option>
+            
+        </select>
+    </div>
+   
+</div>
+     
+   
+   
+   
+</div>
+<div class="row mt-1">
+    <div class="col-lg-3">
+        <button class="btn text-white" style="background-color:rgb(36,50,74)">Send Message</button>
+    </div>
+
+</div>
+</form>
+
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+</div>
+</div>
+
+        <!-- Call to Action End -->
+    
 </div>
 @include('client.footer')

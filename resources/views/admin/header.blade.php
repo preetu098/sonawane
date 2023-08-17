@@ -85,6 +85,11 @@
                         <span class="text">Show Jobs</span>
                     </a>
                 </li>
+                <li class="menu-item">
+                    <a class="menu-link" href="/getPartner"> <i class="fa fa-file" aria-hidden="true" style="font-size:20px"></i>
+                        <span class="text">Get Partner</span>
+                    </a>
+                </li>
             </ul>
             <br>
             <br>

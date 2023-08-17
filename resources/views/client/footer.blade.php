@@ -31,7 +31,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-white mb-4">Newsletter</h5>
-                        <p class="text-white">subscribe</p>
+                        <p class="text-white">subscribe to our newsletter and latest offers</p>
                         @if(session('success'))
                    <div class="alert alert-success">
                         {{session('success')}}

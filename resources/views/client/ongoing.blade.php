@@ -29,6 +29,12 @@
         display:none!important;
     }
     }
+    @media screen and (min-width:1000px){
+    .owl-item 
+{
+    width:400px!important;
+}
+}
 </style>
 <div class="container-fluid header bg-white p-0"  style="margin-top:10px;width:100%">
             <div class="row g-0 align-items-center flex-column-reverse flex-md-row">

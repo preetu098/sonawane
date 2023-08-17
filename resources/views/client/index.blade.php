@@ -12,6 +12,10 @@
     font-size: 40px;
     text-align: center;
 }
+.element.style {
+    width: 560px;
+    margin-right: 24px;
+}
 .wsus__section_heading span {
     color: #0A547A;
 }
@@ -80,7 +84,7 @@
     }
     .desktopongoing 
     {
-        height:200px!important;
+        height:250px!important;
         width:100%!important;
     }
    
@@ -172,6 +176,13 @@
     margin-bottom: 25px;
     border: 1px solid #eee;
 }
+@media screen and (min-width:1000px){
+    .owl-item 
+{
+    width:400px!important;
+}
+}
+
 </style>
 
 
@@ -185,14 +196,10 @@
 
 
 <style>
-    .owl-item
-    {
-        /* width:0px!important; */
-    }
-    element.style {
-    /* width: 560px; */
-    margin-right: 24px;
-}
+  .owl-item:disabled 
+  {
+    width:0px!important;
+  } 
 </style>
 
 
